@@ -2,13 +2,13 @@
 
 # Mini Cloud Data Center Simulation
 
-## 📋 Project Overview
+## Project Overview
 
 This project presents the design and implementation of a **Software-Defined Networking (SDN) based cloud data center** that integrates intelligent management, automated operations, and real-time monitoring. The system provides a sophisticated simulation of modern cloud infrastructure by leveraging SDN principles to build a flexible and programmable network environment.
 
 Built on the **Mininet emulation platform** and controlled through a **custom Ryu controller**, the architecture demonstrates how centralized control and automation can effectively overcome traditional networking challenges.
 
-## 🏗️ Architecture
+## Architecture
 
 ### Three-Tier Data Center Design
 
@@ -29,9 +29,9 @@ The project implements an enhanced three-tier data center architecture that clea
 - **Database Tier**: db1
 - **Client Nodes**: c1, c2, c3, c4
 
-## 🎯 Key Features
+## Key Features
 
-### 🎮 Ryu SDN Controller
+### Ryu SDN Controller
 - Full OpenFlow 1.3 support
 - Real-time topology discovery using LLDP packets
 - Global MAC learning across entire network
@@ -39,7 +39,7 @@ The project implements an enhanced three-tier data center architecture that clea
 - Event-driven design with comprehensive logging
 - Extensible modular structure
 
-### ⚖️ Intelligent Load Balancing
+###  Intelligent Load Balancing
 - **Multi-tier load balancing** for each service tier
 - **Virtual IP (VIP) abstraction** for centralized traffic management
 - **Multiple algorithms supported**:
@@ -48,28 +48,28 @@ The project implements an enhanced three-tier data center architecture that clea
   - Dynamic/Least-Load/Least-Connections
 - ARP proxy handling for optimal traffic distribution
 
-### 🛡️ Automated Failure Recovery
+###  Automated Failure Recovery
 - Real-time detection of network failures
 - **Dijkstra's shortest-path algorithm** for optimal alternative paths
 - Proactive installation of new OpenFlow rules
 - Handles single or multiple simultaneous failures
 - Minimal disruption to ongoing sessions
 
-### 🔄 Live Host Migration
+###  Live Host Migration
 - **Live relocation of hosts** between switches without service interruption
 - REST API triggered migration operations
 - Automatic flow cleanup and updates
 - Validated target location checks
 - Seamless traffic forwarding during migration
 
-### 📊 Centralized Monitoring & Logging
+###  Centralized Monitoring & Logging
 - **Flask-based dashboard** for real-time monitoring
 - Dynamic graphs for server load and bandwidth utilization
 - Centralized logging system with timestamped files
 - Comprehensive event tracking and auditing
 - Real-time network state visualization
 
-## 🛠️ Technical Implementation
+##  Technical Implementation
 
 ### Technologies Used
 - **Mininet**: Network emulation platform
@@ -93,7 +93,7 @@ app1 = self.addHost('app1', ip='10.0.0.3')  # 300Mbps, 10ms delay
 db1 = self.addHost('db1', ip='10.0.0.4')   # 300Mbps, 15ms delay
 ```
 
-## 🚀 Getting Started
+##  Getting Started
 
 ### Prerequisites
 - Mininet

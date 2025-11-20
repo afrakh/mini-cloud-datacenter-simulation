@@ -1,0 +1,271 @@
+2025-11-16 06:39:14,183 - INFO - LoggerApp - ✅ LoggerApp initialized successfully.
+2025-11-16 06:39:14,183 - INFO - LoggerApp - 📁 Logs folder: /home/vboxuser/mini-cloud/ryu_logs
+2025-11-16 06:39:14,183 - INFO - LoggerApp - 📝 Log file created: /home/vboxuser/mini-cloud/ryu_logs/controller_log_2025-11-16_06-39-14.log
+2025-11-16 06:39:14,183 - INFO - ryu.base.app_manager - instantiating app ryu-failure.py of FailureRecoveryDynamic
+2025-11-16 06:39:14,183 - INFO - FailureRecoveryDynamic - ✅ Failure Recovery module loaded (Dijkstra rerouting)
+2025-11-16 06:39:14,184 - INFO - ryu.base.app_manager - instantiating app ryu_host_mig.py of HostMigration
+2025-11-16 06:39:14,184 - INFO - HostMigration - ✅ Host Migration module loaded
+2025-11-16 06:39:14,184 - INFO - ryu.base.app_manager - instantiating app controller.py of SmartDCController
+2025-11-16 06:39:14,184 - INFO - SmartDCController - 🚀 Smart DataCenter Controller started (OpenFlow 1.3)
+2025-11-16 06:39:14,184 - INFO - ryu.base.app_manager - instantiating app ryu.controller.ofp_handler of OFPHandler
+2025-11-16 06:39:14,184 - INFO - ryu.base.app_manager - instantiating app ryu.topology.switches of Switches
+2025-11-16 06:39:43,436 - INFO - SmartDCController - datapath registered: None
+2025-11-16 06:39:43,446 - INFO - MultiLayerLB - 🔌 Switch 1 features handled
+2025-11-16 06:39:43,447 - INFO - FailureRecoveryDynamic - 🟢 Switch 1 connected
+2025-11-16 06:39:43,450 - INFO - SmartDCController - 🟢 Switch 1 connected
+2025-11-16 06:39:43,451 - INFO - MultiLayerLB - 🔌 Switch 2 features handled
+2025-11-16 06:39:43,451 - INFO - MultiLayerLB - 🔌 Switch 3 features handled
+2025-11-16 06:39:43,451 - INFO - FailureRecoveryDynamic - 🟢 Switch 2 connected
+2025-11-16 06:39:43,451 - INFO - FailureRecoveryDynamic - 🟢 Switch 3 connected
+2025-11-16 06:39:43,452 - INFO - SmartDCController - 🟢 Switch 2 connected
+2025-11-16 06:39:43,452 - INFO - SmartDCController - 🟢 Switch 3 connected
+2025-11-16 06:39:43,458 - INFO - SmartDCController - datapath registered: 1
+2025-11-16 06:39:43,465 - INFO - FailureRecoveryDynamic - 🌐 Topology updated (switch-enter): 3 switches, 0 links
+2025-11-16 06:39:43,474 - INFO - FailureRecoveryDynamic - 🌐 Topology updated (switch-enter): 3 switches, 0 links
+2025-11-16 06:39:43,475 - INFO - SmartDCController - 🌐 Topology updated (switch-enter): 3 switches, 4 links
+2025-11-16 06:39:43,475 - INFO - SmartDCController - datapath registered: 3
+2025-11-16 06:39:43,475 - INFO - SmartDCController - datapath registered: 2
+2025-11-16 06:39:43,476 - INFO - FailureRecoveryDynamic - 🌐 Topology updated (switch-enter): 3 switches, 0 links
+2025-11-16 06:39:43,476 - INFO - FailureRecoveryDynamic - 🌐 Topology updated (link-add): 3 switches, 1 links
+2025-11-16 06:39:43,476 - INFO - FailureRecoveryDynamic - 🌐 Topology updated (link-add): 3 switches, 2 links
+2025-11-16 06:39:43,477 - INFO - FailureRecoveryDynamic - 🌐 Topology updated (link-add): 3 switches, 3 links
+2025-11-16 06:39:43,477 - INFO - FailureRecoveryDynamic - 🌐 Topology updated (link-add): 3 switches, 3 links
+2025-11-16 06:39:43,477 - INFO - FailureRecoveryDynamic - 🌐 Topology updated (link-add): 3 switches, 3 links
+2025-11-16 06:39:43,477 - INFO - FailureRecoveryDynamic - 🌐 Topology updated (link-add): 3 switches, 3 links
+2025-11-16 06:39:43,478 - INFO - SmartDCController - 🌐 Topology updated (switch-enter): 3 switches, 6 links
+2025-11-16 06:39:43,483 - INFO - SmartDCController - 🌐 Topology updated (switch-enter): 3 switches, 6 links
+2025-11-16 06:39:43,484 - INFO - SmartDCController - 🌐 Topology updated (link-add): 3 switches, 6 links
+2025-11-16 06:39:43,485 - INFO - SmartDCController - 🌐 Topology updated (link-add): 3 switches, 6 links
+2025-11-16 06:39:43,487 - INFO - SmartDCController - 🌐 Topology updated (link-add): 3 switches, 6 links
+2025-11-16 06:39:43,488 - INFO - SmartDCController - 🌐 Topology updated (link-add): 3 switches, 6 links
+2025-11-16 06:39:43,490 - INFO - SmartDCController - 🌐 Topology updated (link-add): 3 switches, 6 links
+2025-11-16 06:39:43,490 - INFO - SmartDCController - 🌐 Topology updated (link-add): 3 switches, 6 links
+2025-11-16 06:39:43,647 - WARNING - HostMigration - ⚠️ Host 00:00:00:00:00:06 has no IPv4 yet, skipping
+2025-11-16 06:39:43,680 - WARNING - HostMigration - ⚠️ Host 00:00:00:00:00:07 has no IPv4 yet, skipping
+2025-11-16 06:39:43,706 - WARNING - HostMigration - ⚠️ Host 00:00:00:00:00:04 has no IPv4 yet, skipping
+2025-11-16 06:39:43,707 - WARNING - HostMigration - ⚠️ Host 00:00:00:00:00:08 has no IPv4 yet, skipping
+2025-11-16 06:39:43,771 - WARNING - HostMigration - ⚠️ Host 00:00:00:00:00:05 has no IPv4 yet, skipping
+2025-11-16 06:39:43,792 - WARNING - HostMigration - ⚠️ Host 00:00:00:00:00:02 has no IPv4 yet, skipping
+2025-11-16 06:39:43,924 - WARNING - HostMigration - ⚠️ Host 00:00:00:00:00:03 has no IPv4 yet, skipping
+2025-11-16 06:39:44,313 - WARNING - HostMigration - ⚠️ Host 00:00:00:00:00:01 has no IPv4 yet, skipping
+2025-11-16 06:39:54,143 - INFO - MultiLayerLB - 🔌 Switch 1 features handled
+2025-11-16 06:39:54,152 - INFO - FailureRecoveryDynamic - 🟢 Switch 1 connected
+2025-11-16 06:39:54,153 - INFO - SmartDCController - 🟢 Switch 1 connected
+2025-11-16 06:39:54,181 - INFO - MultiLayerLB - 🔌 Switch None features handled
+2025-11-16 06:39:54,182 - INFO - FailureRecoveryDynamic - 🟢 Switch None connected
+2025-11-16 06:39:54,203 - INFO - MultiLayerLB - 🔌 Switch 3 features handled
+2025-11-16 06:39:54,214 - INFO - FailureRecoveryDynamic - 🟢 Switch 3 connected
+2025-11-16 06:39:54,217 - INFO - SmartDCController - 🟢 Switch 2 connected
+2025-11-16 06:39:54,217 - INFO - SmartDCController - 🟢 Switch 3 connected
+2025-11-16 06:39:54,228 - WARNING - ryu.topology.switches - Multiple connections from 0000000000000001
+2025-11-16 06:39:54,266 - WARNING - ryu.topology.switches - Multiple connections from 0000000000000002
+2025-11-16 06:39:54,299 - WARNING - ryu.topology.switches - Multiple connections from 0000000000000003
+2025-11-16 06:40:04,287 - WARNING - FailureRecoveryDynamic - ⚠️ Link down: 1 <-> 2
+2025-11-16 06:40:04,295 - INFO - FailureRecoveryDynamic - 🌐 Topology updated (link-delete): 3 switches, 2 links
+2025-11-16 06:40:04,296 - WARNING - FailureRecoveryDynamic - ♻️ Recomputing all alternate paths...
+2025-11-16 06:40:04,296 - WARNING - FailureRecoveryDynamic - ⚠️ Link down: 1 <-> 3
+2025-11-16 06:40:04,296 - INFO - FailureRecoveryDynamic - 🌐 Topology updated (link-delete): 3 switches, 1 links
+2025-11-16 06:40:04,297 - WARNING - FailureRecoveryDynamic - ♻️ Recomputing all alternate paths...
+2025-11-16 06:40:04,297 - WARNING - FailureRecoveryDynamic - ⚠️ Link down: 2 <-> 3
+2025-11-16 06:40:04,297 - INFO - FailureRecoveryDynamic - 🌐 Topology updated (link-delete): 3 switches, 0 links
+2025-11-16 06:40:04,297 - WARNING - FailureRecoveryDynamic - ♻️ Recomputing all alternate paths...
+2025-11-16 06:40:04,297 - WARNING - FailureRecoveryDynamic - ⚠️ Link down: 2 <-> 1
+2025-11-16 06:40:04,297 - INFO - FailureRecoveryDynamic - 🌐 Topology updated (link-delete): 3 switches, 0 links
+2025-11-16 06:40:04,298 - WARNING - FailureRecoveryDynamic - ♻️ Recomputing all alternate paths...
+2025-11-16 06:40:04,298 - WARNING - FailureRecoveryDynamic - ⚠️ Link down: 3 <-> 2
+2025-11-16 06:40:04,298 - INFO - FailureRecoveryDynamic - 🌐 Topology updated (link-delete): 3 switches, 0 links
+2025-11-16 06:40:04,298 - WARNING - FailureRecoveryDynamic - ♻️ Recomputing all alternate paths...
+2025-11-16 06:40:04,298 - WARNING - FailureRecoveryDynamic - ⚠️ Link down: 3 <-> 1
+2025-11-16 06:40:04,298 - INFO - FailureRecoveryDynamic - 🌐 Topology updated (link-delete): 3 switches, 0 links
+2025-11-16 06:40:04,298 - WARNING - FailureRecoveryDynamic - ♻️ Recomputing all alternate paths...
+2025-11-16 06:40:04,299 - INFO - SmartDCController - 🌐 Topology updated (link-delete): 3 switches, 0 links
+2025-11-16 06:40:04,301 - INFO - SmartDCController - 🌐 Topology updated (link-delete): 3 switches, 0 links
+2025-11-16 06:40:04,302 - INFO - SmartDCController - 🌐 Topology updated (link-delete): 3 switches, 0 links
+2025-11-16 06:40:04,308 - INFO - SmartDCController - 🌐 Topology updated (link-delete): 3 switches, 0 links
+2025-11-16 06:40:04,314 - INFO - SmartDCController - 🌐 Topology updated (link-delete): 3 switches, 0 links
+2025-11-16 06:40:04,314 - INFO - SmartDCController - 🌐 Topology updated (link-delete): 3 switches, 0 links
+2025-11-16 06:40:23,976 - INFO - FailureRecoveryDynamic - 📡 Learned host: 10.0.0.11 -> S2:5
+2025-11-16 06:40:23,982 - INFO - FailureRecoveryDynamic - 📡 Learned host: 10.0.0.11 -> S1:1
+2025-11-16 06:40:23,984 - INFO - FailureRecoveryDynamic - 📡 Learned host: 10.0.0.11 -> S3:2
+2025-11-16 06:40:23,984 - INFO - FailureRecoveryDynamic - 📡 Learned host: 10.0.0.12 -> S2:6
+2025-11-16 06:40:24,025 - INFO - FailureRecoveryDynamic - 📡 Learned host: 10.0.0.11 -> S2:5
+2025-11-16 06:40:24,032 - INFO - FailureRecoveryDynamic - 📡 Learned host: 10.0.0.11 -> S3:2
+2025-11-16 06:40:24,034 - INFO - FailureRecoveryDynamic - 📡 Learned host: 10.0.0.11 -> S1:1
+2025-11-16 06:40:24,047 - INFO - FailureRecoveryDynamic - 📡 Learned host: 10.0.0.13 -> S3:5
+2025-11-16 06:40:24,053 - INFO - FailureRecoveryDynamic - 📡 Learned host: 10.0.0.13 -> S2:2
+2025-11-16 06:40:24,087 - INFO - FailureRecoveryDynamic - 📡 Learned host: 10.0.0.11 -> S2:5
+2025-11-16 06:40:24,093 - INFO - FailureRecoveryDynamic - 📡 Learned host: 10.0.0.11 -> S1:1
+2025-11-16 06:40:24,094 - INFO - FailureRecoveryDynamic - 📡 Learned host: 10.0.0.11 -> S3:2
+2025-11-16 06:40:24,099 - INFO - FailureRecoveryDynamic - 📡 Learned host: 10.0.0.14 -> S3:6
+2025-11-16 06:40:24,105 - INFO - FailureRecoveryDynamic - 📡 Learned host: 10.0.0.14 -> S2:2
+2025-11-16 06:40:24,133 - INFO - FailureRecoveryDynamic - 📡 Learned host: 10.0.0.11 -> S2:5
+2025-11-16 06:40:24,139 - INFO - FailureRecoveryDynamic - 📡 Learned host: 10.0.0.11 -> S1:1
+2025-11-16 06:40:24,143 - INFO - FailureRecoveryDynamic - 📡 Learned host: 10.0.0.11 -> S3:2
+2025-11-16 06:40:24,180 - INFO - MultiLayerLB - ARP learning: 10.0.0.4 -> dpid 3, port 4, mac 00:00:00:00:00:06
+2025-11-16 06:40:24,180 - INFO - FailureRecoveryDynamic - 📡 Learned host: 10.0.0.4 -> S3:4
+2025-11-16 06:40:24,186 - INFO - MultiLayerLB - ARP learning: 10.0.0.4 -> dpid 2, port 2, mac 00:00:00:00:00:06
+2025-11-16 06:40:24,187 - INFO - FailureRecoveryDynamic - 📡 Learned host: 10.0.0.4 -> S2:2
+2025-11-16 06:40:24,263 - INFO - FailureRecoveryDynamic - 📡 Learned host: 10.0.0.11 -> S2:5
+2025-11-16 06:40:24,270 - INFO - FailureRecoveryDynamic - 📡 Learned host: 10.0.0.11 -> S1:1
+2025-11-16 06:40:24,272 - INFO - FailureRecoveryDynamic - 📡 Learned host: 10.0.0.11 -> S3:2
+2025-11-16 06:40:24,282 - INFO - MultiLayerLB - ARP learning: 10.0.0.1 -> dpid 2, port 3, mac 00:00:00:00:00:07
+2025-11-16 06:40:24,282 - INFO - FailureRecoveryDynamic - 📡 Learned host: 10.0.0.1 -> S2:3
+2025-11-16 06:40:24,300 - INFO - FailureRecoveryDynamic - 🌐 Topology updated (link-add): 3 switches, 1 links
+2025-11-16 06:40:24,302 - INFO - SmartDCController - 🌐 Topology updated (link-add): 3 switches, 1 links
+2025-11-16 06:40:24,318 - INFO - FailureRecoveryDynamic - 📡 Learned host: 10.0.0.11 -> S2:5
+2025-11-16 06:40:24,326 - INFO - FailureRecoveryDynamic - 📡 Learned host: 10.0.0.11 -> S1:1
+2025-11-16 06:40:24,328 - INFO - FailureRecoveryDynamic - 📡 Learned host: 10.0.0.11 -> S3:2
+2025-11-16 06:40:24,332 - INFO - MultiLayerLB - ARP learning: 10.0.0.2 -> dpid 2, port 4, mac 00:00:00:00:00:08
+2025-11-16 06:40:24,332 - INFO - FailureRecoveryDynamic - 📡 Learned host: 10.0.0.2 -> S2:4
+2025-11-16 06:40:24,353 - INFO - FailureRecoveryDynamic - 🌐 Topology updated (link-add): 3 switches, 1 links
+2025-11-16 06:40:24,356 - INFO - SmartDCController - 🌐 Topology updated (link-add): 3 switches, 2 links
+2025-11-16 06:40:24,373 - INFO - FailureRecoveryDynamic - 📡 Learned host: 10.0.0.12 -> S2:6
+2025-11-16 06:40:24,379 - INFO - FailureRecoveryDynamic - 📡 Learned host: 10.0.0.12 -> S3:2
+2025-11-16 06:40:24,380 - INFO - FailureRecoveryDynamic - 📡 Learned host: 10.0.0.12 -> S1:1
+2025-11-16 06:40:24,402 - INFO - FailureRecoveryDynamic - 🌐 Topology updated (link-add): 3 switches, 2 links
+2025-11-16 06:40:24,403 - INFO - MultiLayerLB - ARP learning: 10.0.0.3 -> dpid 3, port 3, mac 00:00:00:00:00:01
+2025-11-16 06:40:24,404 - INFO - FailureRecoveryDynamic - 📡 Learned host: 10.0.0.3 -> S3:3
+2025-11-16 06:40:24,405 - INFO - SmartDCController - 🌐 Topology updated (link-add): 3 switches, 3 links
+2025-11-16 06:40:24,415 - INFO - MultiLayerLB - ARP learning: 10.0.0.3 -> dpid 2, port 2, mac 00:00:00:00:00:01
+2025-11-16 06:40:24,416 - INFO - FailureRecoveryDynamic - 📡 Learned host: 10.0.0.3 -> S2:2
+2025-11-16 06:40:24,465 - INFO - FailureRecoveryDynamic - 🌐 Topology updated (link-add): 3 switches, 2 links
+2025-11-16 06:40:24,466 - INFO - SmartDCController - 🌐 Topology updated (link-add): 3 switches, 4 links
+2025-11-16 06:40:24,480 - INFO - FailureRecoveryDynamic - 📡 Learned host: 10.0.0.12 -> S2:6
+2025-11-16 06:40:24,486 - INFO - FailureRecoveryDynamic - 📡 Learned host: 10.0.0.12 -> S1:1
+2025-11-16 06:40:24,489 - INFO - FailureRecoveryDynamic - 📡 Learned host: 10.0.0.12 -> S3:2
+2025-11-16 06:40:24,495 - INFO - FailureRecoveryDynamic - 📡 Learned host: 10.0.0.13 -> S3:5
+2025-11-16 06:40:24,497 - INFO - HostMigration - 🏠 Host added: 10.0.0.13 @ 3:5
+2025-11-16 06:40:24,502 - INFO - FailureRecoveryDynamic - 📡 Learned host: 10.0.0.13 -> S2:2
+2025-11-16 06:40:24,534 - INFO - FailureRecoveryDynamic - 📡 Learned host: 10.0.0.12 -> S2:6
+2025-11-16 06:40:24,539 - INFO - FailureRecoveryDynamic - 📡 Learned host: 10.0.0.12 -> S1:1
+2025-11-16 06:40:24,544 - INFO - FailureRecoveryDynamic - 📡 Learned host: 10.0.0.12 -> S3:2
+2025-11-16 06:40:24,548 - INFO - FailureRecoveryDynamic - 📡 Learned host: 10.0.0.14 -> S3:6
+2025-11-16 06:40:24,550 - INFO - HostMigration - 🏠 Host added: 10.0.0.14 @ 3:6
+2025-11-16 06:40:24,554 - INFO - FailureRecoveryDynamic - 📡 Learned host: 10.0.0.14 -> S2:2
+2025-11-16 06:40:24,584 - INFO - FailureRecoveryDynamic - 📡 Learned host: 10.0.0.12 -> S2:6
+2025-11-16 06:40:24,590 - INFO - FailureRecoveryDynamic - 📡 Learned host: 10.0.0.12 -> S1:1
+2025-11-16 06:40:24,594 - INFO - FailureRecoveryDynamic - 📡 Learned host: 10.0.0.12 -> S3:2
+2025-11-16 06:40:24,630 - INFO - MultiLayerLB - ARP learning: 10.0.0.4 -> dpid 3, port 4, mac 00:00:00:00:00:06
+2025-11-16 06:40:24,631 - INFO - FailureRecoveryDynamic - 📡 Learned host: 10.0.0.4 -> S3:4
+2025-11-16 06:40:24,634 - INFO - HostMigration - 🏠 Host added: 10.0.0.4 @ 3:4
+2025-11-16 06:40:24,640 - INFO - MultiLayerLB - ARP learning: 10.0.0.4 -> dpid 2, port 2, mac 00:00:00:00:00:06
+2025-11-16 06:40:24,642 - INFO - FailureRecoveryDynamic - 📡 Learned host: 10.0.0.4 -> S2:2
+2025-11-16 06:40:24,705 - INFO - FailureRecoveryDynamic - 📡 Learned host: 10.0.0.12 -> S2:6
+2025-11-16 06:40:24,711 - INFO - FailureRecoveryDynamic - 📡 Learned host: 10.0.0.12 -> S1:1
+2025-11-16 06:40:24,713 - INFO - FailureRecoveryDynamic - 📡 Learned host: 10.0.0.12 -> S3:2
+2025-11-16 06:40:24,719 - INFO - MultiLayerLB - ARP learning: 10.0.0.1 -> dpid 2, port 3, mac 00:00:00:00:00:07
+2025-11-16 06:40:24,719 - INFO - FailureRecoveryDynamic - 📡 Learned host: 10.0.0.1 -> S2:3
+2025-11-16 06:40:24,749 - INFO - FailureRecoveryDynamic - 📡 Learned host: 10.0.0.12 -> S2:6
+2025-11-16 06:40:24,757 - INFO - FailureRecoveryDynamic - 📡 Learned host: 10.0.0.12 -> S1:1
+2025-11-16 06:40:24,763 - INFO - FailureRecoveryDynamic - 📡 Learned host: 10.0.0.12 -> S3:2
+2025-11-16 06:40:24,776 - INFO - MultiLayerLB - ARP learning: 10.0.0.2 -> dpid 2, port 4, mac 00:00:00:00:00:08
+2025-11-16 06:40:24,776 - INFO - FailureRecoveryDynamic - 📡 Learned host: 10.0.0.2 -> S2:4
+2025-11-16 06:40:24,808 - INFO - FailureRecoveryDynamic - 📡 Learned host: 10.0.0.13 -> S3:5
+2025-11-16 06:40:24,816 - INFO - FailureRecoveryDynamic - 📡 Learned host: 10.0.0.13 -> S2:2
+2025-11-16 06:40:24,822 - INFO - FailureRecoveryDynamic - 📡 Learned host: 10.0.0.13 -> S1:1
+2025-11-16 06:40:24,834 - INFO - MultiLayerLB - ARP learning: 10.0.0.3 -> dpid 3, port 3, mac 00:00:00:00:00:01
+2025-11-16 06:40:24,834 - INFO - FailureRecoveryDynamic - 📡 Learned host: 10.0.0.3 -> S3:3
+2025-11-16 06:40:24,917 - INFO - FailureRecoveryDynamic - 📡 Learned host: 10.0.0.13 -> S3:5
+2025-11-16 06:40:24,921 - INFO - FailureRecoveryDynamic - 📡 Learned host: 10.0.0.14 -> S3:6
+2025-11-16 06:40:24,924 - INFO - FailureRecoveryDynamic - 📡 Learned host: 10.0.0.13 -> S2:2
+2025-11-16 06:40:24,930 - INFO - FailureRecoveryDynamic - 📡 Learned host: 10.0.0.13 -> S1:1
+2025-11-16 06:40:24,942 - INFO - FailureRecoveryDynamic - 📡 Learned host: 10.0.0.13 -> S3:5
+2025-11-16 06:40:24,948 - INFO - FailureRecoveryDynamic - 📡 Learned host: 10.0.0.13 -> S2:2
+2025-11-16 06:40:24,953 - INFO - FailureRecoveryDynamic - 📡 Learned host: 10.0.0.13 -> S1:1
+2025-11-16 06:40:24,978 - INFO - MultiLayerLB - ARP learning: 10.0.0.4 -> dpid 3, port 4, mac 00:00:00:00:00:06
+2025-11-16 06:40:24,979 - INFO - FailureRecoveryDynamic - 📡 Learned host: 10.0.0.4 -> S3:4
+2025-11-16 06:40:25,024 - INFO - FailureRecoveryDynamic - 📡 Learned host: 10.0.0.13 -> S3:5
+2025-11-16 06:40:25,030 - INFO - FailureRecoveryDynamic - 📡 Learned host: 10.0.0.13 -> S2:2
+2025-11-16 06:40:25,035 - INFO - FailureRecoveryDynamic - 📡 Learned host: 10.0.0.13 -> S1:1
+2025-11-16 06:40:25,043 - INFO - MultiLayerLB - ARP learning: 10.0.0.1 -> dpid 2, port 3, mac 00:00:00:00:00:07
+2025-11-16 06:40:25,044 - INFO - FailureRecoveryDynamic - 📡 Learned host: 10.0.0.1 -> S2:3
+2025-11-16 06:40:25,049 - INFO - MultiLayerLB - ARP learning: 10.0.0.1 -> dpid 3, port 2, mac 00:00:00:00:00:07
+2025-11-16 06:40:25,050 - INFO - FailureRecoveryDynamic - 📡 Learned host: 10.0.0.1 -> S3:2
+2025-11-16 06:40:25,089 - INFO - FailureRecoveryDynamic - 📡 Learned host: 10.0.0.13 -> S3:5
+2025-11-16 06:40:25,096 - INFO - FailureRecoveryDynamic - 📡 Learned host: 10.0.0.13 -> S2:2
+2025-11-16 06:40:25,100 - INFO - FailureRecoveryDynamic - 📡 Learned host: 10.0.0.13 -> S1:1
+2025-11-16 06:40:25,111 - INFO - MultiLayerLB - ARP learning: 10.0.0.2 -> dpid 2, port 4, mac 00:00:00:00:00:08
+2025-11-16 06:40:25,111 - INFO - FailureRecoveryDynamic - 📡 Learned host: 10.0.0.2 -> S2:4
+2025-11-16 06:40:25,117 - INFO - MultiLayerLB - ARP learning: 10.0.0.2 -> dpid 3, port 2, mac 00:00:00:00:00:08
+2025-11-16 06:40:25,117 - INFO - FailureRecoveryDynamic - 📡 Learned host: 10.0.0.2 -> S3:2
+2025-11-16 06:40:25,158 - INFO - FailureRecoveryDynamic - 📡 Learned host: 10.0.0.14 -> S3:6
+2025-11-16 06:40:25,165 - INFO - FailureRecoveryDynamic - 📡 Learned host: 10.0.0.14 -> S2:2
+2025-11-16 06:40:25,171 - INFO - FailureRecoveryDynamic - 📡 Learned host: 10.0.0.14 -> S1:1
+2025-11-16 06:40:25,183 - INFO - MultiLayerLB - ARP learning: 10.0.0.3 -> dpid 3, port 3, mac 00:00:00:00:00:01
+2025-11-16 06:40:25,183 - INFO - FailureRecoveryDynamic - 📡 Learned host: 10.0.0.3 -> S3:3
+2025-11-16 06:40:25,283 - INFO - FailureRecoveryDynamic - 📡 Learned host: 10.0.0.14 -> S3:6
+2025-11-16 06:40:25,289 - INFO - FailureRecoveryDynamic - 📡 Learned host: 10.0.0.14 -> S2:2
+2025-11-16 06:40:25,295 - INFO - FailureRecoveryDynamic - 📡 Learned host: 10.0.0.14 -> S1:1
+2025-11-16 06:40:25,316 - INFO - MultiLayerLB - ARP learning: 10.0.0.4 -> dpid 3, port 4, mac 00:00:00:00:00:06
+2025-11-16 06:40:25,317 - INFO - FailureRecoveryDynamic - 📡 Learned host: 10.0.0.4 -> S3:4
+2025-11-16 06:40:25,365 - INFO - FailureRecoveryDynamic - 📡 Learned host: 10.0.0.14 -> S3:6
+2025-11-16 06:40:25,371 - INFO - FailureRecoveryDynamic - 📡 Learned host: 10.0.0.14 -> S2:2
+2025-11-16 06:40:25,375 - INFO - FailureRecoveryDynamic - 📡 Learned host: 10.0.0.14 -> S1:1
+2025-11-16 06:40:25,383 - INFO - MultiLayerLB - ARP learning: 10.0.0.1 -> dpid 2, port 3, mac 00:00:00:00:00:07
+2025-11-16 06:40:25,383 - INFO - FailureRecoveryDynamic - 📡 Learned host: 10.0.0.1 -> S2:3
+2025-11-16 06:40:25,390 - INFO - MultiLayerLB - ARP learning: 10.0.0.1 -> dpid 3, port 2, mac 00:00:00:00:00:07
+2025-11-16 06:40:25,392 - INFO - FailureRecoveryDynamic - 📡 Learned host: 10.0.0.1 -> S3:2
+2025-11-16 06:40:25,429 - INFO - FailureRecoveryDynamic - 📡 Learned host: 10.0.0.14 -> S3:6
+2025-11-16 06:40:25,434 - INFO - FailureRecoveryDynamic - 📡 Learned host: 10.0.0.14 -> S2:2
+2025-11-16 06:40:25,441 - INFO - FailureRecoveryDynamic - 📡 Learned host: 10.0.0.14 -> S1:1
+2025-11-16 06:40:25,447 - INFO - MultiLayerLB - ARP learning: 10.0.0.2 -> dpid 2, port 4, mac 00:00:00:00:00:08
+2025-11-16 06:40:25,447 - INFO - FailureRecoveryDynamic - 📡 Learned host: 10.0.0.2 -> S2:4
+2025-11-16 06:40:25,453 - INFO - MultiLayerLB - ARP learning: 10.0.0.2 -> dpid 3, port 2, mac 00:00:00:00:00:08
+2025-11-16 06:40:25,453 - INFO - FailureRecoveryDynamic - 📡 Learned host: 10.0.0.2 -> S3:2
+2025-11-16 06:40:25,514 - INFO - MultiLayerLB - ARP learning: 10.0.0.4 -> dpid 3, port 4, mac 00:00:00:00:00:06
+2025-11-16 06:40:25,514 - INFO - FailureRecoveryDynamic - 📡 Learned host: 10.0.0.4 -> S3:4
+2025-11-16 06:40:25,524 - INFO - MultiLayerLB - ARP learning: 10.0.0.4 -> dpid 2, port 2, mac 00:00:00:00:00:06
+2025-11-16 06:40:25,524 - INFO - FailureRecoveryDynamic - 📡 Learned host: 10.0.0.4 -> S2:2
+2025-11-16 06:40:25,529 - INFO - MultiLayerLB - ARP learning: 10.0.0.4 -> dpid 1, port 1, mac 00:00:00:00:00:06
+2025-11-16 06:40:25,529 - INFO - FailureRecoveryDynamic - 📡 Learned host: 10.0.0.4 -> S1:1
+2025-11-16 06:40:25,541 - INFO - MultiLayerLB - ARP learning: 10.0.0.3 -> dpid 3, port 3, mac 00:00:00:00:00:01
+2025-11-16 06:40:25,542 - INFO - FailureRecoveryDynamic - 📡 Learned host: 10.0.0.3 -> S3:3
+2025-11-16 06:40:25,837 - INFO - MultiLayerLB - ARP learning: 10.0.0.4 -> dpid 3, port 4, mac 00:00:00:00:00:06
+2025-11-16 06:40:25,838 - INFO - FailureRecoveryDynamic - 📡 Learned host: 10.0.0.4 -> S3:4
+2025-11-16 06:40:25,846 - INFO - MultiLayerLB - ARP learning: 10.0.0.4 -> dpid 2, port 2, mac 00:00:00:00:00:06
+2025-11-16 06:40:25,846 - INFO - FailureRecoveryDynamic - 📡 Learned host: 10.0.0.4 -> S2:2
+2025-11-16 06:40:25,852 - INFO - MultiLayerLB - ARP learning: 10.0.0.4 -> dpid 1, port 1, mac 00:00:00:00:00:06
+2025-11-16 06:40:25,852 - INFO - FailureRecoveryDynamic - 📡 Learned host: 10.0.0.4 -> S1:1
+2025-11-16 06:40:25,860 - INFO - MultiLayerLB - ARP learning: 10.0.0.1 -> dpid 2, port 3, mac 00:00:00:00:00:07
+2025-11-16 06:40:25,860 - INFO - FailureRecoveryDynamic - 📡 Learned host: 10.0.0.1 -> S2:3
+2025-11-16 06:40:25,866 - INFO - MultiLayerLB - ARP learning: 10.0.0.1 -> dpid 3, port 2, mac 00:00:00:00:00:07
+2025-11-16 06:40:25,867 - INFO - FailureRecoveryDynamic - 📡 Learned host: 10.0.0.1 -> S3:2
+2025-11-16 06:40:25,982 - INFO - MultiLayerLB - ARP learning: 10.0.0.4 -> dpid 3, port 4, mac 00:00:00:00:00:06
+2025-11-16 06:40:25,982 - INFO - FailureRecoveryDynamic - 📡 Learned host: 10.0.0.4 -> S3:4
+2025-11-16 06:40:25,989 - INFO - MultiLayerLB - ARP learning: 10.0.0.4 -> dpid 2, port 2, mac 00:00:00:00:00:06
+2025-11-16 06:40:25,990 - INFO - FailureRecoveryDynamic - 📡 Learned host: 10.0.0.4 -> S2:2
+2025-11-16 06:40:26,003 - INFO - MultiLayerLB - ARP learning: 10.0.0.4 -> dpid 1, port 1, mac 00:00:00:00:00:06
+2025-11-16 06:40:26,003 - INFO - FailureRecoveryDynamic - 📡 Learned host: 10.0.0.4 -> S1:1
+2025-11-16 06:40:26,009 - INFO - MultiLayerLB - ARP learning: 10.0.0.2 -> dpid 2, port 4, mac 00:00:00:00:00:08
+2025-11-16 06:40:26,009 - INFO - FailureRecoveryDynamic - 📡 Learned host: 10.0.0.2 -> S2:4
+2025-11-16 06:40:26,017 - INFO - MultiLayerLB - ARP learning: 10.0.0.2 -> dpid 3, port 2, mac 00:00:00:00:00:08
+2025-11-16 06:40:26,017 - INFO - FailureRecoveryDynamic - 📡 Learned host: 10.0.0.2 -> S3:2
+2025-11-16 06:40:26,108 - INFO - MultiLayerLB - ARP learning: 10.0.0.1 -> dpid 2, port 3, mac 00:00:00:00:00:07
+2025-11-16 06:40:26,111 - INFO - FailureRecoveryDynamic - 📡 Learned host: 10.0.0.1 -> S2:3
+2025-11-16 06:40:26,118 - INFO - MultiLayerLB - ARP learning: 10.0.0.1 -> dpid 1, port 1, mac 00:00:00:00:00:07
+2025-11-16 06:40:26,118 - INFO - FailureRecoveryDynamic - 📡 Learned host: 10.0.0.1 -> S1:1
+2025-11-16 06:40:26,120 - INFO - MultiLayerLB - ARP learning: 10.0.0.1 -> dpid 3, port 2, mac 00:00:00:00:00:07
+2025-11-16 06:40:26,120 - INFO - FailureRecoveryDynamic - 📡 Learned host: 10.0.0.1 -> S3:2
+2025-11-16 06:40:26,146 - INFO - MultiLayerLB - ARP learning: 10.0.0.3 -> dpid 3, port 3, mac 00:00:00:00:00:01
+2025-11-16 06:40:26,146 - INFO - FailureRecoveryDynamic - 📡 Learned host: 10.0.0.3 -> S3:3
+2025-11-16 06:40:26,153 - INFO - MultiLayerLB - ARP learning: 10.0.0.3 -> dpid 2, port 2, mac 00:00:00:00:00:01
+2025-11-16 06:40:26,153 - INFO - FailureRecoveryDynamic - 📡 Learned host: 10.0.0.3 -> S2:2
+2025-11-16 06:40:26,443 - INFO - MultiLayerLB - ARP learning: 10.0.0.1 -> dpid 2, port 3, mac 00:00:00:00:00:07
+2025-11-16 06:40:26,444 - INFO - FailureRecoveryDynamic - 📡 Learned host: 10.0.0.1 -> S2:3
+2025-11-16 06:40:26,450 - INFO - MultiLayerLB - ARP learning: 10.0.0.1 -> dpid 1, port 1, mac 00:00:00:00:00:07
+2025-11-16 06:40:26,450 - INFO - FailureRecoveryDynamic - 📡 Learned host: 10.0.0.1 -> S1:1
+2025-11-16 06:40:26,452 - INFO - MultiLayerLB - ARP learning: 10.0.0.1 -> dpid 3, port 2, mac 00:00:00:00:00:07
+2025-11-16 06:40:26,452 - INFO - FailureRecoveryDynamic - 📡 Learned host: 10.0.0.1 -> S3:2
+2025-11-16 06:40:26,458 - INFO - MultiLayerLB - ARP learning: 10.0.0.2 -> dpid 2, port 4, mac 00:00:00:00:00:08
+2025-11-16 06:40:26,459 - INFO - FailureRecoveryDynamic - 📡 Learned host: 10.0.0.2 -> S2:4
+2025-11-16 06:40:26,520 - INFO - MultiLayerLB - ARP learning: 10.0.0.2 -> dpid 2, port 4, mac 00:00:00:00:00:08
+2025-11-16 06:40:26,521 - INFO - FailureRecoveryDynamic - 📡 Learned host: 10.0.0.2 -> S2:4
+2025-11-16 06:40:26,526 - INFO - MultiLayerLB - ARP learning: 10.0.0.2 -> dpid 1, port 1, mac 00:00:00:00:00:08
+2025-11-16 06:40:26,526 - INFO - FailureRecoveryDynamic - 📡 Learned host: 10.0.0.2 -> S1:1
+2025-11-16 06:40:26,527 - INFO - MultiLayerLB - ARP learning: 10.0.0.2 -> dpid 3, port 2, mac 00:00:00:00:00:08
+2025-11-16 06:40:26,527 - INFO - FailureRecoveryDynamic - 📡 Learned host: 10.0.0.2 -> S3:2
+2025-11-16 06:40:26,552 - INFO - MultiLayerLB - ARP learning: 10.0.0.3 -> dpid 3, port 3, mac 00:00:00:00:00:01
+2025-11-16 06:40:26,552 - INFO - FailureRecoveryDynamic - 📡 Learned host: 10.0.0.3 -> S3:3
+2025-11-16 06:40:26,563 - INFO - MultiLayerLB - ARP learning: 10.0.0.3 -> dpid 2, port 2, mac 00:00:00:00:00:01
+2025-11-16 06:40:26,563 - INFO - FailureRecoveryDynamic - 📡 Learned host: 10.0.0.3 -> S2:2
+2025-11-16 06:40:43,444 - WARNING - HostMigration - ⚠️ Host 2a:25:8c:38:ac:dd has no IPv4 yet, skipping

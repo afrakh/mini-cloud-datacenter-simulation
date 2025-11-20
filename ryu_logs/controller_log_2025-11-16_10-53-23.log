@@ -1,0 +1,135 @@
+2025-11-16 10:53:23,260 - INFO - LoggerApp - ✅ LoggerApp initialized successfully.
+2025-11-16 10:53:23,261 - INFO - LoggerApp - 📁 Logs folder: /home/vboxuser/mini-cloud/ryu_logs
+2025-11-16 10:53:23,261 - INFO - LoggerApp - 📝 Log file created: /home/vboxuser/mini-cloud/ryu_logs/controller_log_2025-11-16_10-53-23.log
+2025-11-16 10:53:23,261 - INFO - ryu.base.app_manager - instantiating app ryu-failure.py of FailureRecoveryDynamic
+2025-11-16 10:53:23,261 - INFO - FailureRecoveryDynamic - ✅ Failure Recovery module loaded (Dijkstra rerouting)
+2025-11-16 10:53:23,261 - INFO - ryu.base.app_manager - instantiating app ryu_host_mig.py of HostMigration
+2025-11-16 10:53:23,262 - INFO - HostMigration - ✅ Host Migration module loaded (REST 8080 enabled)
+2025-11-16 10:53:23,262 - INFO - ryu.base.app_manager - instantiating app ryu-autoscale.py of AutoScale
+2025-11-16 10:53:23,262 - INFO - AutoScale - ✅ Realistic Auto-Scaling module loaded (REST 8080 enabled)
+2025-11-16 10:53:23,262 - INFO - ryu.base.app_manager - instantiating app controller.py of SmartDCController
+2025-11-16 10:53:23,262 - INFO - SmartDCController - 🚀 Smart DataCenter Controller started (OpenFlow 1.3)
+2025-11-16 10:53:23,263 - INFO - ryu.base.app_manager - instantiating app ryu.controller.ofp_handler of OFPHandler
+2025-11-16 10:53:23,264 - INFO - ryu.base.app_manager - instantiating app ryu.topology.switches of Switches
+2025-11-16 10:53:23,265 - INFO - ryu.lib.hub - (8965) wsgi starting up on http://0.0.0.0:8080
+2025-11-16 10:54:04,732 - INFO - SmartDCController - datapath registered: None
+2025-11-16 10:54:04,743 - INFO - MultiLayerLB - 🔌 Switch 3 features handled
+2025-11-16 10:54:04,744 - INFO - MultiLayerLB - 🔌 Switch 2 features handled
+2025-11-16 10:54:04,744 - INFO - FailureRecoveryDynamic - 🟢 Switch 3 connected
+2025-11-16 10:54:04,744 - INFO - FailureRecoveryDynamic - 🟢 Switch 2 connected
+2025-11-16 10:54:04,744 - INFO - HostMigration - 🟢 Switch connected: 3
+2025-11-16 10:54:04,744 - INFO - HostMigration - 🟢 Switch connected: 2
+2025-11-16 10:54:04,744 - INFO - AutoScale - 🟢 Switch connected: 3
+2025-11-16 10:54:04,744 - INFO - AutoScale - 🟢 Switch connected: 2
+2025-11-16 10:54:04,744 - INFO - SmartDCController - 🟢 Switch 3 connected
+2025-11-16 10:54:04,744 - INFO - SmartDCController - 🟢 Switch 2 connected
+2025-11-16 10:54:04,745 - INFO - SmartDCController - datapath registered: 3
+2025-11-16 10:54:04,746 - INFO - FailureRecoveryDynamic - 🌐 Topology updated (switch-enter): 1 switches, 0 links
+2025-11-16 10:54:04,746 - INFO - SmartDCController - 🌐 Topology updated (switch-enter): 1 switches, 0 links
+2025-11-16 10:54:04,748 - INFO - SmartDCController - datapath registered: 2
+2025-11-16 10:54:04,749 - INFO - FailureRecoveryDynamic - 🌐 Topology updated (switch-enter): 2 switches, 0 links
+2025-11-16 10:54:04,750 - INFO - FailureRecoveryDynamic - 🌐 Topology updated (link-add): 2 switches, 1 links
+2025-11-16 10:54:04,751 - INFO - FailureRecoveryDynamic - 🌐 Topology updated (link-add): 2 switches, 1 links
+2025-11-16 10:54:04,753 - INFO - SmartDCController - 🌐 Topology updated (switch-enter): 2 switches, 2 links
+2025-11-16 10:54:04,753 - INFO - SmartDCController - 🌐 Topology updated (link-add): 2 switches, 2 links
+2025-11-16 10:54:04,753 - INFO - SmartDCController - 🌐 Topology updated (link-add): 2 switches, 2 links
+2025-11-16 10:54:12,864 - INFO - MultiLayerLB - 🔌 Switch 1 features handled
+2025-11-16 10:54:12,864 - INFO - FailureRecoveryDynamic - 🟢 Switch 1 connected
+2025-11-16 10:54:12,864 - INFO - HostMigration - 🟢 Switch connected: 1
+2025-11-16 10:54:12,864 - INFO - AutoScale - 🟢 Switch connected: 1
+2025-11-16 10:54:12,864 - INFO - SmartDCController - 🟢 Switch 1 connected
+2025-11-16 10:54:12,865 - INFO - SmartDCController - datapath registered: 1
+2025-11-16 10:54:12,867 - INFO - FailureRecoveryDynamic - 🌐 Topology updated (switch-enter): 3 switches, 1 links
+2025-11-16 10:54:12,867 - INFO - SmartDCController - 🌐 Topology updated (switch-enter): 3 switches, 2 links
+2025-11-16 10:54:12,918 - INFO - FailureRecoveryDynamic - 🌐 Topology updated (link-add): 3 switches, 2 links
+2025-11-16 10:54:12,918 - INFO - FailureRecoveryDynamic - 🌐 Topology updated (link-add): 3 switches, 3 links
+2025-11-16 10:54:12,918 - INFO - SmartDCController - 🌐 Topology updated (link-add): 3 switches, 4 links
+2025-11-16 10:54:12,919 - INFO - SmartDCController - 🌐 Topology updated (link-add): 3 switches, 4 links
+2025-11-16 10:54:12,970 - INFO - FailureRecoveryDynamic - 🌐 Topology updated (link-add): 3 switches, 3 links
+2025-11-16 10:54:12,971 - INFO - FailureRecoveryDynamic - 🌐 Topology updated (link-add): 3 switches, 3 links
+2025-11-16 10:54:12,971 - INFO - SmartDCController - 🌐 Topology updated (link-add): 3 switches, 6 links
+2025-11-16 10:54:12,972 - INFO - SmartDCController - 🌐 Topology updated (link-add): 3 switches, 6 links
+2025-11-16 10:54:15,155 - INFO - FailureRecoveryDynamic - 🌐 Topology updated (switch-leave): 2 switches, 1 links
+2025-11-16 10:54:15,155 - WARNING - FailureRecoveryDynamic - ⚠️ Link down: 1 <-> 2
+2025-11-16 10:54:15,155 - INFO - FailureRecoveryDynamic - 🌐 Topology updated (link-delete): 2 switches, 1 links
+2025-11-16 10:54:15,155 - WARNING - FailureRecoveryDynamic - ♻️ Recomputing all alternate paths...
+2025-11-16 10:54:15,155 - WARNING - FailureRecoveryDynamic - ⚠️ Link down: 2 <-> 1
+2025-11-16 10:54:15,155 - INFO - FailureRecoveryDynamic - 🌐 Topology updated (link-delete): 2 switches, 1 links
+2025-11-16 10:54:15,155 - WARNING - FailureRecoveryDynamic - ♻️ Recomputing all alternate paths...
+2025-11-16 10:54:15,155 - WARNING - FailureRecoveryDynamic - ⚠️ Link down: 1 <-> 3
+2025-11-16 10:54:15,155 - INFO - FailureRecoveryDynamic - 🌐 Topology updated (link-delete): 2 switches, 1 links
+2025-11-16 10:54:15,155 - WARNING - FailureRecoveryDynamic - ♻️ Recomputing all alternate paths...
+2025-11-16 10:54:15,155 - WARNING - FailureRecoveryDynamic - ⚠️ Link down: 3 <-> 1
+2025-11-16 10:54:15,155 - INFO - FailureRecoveryDynamic - 🌐 Topology updated (link-delete): 2 switches, 1 links
+2025-11-16 10:54:15,155 - WARNING - FailureRecoveryDynamic - ♻️ Recomputing all alternate paths...
+2025-11-16 10:54:15,156 - INFO - SmartDCController - 🌐 Topology updated (link-delete): 2 switches, 2 links
+2025-11-16 10:54:15,156 - INFO - SmartDCController - 🌐 Topology updated (link-delete): 2 switches, 2 links
+2025-11-16 10:54:15,156 - INFO - SmartDCController - 🌐 Topology updated (link-delete): 2 switches, 2 links
+2025-11-16 10:54:15,156 - INFO - SmartDCController - 🌐 Topology updated (link-delete): 2 switches, 2 links
+2025-11-16 10:54:15,160 - INFO - MultiLayerLB - 🔌 Switch 1 features handled
+2025-11-16 10:54:15,160 - INFO - FailureRecoveryDynamic - 🟢 Switch 1 connected
+2025-11-16 10:54:15,160 - INFO - HostMigration - 🟢 Switch connected: 1
+2025-11-16 10:54:15,160 - INFO - AutoScale - 🟢 Switch connected: 1
+2025-11-16 10:54:15,160 - INFO - SmartDCController - 🟢 Switch 1 connected
+2025-11-16 10:54:15,162 - INFO - FailureRecoveryDynamic - 🌐 Topology updated (switch-enter): 3 switches, 1 links
+2025-11-16 10:54:15,162 - INFO - SmartDCController - 🌐 Topology updated (switch-enter): 3 switches, 2 links
+2025-11-16 10:54:15,183 - INFO - FailureRecoveryDynamic - 🌐 Topology updated (switch-leave): 2 switches, 0 links
+2025-11-16 10:54:15,183 - WARNING - FailureRecoveryDynamic - ⚠️ Link down: 2 <-> 3
+2025-11-16 10:54:15,183 - INFO - FailureRecoveryDynamic - 🌐 Topology updated (link-delete): 2 switches, 0 links
+2025-11-16 10:54:15,183 - WARNING - FailureRecoveryDynamic - ♻️ Recomputing all alternate paths...
+2025-11-16 10:54:15,184 - WARNING - FailureRecoveryDynamic - ⚠️ Link down: 3 <-> 2
+2025-11-16 10:54:15,184 - INFO - FailureRecoveryDynamic - 🌐 Topology updated (link-delete): 2 switches, 0 links
+2025-11-16 10:54:15,184 - WARNING - FailureRecoveryDynamic - ♻️ Recomputing all alternate paths...
+2025-11-16 10:54:15,184 - INFO - SmartDCController - 🌐 Topology updated (link-delete): 2 switches, 0 links
+2025-11-16 10:54:15,184 - INFO - SmartDCController - 🌐 Topology updated (link-delete): 2 switches, 0 links
+2025-11-16 10:54:15,205 - INFO - FailureRecoveryDynamic - 🌐 Topology updated (switch-leave): 1 switches, 0 links
+2025-11-16 10:54:17,235 - INFO - MultiLayerLB - 🔌 Switch 3 features handled
+2025-11-16 10:54:17,235 - INFO - FailureRecoveryDynamic - 🟢 Switch 3 connected
+2025-11-16 10:54:17,235 - INFO - HostMigration - 🟢 Switch connected: 3
+2025-11-16 10:54:17,235 - INFO - AutoScale - 🟢 Switch connected: 3
+2025-11-16 10:54:17,235 - INFO - SmartDCController - 🟢 Switch 3 connected
+2025-11-16 10:54:17,238 - INFO - FailureRecoveryDynamic - 🌐 Topology updated (switch-enter): 2 switches, 0 links
+2025-11-16 10:54:17,238 - INFO - SmartDCController - 🌐 Topology updated (switch-enter): 2 switches, 0 links
+2025-11-16 10:54:21,254 - INFO - MultiLayerLB - 🔌 Switch 2 features handled
+2025-11-16 10:54:21,255 - INFO - FailureRecoveryDynamic - 🟢 Switch 2 connected
+2025-11-16 10:54:21,255 - INFO - HostMigration - 🟢 Switch connected: 2
+2025-11-16 10:54:21,255 - INFO - AutoScale - 🟢 Switch connected: 2
+2025-11-16 10:54:21,255 - INFO - SmartDCController - 🟢 Switch 2 connected
+2025-11-16 10:54:21,261 - INFO - FailureRecoveryDynamic - 🌐 Topology updated (switch-enter): 3 switches, 0 links
+2025-11-16 10:54:21,261 - INFO - SmartDCController - 🌐 Topology updated (switch-enter): 3 switches, 0 links
+2025-11-16 10:54:47,489 - INFO - FailureRecoveryDynamic - 📡 Learned host: 10.0.0.11 -> S2:5
+2025-11-16 10:54:47,489 - INFO - HostMigration - 🏠 Learned host (ARP): 10.0.0.11 @ 2:5
+2025-11-16 10:54:47,496 - INFO - FailureRecoveryDynamic - 📡 Learned host: 10.0.0.11 -> S1:1
+2025-11-16 10:54:47,496 - INFO - HostMigration - 🏠 Learned host (ARP): 10.0.0.11 @ 1:1
+2025-11-16 10:54:47,501 - INFO - FailureRecoveryDynamic - 📡 Learned host: 10.0.0.11 -> S3:1
+2025-11-16 10:54:47,502 - INFO - HostMigration - 🏠 Learned host (ARP): 10.0.0.11 @ 3:1
+2025-11-16 10:54:47,507 - INFO - MultiLayerLB - ARP learning: 10.0.0.2 -> dpid 2, port 4, mac 00:00:00:00:00:08
+2025-11-16 10:54:47,508 - INFO - FailureRecoveryDynamic - 📡 Learned host: 10.0.0.2 -> S2:4
+2025-11-16 10:54:47,508 - INFO - HostMigration - 🏠 Learned host (ARP): 10.0.0.2 @ 2:4
+2025-11-16 10:55:04,425 - INFO - FailureRecoveryDynamic - 📡 Learned host: 10.0.0.11 -> S2:5
+2025-11-16 10:55:04,425 - INFO - HostMigration - 🏠 Learned host (ARP): 10.0.0.11 @ 2:5
+2025-11-16 10:55:04,430 - INFO - FailureRecoveryDynamic - 📡 Learned host: 10.0.0.11 -> S1:1
+2025-11-16 10:55:04,431 - INFO - HostMigration - 🏠 Learned host (ARP): 10.0.0.11 @ 1:1
+2025-11-16 10:55:04,434 - INFO - FailureRecoveryDynamic - 📡 Learned host: 10.0.0.11 -> S3:1
+2025-11-16 10:55:04,435 - INFO - HostMigration - 🏠 Learned host (ARP): 10.0.0.11 @ 3:1
+2025-11-16 10:55:04,439 - INFO - MultiLayerLB - ARP learning: 10.0.0.1 -> dpid 2, port 3, mac 00:00:00:00:00:07
+2025-11-16 10:55:04,439 - INFO - FailureRecoveryDynamic - 📡 Learned host: 10.0.0.1 -> S2:3
+2025-11-16 10:55:04,439 - INFO - HostMigration - 🏠 Learned host (ARP): 10.0.0.1 @ 2:3
+2025-11-16 10:55:20,429 - INFO - FailureRecoveryDynamic - 📡 Learned host: 10.0.0.12 -> S2:6
+2025-11-16 10:55:20,429 - INFO - HostMigration - 🏠 Learned host (ARP): 10.0.0.12 @ 2:6
+2025-11-16 10:55:20,436 - INFO - FailureRecoveryDynamic - 📡 Learned host: 10.0.0.12 -> S1:1
+2025-11-16 10:55:20,436 - INFO - HostMigration - 🏠 Learned host (ARP): 10.0.0.12 @ 1:1
+2025-11-16 10:55:20,442 - INFO - FailureRecoveryDynamic - 📡 Learned host: 10.0.0.12 -> S3:1
+2025-11-16 10:55:20,442 - INFO - HostMigration - 🏠 Learned host (ARP): 10.0.0.12 @ 3:1
+2025-11-16 10:55:20,446 - INFO - MultiLayerLB - ARP learning: 10.0.0.2 -> dpid 2, port 4, mac 00:00:00:00:00:08
+2025-11-16 10:55:20,447 - INFO - FailureRecoveryDynamic - 📡 Learned host: 10.0.0.2 -> S2:4
+2025-11-16 10:55:20,449 - INFO - HostMigration - 🏠 Learned host (ARP): 10.0.0.2 @ 2:4
+2025-11-16 11:24:02,781 - INFO - FailureRecoveryDynamic - 📡 Learned host: 10.0.0.12 -> S2:6
+2025-11-16 11:24:02,781 - INFO - HostMigration - 🏠 Learned host (ARP): 10.0.0.12 @ 2:6
+2025-11-16 11:24:02,785 - INFO - FailureRecoveryDynamic - 📡 Learned host: 10.0.0.12 -> S1:1
+2025-11-16 11:24:02,785 - INFO - HostMigration - 🏠 Learned host (ARP): 10.0.0.12 @ 1:1
+2025-11-16 11:24:02,792 - INFO - FailureRecoveryDynamic - 📡 Learned host: 10.0.0.12 -> S3:1
+2025-11-16 11:24:02,794 - INFO - HostMigration - 🏠 Learned host (ARP): 10.0.0.12 @ 3:1
+2025-11-16 11:24:02,795 - INFO - MultiLayerLB - ARP learning: 10.0.0.1 -> dpid 2, port 3, mac 00:00:00:00:00:07
+2025-11-16 11:24:02,796 - INFO - FailureRecoveryDynamic - 📡 Learned host: 10.0.0.1 -> S2:3
+2025-11-16 11:24:02,796 - INFO - HostMigration - 🏠 Learned host (ARP): 10.0.0.1 @ 2:3

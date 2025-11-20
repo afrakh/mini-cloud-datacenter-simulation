@@ -1,0 +1,70 @@
+2025-11-19 23:33:15,574 - INFO - LoggerApp - ✅ LoggerApp initialized successfully.
+2025-11-19 23:33:15,575 - INFO - LoggerApp - 📁 Logs folder: /home/vboxuser/mini-cloud/ryu_logs
+2025-11-19 23:33:15,575 - INFO - LoggerApp - 📝 Log file created: /home/vboxuser/mini-cloud/ryu_logs/controller_log_2025-11-19_23-33-15.log
+2025-11-19 23:33:15,575 - INFO - ryu.base.app_manager - instantiating app ryu-failure.py of FailureRecoveryDynamic
+2025-11-19 23:33:15,575 - INFO - FailureRecoveryDynamic - ✅ Failure Recovery module loaded (Dijkstra rerouting)
+2025-11-19 23:33:15,575 - INFO - ryu.base.app_manager - instantiating app ryu_host_mig.py of HostMigration
+2025-11-19 23:33:15,575 - INFO - HostMigration - ✅ Host Migration module loaded (REST 8080 enabled)
+2025-11-19 23:33:15,575 - INFO - ryu.base.app_manager - instantiating app ryu-autoscale.py of AutoScale
+2025-11-19 23:33:15,576 - INFO - AutoScale - ✅ Realistic Auto-Scaling module loaded (REST 8080 enabled)
+2025-11-19 23:33:15,576 - INFO - ryu.base.app_manager - instantiating app controller.py of SmartDCController
+2025-11-19 23:33:15,576 - INFO - SmartDCController - 🚀 Smart DataCenter Controller started (OpenFlow 1.3)
+2025-11-19 23:33:15,577 - INFO - ryu.base.app_manager - instantiating app dashboard/ryu-push.py of RyuPushLiveHosts
+2025-11-19 23:33:15,577 - INFO - RyuPushLiveHosts - RyuPushLiveHosts initialized
+2025-11-19 23:33:15,581 - INFO - ryu.base.app_manager - instantiating app ryu.controller.ofp_handler of OFPHandler
+2025-11-19 23:33:15,582 - INFO - ryu.base.app_manager - instantiating app ryu.topology.switches of Switches
+2025-11-19 23:33:15,584 - INFO - RyuPushLiveHosts - Pushed to Flask: {'hosts': [{'id': '10.0.0.12', 'ip': '10.0.0.12', 'status': 'DOWN'}, {'id': '10.0.0.13', 'ip': '10.0.0.13', 'status': 'DOWN'}, {'id': '10.0.0.14', 'ip': '10.0.0.14', 'status': 'DOWN'}, {'id': '10.0.0.11', 'ip': '10.0.0.11', 'status': 'DOWN'}], 'servers': [{'id': '10.0.0.1', 'ip': '10.0.0.1', 'status': 'UP'}, {'id': '10.0.0.2', 'ip': '10.0.0.2', 'status': 'UP'}, {'id': '10.0.0.3', 'ip': '10.0.0.3', 'status': 'UP'}, {'id': '10.0.0.4', 'ip': '10.0.0.4', 'status': 'UP'}]}
+2025-11-19 23:33:15,584 - INFO - ryu.lib.hub - (51354) wsgi starting up on http://0.0.0.0:8080
+2025-11-19 23:33:15,979 - INFO - SmartDCController - ✅ Datapath registered: None
+2025-11-19 23:33:16,480 - INFO - MultiLayerLB - 🔌 Switch 2 features handled
+2025-11-19 23:33:16,481 - INFO - MultiLayerLB - 🔌 Switch 3 features handled
+2025-11-19 23:33:16,481 - INFO - MultiLayerLB - 🔌 Switch 1 features handled
+2025-11-19 23:33:16,481 - INFO - FailureRecoveryDynamic - 🟢 Switch 2 connected
+2025-11-19 23:33:16,481 - INFO - FailureRecoveryDynamic - 🟢 Switch 3 connected
+2025-11-19 23:33:16,481 - INFO - FailureRecoveryDynamic - 🟢 Switch 1 connected
+2025-11-19 23:33:16,481 - INFO - HostMigration - 🟢 Switch connected: 2
+2025-11-19 23:33:16,482 - INFO - HostMigration - 🟢 Switch connected: 3
+2025-11-19 23:33:16,482 - INFO - HostMigration - 🟢 Switch connected: 1
+2025-11-19 23:33:16,482 - INFO - AutoScale - 🟢 Switch connected: 2
+2025-11-19 23:33:16,482 - INFO - AutoScale - 🟢 Switch connected: 3
+2025-11-19 23:33:16,482 - INFO - AutoScale - 🟢 Switch connected: 1
+2025-11-19 23:33:16,483 - INFO - SmartDCController - 🟢 Switch 2 connected
+2025-11-19 23:33:16,483 - INFO - SmartDCController - 🟢 Switch 3 connected
+2025-11-19 23:33:16,483 - INFO - SmartDCController - 🟢 Switch 1 connected
+2025-11-19 23:33:16,484 - INFO - SmartDCController - ✅ Datapath registered: 2
+2025-11-19 23:33:16,484 - INFO - SmartDCController - ✅ Datapath registered: 1
+2025-11-19 23:33:16,484 - INFO - SmartDCController - ✅ Datapath registered: 3
+2025-11-19 23:33:16,486 - INFO - FailureRecoveryDynamic - 🌐 Topology updated (switch-enter): 3 switches, 0 links
+2025-11-19 23:33:16,487 - INFO - FailureRecoveryDynamic - 🌐 Topology updated (switch-enter): 3 switches, 0 links
+2025-11-19 23:33:16,487 - INFO - SmartDCController - 🌐 Topology updated (switch-enter): 3 switches, 0 links
+2025-11-19 23:33:16,487 - INFO - FailureRecoveryDynamic - 🌐 Topology updated (switch-enter): 3 switches, 0 links
+2025-11-19 23:33:16,487 - INFO - SmartDCController - 🌐 Topology updated (switch-enter): 3 switches, 0 links
+2025-11-19 23:33:16,488 - INFO - SmartDCController - 🌐 Topology updated (switch-enter): 3 switches, 0 links
+2025-11-19 23:33:16,492 - INFO - FailureRecoveryDynamic - 🌐 Topology updated (link-add): 3 switches, 1 links
+2025-11-19 23:33:16,492 - INFO - FailureRecoveryDynamic - 🌐 Topology updated (link-add): 3 switches, 2 links
+2025-11-19 23:33:16,492 - INFO - FailureRecoveryDynamic - 🌐 Topology updated (link-add): 3 switches, 2 links
+2025-11-19 23:33:16,492 - INFO - FailureRecoveryDynamic - 🌐 Topology updated (link-add): 3 switches, 2 links
+2025-11-19 23:33:16,493 - INFO - SmartDCController - 🌐 Topology updated (link-add): 3 switches, 4 links
+2025-11-19 23:33:16,494 - INFO - FailureRecoveryDynamic - 🌐 Topology updated (link-add): 3 switches, 3 links
+2025-11-19 23:33:16,494 - INFO - FailureRecoveryDynamic - 🌐 Topology updated (link-add): 3 switches, 3 links
+2025-11-19 23:33:16,495 - INFO - SmartDCController - 🌐 Topology updated (link-add): 3 switches, 6 links
+2025-11-19 23:33:16,495 - INFO - SmartDCController - 🌐 Topology updated (link-add): 3 switches, 6 links
+2025-11-19 23:33:16,495 - INFO - SmartDCController - 🌐 Topology updated (link-add): 3 switches, 6 links
+2025-11-19 23:33:16,496 - INFO - SmartDCController - 🌐 Topology updated (link-add): 3 switches, 6 links
+2025-11-19 23:33:16,496 - INFO - SmartDCController - 🌐 Topology updated (link-add): 3 switches, 6 links
+2025-11-19 23:33:17,582 - INFO - SmartDCController - 📊 Pushed stats: 0.0 req/s, 0.0 kbps
+2025-11-19 23:33:19,589 - INFO - SmartDCController - 📊 Pushed stats: 0.0 req/s, 0.0 kbps
+2025-11-19 23:33:20,577 - INFO - AutoScale - 📊 Average load: 0.0% | Servers: ['10.0.0.2', '10.0.0.3']
+2025-11-19 23:33:20,577 - INFO - AutoScale - ⬇️ Scaling DOWN: Removed server 10.0.0.3
+2025-11-19 23:33:20,589 - INFO - RyuPushLiveHosts - Pushed to Flask: {'hosts': [{'id': '10.0.0.12', 'ip': '10.0.0.12', 'status': 'DOWN'}, {'id': '10.0.0.13', 'ip': '10.0.0.13', 'status': 'DOWN'}, {'id': '10.0.0.14', 'ip': '10.0.0.14', 'status': 'DOWN'}, {'id': '10.0.0.11', 'ip': '10.0.0.11', 'status': 'DOWN'}], 'servers': [{'id': '10.0.0.1', 'ip': '10.0.0.1', 'status': 'UP'}, {'id': '10.0.0.2', 'ip': '10.0.0.2', 'status': 'UP'}, {'id': '10.0.0.3', 'ip': '10.0.0.3', 'status': 'UP'}, {'id': '10.0.0.4', 'ip': '10.0.0.4', 'status': 'UP'}]}
+2025-11-19 23:33:21,598 - INFO - SmartDCController - 📊 Pushed stats: 0.0 req/s, 0.0 kbps
+2025-11-19 23:33:23,617 - INFO - SmartDCController - 📊 Pushed stats: 465.24 req/s, 260.53 kbps
+2025-11-19 23:33:25,589 - INFO - AutoScale - 📊 Average load: 0.0% | Servers: ['10.0.0.2']
+2025-11-19 23:33:25,650 - INFO - RyuPushLiveHosts - Pushed to Flask: {'hosts': [{'id': '10.0.0.12', 'ip': '10.0.0.12', 'status': 'DOWN'}, {'id': '10.0.0.13', 'ip': '10.0.0.13', 'status': 'DOWN'}, {'id': '10.0.0.14', 'ip': '10.0.0.14', 'status': 'DOWN'}, {'id': '10.0.0.11', 'ip': '10.0.0.11', 'status': 'DOWN'}], 'servers': [{'id': '10.0.0.1', 'ip': '10.0.0.1', 'status': 'UP'}, {'id': '10.0.0.2', 'ip': '10.0.0.2', 'status': 'UP'}, {'id': '10.0.0.3', 'ip': '10.0.0.3', 'status': 'UP'}, {'id': '10.0.0.4', 'ip': '10.0.0.4', 'status': 'UP'}]}
+2025-11-19 23:33:25,692 - INFO - SmartDCController - 📊 Pushed stats: 526.82 req/s, 295.31 kbps
+2025-11-19 23:33:27,806 - INFO - SmartDCController - 📊 Pushed stats: 597.42 req/s, 365.41 kbps
+2025-11-19 23:33:29,922 - INFO - SmartDCController - 📊 Pushed stats: 610.53 req/s, 380.62 kbps
+2025-11-19 23:33:30,602 - INFO - AutoScale - 📊 Average load: 0.0% | Servers: ['10.0.0.2']
+2025-11-19 23:33:30,704 - INFO - RyuPushLiveHosts - Pushed to Flask: {'hosts': [{'id': '10.0.0.12', 'ip': '10.0.0.12', 'status': 'DOWN'}, {'id': '10.0.0.13', 'ip': '10.0.0.13', 'status': 'DOWN'}, {'id': '10.0.0.14', 'ip': '10.0.0.14', 'status': 'DOWN'}, {'id': '10.0.0.11', 'ip': '10.0.0.11', 'status': 'DOWN'}], 'servers': [{'id': '10.0.0.1', 'ip': '10.0.0.1', 'status': 'UP'}, {'id': '10.0.0.2', 'ip': '10.0.0.2', 'status': 'UP'}, {'id': '10.0.0.3', 'ip': '10.0.0.3', 'status': 'UP'}, {'id': '10.0.0.4', 'ip': '10.0.0.4', 'status': 'UP'}]}
+2025-11-19 23:33:32,047 - INFO - SmartDCController - 📊 Pushed stats: 586.36 req/s, 365.36 kbps
+2025-11-19 23:33:34,187 - INFO - SmartDCController - 📊 Pushed stats: 580.29 req/s, 361.77 kbps

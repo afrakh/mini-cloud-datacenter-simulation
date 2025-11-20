@@ -1,0 +1,158 @@
+2025-11-15 18:54:41,734 - INFO - LoggerApp - ✅ LoggerApp initialized successfully.
+2025-11-15 18:54:41,734 - INFO - LoggerApp - 📁 Logs folder: /home/vboxuser/mini-cloud/ryu_logs
+2025-11-15 18:54:41,735 - INFO - LoggerApp - 📝 Log file created: /home/vboxuser/mini-cloud/ryu_logs/controller_log_2025-11-15_18-54-41.log
+2025-11-15 18:54:41,735 - INFO - ryu.base.app_manager - instantiating app ryu-failure.py of FailureRecovery
+2025-11-15 18:54:41,735 - INFO - ryu.app.failure_recovery - ✅ Failure Recovery module loaded (using Dijkstra rerouting)
+2025-11-15 18:54:41,735 - INFO - ryu.base.app_manager - instantiating app controller.py of SmartDCController
+2025-11-15 18:54:41,736 - INFO - SmartDCController - 🚀 Smart DataCenter Controller started (OpenFlow 1.3)
+2025-11-15 18:54:41,736 - INFO - ryu.base.app_manager - instantiating app ryu.controller.ofp_handler of OFPHandler
+2025-11-15 18:54:41,736 - INFO - ryu.base.app_manager - instantiating app ryu.topology.switches of Switches
+2025-11-15 18:54:49,321 - INFO - SmartDCController - datapath registered: None
+2025-11-15 18:54:49,329 - INFO - MultiLayerLB - 🔌 Switch 1 features handled
+2025-11-15 18:54:49,330 - INFO - ryu.app.failure_recovery - 🔌 Switch connected: 1
+2025-11-15 18:54:49,331 - INFO - SmartDCController - 🟢 Switch 1 connected
+2025-11-15 18:54:49,332 - INFO - MultiLayerLB - 🔌 Switch 2 features handled
+2025-11-15 18:54:49,334 - INFO - MultiLayerLB - 🔌 Switch 3 features handled
+2025-11-15 18:54:49,334 - INFO - ryu.app.failure_recovery - 🔌 Switch connected: 2
+2025-11-15 18:54:49,334 - INFO - ryu.app.failure_recovery - 🔌 Switch connected: 3
+2025-11-15 18:54:49,335 - INFO - SmartDCController - 🟢 Switch 2 connected
+2025-11-15 18:54:49,336 - INFO - SmartDCController - 🟢 Switch 3 connected
+2025-11-15 18:54:49,338 - INFO - SmartDCController - datapath registered: 1
+2025-11-15 18:54:49,342 - INFO - ryu.app.failure_recovery - Current switches: [1, 3, 2]
+2025-11-15 18:54:49,344 - INFO - ryu.app.failure_recovery - Current switches: [1, 3, 2]
+2025-11-15 18:54:49,344 - INFO - SmartDCController - 🌐 Topology updated (switch-enter): 3 switches, 0 links
+2025-11-15 18:54:49,344 - INFO - SmartDCController - datapath registered: 3
+2025-11-15 18:54:49,344 - INFO - SmartDCController - datapath registered: 2
+2025-11-15 18:54:49,348 - INFO - ryu.app.failure_recovery - Current switches: [1, 3, 2]
+2025-11-15 18:54:49,350 - INFO - ryu.app.failure_recovery - 🧩 Link added: 1 <-> 3
+2025-11-15 18:54:49,350 - INFO - ryu.app.failure_recovery - 🧩 Link added: 2 <-> 3
+2025-11-15 18:54:49,350 - INFO - ryu.app.failure_recovery - 🧩 Link added: 1 <-> 2
+2025-11-15 18:54:49,350 - INFO - ryu.app.failure_recovery - 🧩 Link added: 3 <-> 2
+2025-11-15 18:54:49,350 - INFO - ryu.app.failure_recovery - 🧩 Link added: 2 <-> 1
+2025-11-15 18:54:49,350 - INFO - ryu.app.failure_recovery - 🧩 Link added: 3 <-> 1
+2025-11-15 18:54:49,351 - INFO - SmartDCController - 🌐 Topology updated (switch-enter): 3 switches, 6 links
+2025-11-15 18:54:49,354 - INFO - SmartDCController - 🌐 Topology updated (switch-enter): 3 switches, 6 links
+2025-11-15 18:54:49,355 - INFO - SmartDCController - 🌐 Topology updated (link-add): 3 switches, 6 links
+2025-11-15 18:54:49,357 - INFO - SmartDCController - 🌐 Topology updated (link-add): 3 switches, 6 links
+2025-11-15 18:54:49,357 - INFO - SmartDCController - 🌐 Topology updated (link-add): 3 switches, 6 links
+2025-11-15 18:54:49,358 - INFO - SmartDCController - 🌐 Topology updated (link-add): 3 switches, 6 links
+2025-11-15 18:54:49,359 - INFO - SmartDCController - 🌐 Topology updated (link-add): 3 switches, 6 links
+2025-11-15 18:54:49,359 - INFO - SmartDCController - 🌐 Topology updated (link-add): 3 switches, 6 links
+2025-11-15 18:54:59,750 - INFO - MultiLayerLB - 🔌 Switch None features handled
+2025-11-15 18:54:59,762 - INFO - ryu.app.failure_recovery - 🔌 Switch connected: None
+2025-11-15 18:54:59,768 - INFO - SmartDCController - 🟢 Switch 1 connected
+2025-11-15 18:54:59,796 - INFO - MultiLayerLB - 🔌 Switch None features handled
+2025-11-15 18:54:59,797 - INFO - ryu.app.failure_recovery - 🔌 Switch connected: None
+2025-11-15 18:54:59,804 - INFO - MultiLayerLB - 🔌 Switch 3 features handled
+2025-11-15 18:54:59,812 - INFO - ryu.app.failure_recovery - 🔌 Switch connected: 3
+2025-11-15 18:54:59,813 - INFO - SmartDCController - 🟢 Switch 2 connected
+2025-11-15 18:54:59,814 - INFO - SmartDCController - 🟢 Switch 3 connected
+2025-11-15 18:54:59,824 - WARNING - ryu.topology.switches - Multiple connections from 0000000000000001
+2025-11-15 18:54:59,857 - WARNING - ryu.topology.switches - Multiple connections from 0000000000000002
+2025-11-15 18:54:59,871 - WARNING - ryu.app.failure_recovery - 💥 Switch failure detected: 3
+2025-11-15 18:54:59,871 - WARNING - ryu.app.failure_recovery - ♻️ Rerouting flows affected by link/switch (3, None) ...
+2025-11-15 18:54:59,871 - INFO - ryu.app.failure_recovery - ✅ Alternate path 1 → 2: [1, 2]
+2025-11-15 18:54:59,872 - INFO - ryu.app.failure_recovery - Current switches: [1, 2, 3]
+2025-11-15 18:54:59,872 - INFO - SmartDCController - 🌐 Topology updated (link-delete): 3 switches, 2 links
+2025-11-15 18:54:59,873 - INFO - SmartDCController - 🌐 Topology updated (link-delete): 3 switches, 2 links
+2025-11-15 18:54:59,873 - INFO - SmartDCController - 🌐 Topology updated (link-delete): 3 switches, 2 links
+2025-11-15 18:54:59,873 - INFO - SmartDCController - 🌐 Topology updated (link-delete): 3 switches, 2 links
+2025-11-15 18:54:59,873 - INFO - SmartDCController - 🌐 Topology updated (switch-enter): 3 switches, 2 links
+2025-11-15 18:55:11,773 - WARNING - ryu.app.failure_recovery - ⚠️ Link down: 1 <-> 2
+2025-11-15 18:55:11,774 - WARNING - ryu.app.failure_recovery - ♻️ Rerouting flows affected by link/switch (1, 2) ...
+2025-11-15 18:55:11,774 - ERROR - ryu.app.failure_recovery - ❌ No alternate path between 1 and 2
+2025-11-15 18:55:11,774 - ERROR - ryu.app.failure_recovery - ❌ No alternate path between 1 and 3
+2025-11-15 18:55:11,774 - ERROR - ryu.app.failure_recovery - ❌ No alternate path between 2 and 3
+2025-11-15 18:55:11,774 - INFO - SmartDCController - 🌐 Topology updated (link-delete): 3 switches, 0 links
+2025-11-15 18:55:11,774 - INFO - SmartDCController - 🌐 Topology updated (link-delete): 3 switches, 0 links
+2025-11-15 18:55:29,580 - INFO - ryu.app.failure_recovery - 🧩 Link added: 2 <-> 1
+2025-11-15 18:55:29,580 - INFO - SmartDCController - 🌐 Topology updated (link-add): 3 switches, 1 links
+2025-11-15 18:55:29,632 - INFO - ryu.app.failure_recovery - 🧩 Link added: 1 <-> 2
+2025-11-15 18:55:29,632 - INFO - SmartDCController - 🌐 Topology updated (link-add): 3 switches, 2 links
+2025-11-15 18:55:29,782 - INFO - ryu.app.failure_recovery - 🧩 Link added: 3 <-> 2
+2025-11-15 18:55:29,782 - INFO - SmartDCController - 🌐 Topology updated (link-add): 3 switches, 3 links
+2025-11-15 18:55:29,834 - INFO - ryu.app.failure_recovery - 🧩 Link added: 2 <-> 3
+2025-11-15 18:55:29,835 - INFO - SmartDCController - 🌐 Topology updated (link-add): 3 switches, 4 links
+2025-11-15 18:55:30,550 - INFO - MultiLayerLB - ARP learning: 10.0.0.4 -> dpid 3, port 4, mac 00:00:00:00:00:06
+2025-11-15 18:55:30,555 - INFO - MultiLayerLB - ARP learning: 10.0.0.4 -> dpid 2, port 2, mac 00:00:00:00:00:06
+2025-11-15 18:55:30,624 - INFO - MultiLayerLB - ARP learning: 10.0.0.1 -> dpid 2, port 3, mac 00:00:00:00:00:07
+2025-11-15 18:55:30,666 - INFO - MultiLayerLB - ARP learning: 10.0.0.2 -> dpid 2, port 4, mac 00:00:00:00:00:08
+2025-11-15 18:55:30,720 - INFO - MultiLayerLB - ARP learning: 10.0.0.3 -> dpid 3, port 3, mac 00:00:00:00:00:01
+2025-11-15 18:55:30,727 - INFO - MultiLayerLB - ARP learning: 10.0.0.3 -> dpid 2, port 2, mac 00:00:00:00:00:01
+2025-11-15 18:55:30,998 - INFO - MultiLayerLB - ARP learning: 10.0.0.4 -> dpid 3, port 4, mac 00:00:00:00:00:06
+2025-11-15 18:55:31,004 - INFO - MultiLayerLB - ARP learning: 10.0.0.4 -> dpid 2, port 2, mac 00:00:00:00:00:06
+2025-11-15 18:55:31,076 - INFO - MultiLayerLB - ARP learning: 10.0.0.1 -> dpid 2, port 3, mac 00:00:00:00:00:07
+2025-11-15 18:55:31,116 - INFO - MultiLayerLB - ARP learning: 10.0.0.2 -> dpid 2, port 4, mac 00:00:00:00:00:08
+2025-11-15 18:55:31,166 - INFO - MultiLayerLB - ARP learning: 10.0.0.3 -> dpid 3, port 3, mac 00:00:00:00:00:01
+2025-11-15 18:55:31,304 - INFO - MultiLayerLB - ARP learning: 10.0.0.4 -> dpid 3, port 4, mac 00:00:00:00:00:06
+2025-11-15 18:55:31,376 - INFO - MultiLayerLB - ARP learning: 10.0.0.1 -> dpid 2, port 3, mac 00:00:00:00:00:07
+2025-11-15 18:55:31,384 - INFO - MultiLayerLB - ARP learning: 10.0.0.1 -> dpid 3, port 2, mac 00:00:00:00:00:07
+2025-11-15 18:55:31,450 - INFO - MultiLayerLB - ARP learning: 10.0.0.2 -> dpid 2, port 4, mac 00:00:00:00:00:08
+2025-11-15 18:55:31,458 - INFO - MultiLayerLB - ARP learning: 10.0.0.2 -> dpid 3, port 2, mac 00:00:00:00:00:08
+2025-11-15 18:55:31,529 - INFO - MultiLayerLB - ARP learning: 10.0.0.3 -> dpid 3, port 3, mac 00:00:00:00:00:01
+2025-11-15 18:55:31,646 - INFO - MultiLayerLB - ARP learning: 10.0.0.4 -> dpid 3, port 4, mac 00:00:00:00:00:06
+2025-11-15 18:55:31,712 - INFO - MultiLayerLB - ARP learning: 10.0.0.1 -> dpid 2, port 3, mac 00:00:00:00:00:07
+2025-11-15 18:55:31,720 - INFO - MultiLayerLB - ARP learning: 10.0.0.1 -> dpid 3, port 2, mac 00:00:00:00:00:07
+2025-11-15 18:55:31,776 - INFO - MultiLayerLB - ARP learning: 10.0.0.2 -> dpid 2, port 4, mac 00:00:00:00:00:08
+2025-11-15 18:55:31,785 - INFO - MultiLayerLB - ARP learning: 10.0.0.2 -> dpid 3, port 2, mac 00:00:00:00:00:08
+2025-11-15 18:55:31,837 - INFO - MultiLayerLB - ARP learning: 10.0.0.4 -> dpid 3, port 4, mac 00:00:00:00:00:06
+2025-11-15 18:55:31,845 - INFO - MultiLayerLB - ARP learning: 10.0.0.4 -> dpid 2, port 2, mac 00:00:00:00:00:06
+2025-11-15 18:55:31,851 - INFO - MultiLayerLB - ARP learning: 10.0.0.4 -> dpid 1, port 1, mac 00:00:00:00:00:06
+2025-11-15 18:55:31,862 - INFO - MultiLayerLB - ARP learning: 10.0.0.3 -> dpid 3, port 3, mac 00:00:00:00:00:01
+2025-11-15 18:55:32,133 - INFO - MultiLayerLB - ARP learning: 10.0.0.4 -> dpid 3, port 4, mac 00:00:00:00:00:06
+2025-11-15 18:55:32,140 - INFO - MultiLayerLB - ARP learning: 10.0.0.4 -> dpid 2, port 2, mac 00:00:00:00:00:06
+2025-11-15 18:55:32,147 - INFO - MultiLayerLB - ARP learning: 10.0.0.4 -> dpid 1, port 1, mac 00:00:00:00:00:06
+2025-11-15 18:55:32,154 - INFO - MultiLayerLB - ARP learning: 10.0.0.1 -> dpid 2, port 3, mac 00:00:00:00:00:07
+2025-11-15 18:55:32,162 - INFO - MultiLayerLB - ARP learning: 10.0.0.1 -> dpid 3, port 2, mac 00:00:00:00:00:07
+2025-11-15 18:55:32,254 - INFO - MultiLayerLB - ARP learning: 10.0.0.4 -> dpid 3, port 4, mac 00:00:00:00:00:06
+2025-11-15 18:55:32,260 - INFO - MultiLayerLB - ARP learning: 10.0.0.4 -> dpid 2, port 2, mac 00:00:00:00:00:06
+2025-11-15 18:55:32,263 - INFO - MultiLayerLB - ARP learning: 10.0.0.4 -> dpid 1, port 1, mac 00:00:00:00:00:06
+2025-11-15 18:55:32,272 - INFO - MultiLayerLB - ARP learning: 10.0.0.2 -> dpid 2, port 4, mac 00:00:00:00:00:08
+2025-11-15 18:55:32,277 - INFO - MultiLayerLB - ARP learning: 10.0.0.2 -> dpid 3, port 2, mac 00:00:00:00:00:08
+2025-11-15 18:55:32,362 - INFO - MultiLayerLB - ARP learning: 10.0.0.1 -> dpid 2, port 3, mac 00:00:00:00:00:07
+2025-11-15 18:55:32,366 - INFO - MultiLayerLB - ARP learning: 10.0.0.1 -> dpid 1, port 1, mac 00:00:00:00:00:07
+2025-11-15 18:55:32,367 - INFO - MultiLayerLB - ARP learning: 10.0.0.1 -> dpid 3, port 2, mac 00:00:00:00:00:07
+2025-11-15 18:55:32,389 - INFO - MultiLayerLB - ARP learning: 10.0.0.3 -> dpid 3, port 3, mac 00:00:00:00:00:01
+2025-11-15 18:55:32,397 - INFO - MultiLayerLB - ARP learning: 10.0.0.3 -> dpid 2, port 2, mac 00:00:00:00:00:01
+2025-11-15 18:55:32,616 - INFO - MultiLayerLB - ARP learning: 10.0.0.1 -> dpid 2, port 3, mac 00:00:00:00:00:07
+2025-11-15 18:55:32,621 - INFO - MultiLayerLB - ARP learning: 10.0.0.1 -> dpid 1, port 1, mac 00:00:00:00:00:07
+2025-11-15 18:55:32,622 - INFO - MultiLayerLB - ARP learning: 10.0.0.1 -> dpid 3, port 2, mac 00:00:00:00:00:07
+2025-11-15 18:55:32,632 - INFO - MultiLayerLB - ARP learning: 10.0.0.2 -> dpid 2, port 4, mac 00:00:00:00:00:08
+2025-11-15 18:55:32,676 - INFO - MultiLayerLB - ARP learning: 10.0.0.2 -> dpid 2, port 4, mac 00:00:00:00:00:08
+2025-11-15 18:55:32,681 - INFO - MultiLayerLB - ARP learning: 10.0.0.2 -> dpid 1, port 1, mac 00:00:00:00:00:08
+2025-11-15 18:55:32,683 - INFO - MultiLayerLB - ARP learning: 10.0.0.2 -> dpid 3, port 2, mac 00:00:00:00:00:08
+2025-11-15 18:55:32,707 - INFO - MultiLayerLB - ARP learning: 10.0.0.3 -> dpid 3, port 3, mac 00:00:00:00:00:01
+2025-11-15 18:55:32,712 - INFO - MultiLayerLB - ARP learning: 10.0.0.3 -> dpid 2, port 2, mac 00:00:00:00:00:01
+2025-11-15 18:55:48,455 - WARNING - ryu.app.failure_recovery - ⚠️ Link down: 3 <-> 2
+2025-11-15 18:55:48,455 - WARNING - ryu.app.failure_recovery - ♻️ Rerouting flows affected by link/switch (3, 2) ...
+2025-11-15 18:55:48,456 - INFO - ryu.app.failure_recovery - ✅ Alternate path 1 → 2: [1, 2]
+2025-11-15 18:55:48,456 - ERROR - ryu.app.failure_recovery - ❌ No alternate path between 1 and 3
+2025-11-15 18:55:48,456 - ERROR - ryu.app.failure_recovery - ❌ No alternate path between 2 and 3
+2025-11-15 18:55:48,458 - INFO - SmartDCController - 🌐 Topology updated (link-delete): 3 switches, 2 links
+2025-11-15 18:55:48,459 - INFO - SmartDCController - 🌐 Topology updated (link-delete): 3 switches, 2 links
+2025-11-15 18:56:37,729 - INFO - ryu.app.failure_recovery - 🧩 Link added: 3 <-> 1
+2025-11-15 18:56:37,730 - INFO - SmartDCController - 🌐 Topology updated (link-add): 3 switches, 3 links
+2025-11-15 18:56:37,784 - INFO - ryu.app.failure_recovery - 🧩 Link added: 1 <-> 3
+2025-11-15 18:56:37,784 - INFO - SmartDCController - 🌐 Topology updated (link-add): 3 switches, 4 links
+2025-11-15 18:58:06,854 - WARNING - ryu.app.failure_recovery - ⚠️ Link down: 3 <-> 1
+2025-11-15 18:58:06,855 - WARNING - ryu.app.failure_recovery - ♻️ Rerouting flows affected by link/switch (3, 1) ...
+2025-11-15 18:58:06,855 - INFO - ryu.app.failure_recovery - ✅ Alternate path 1 → 2: [1, 2]
+2025-11-15 18:58:06,855 - ERROR - ryu.app.failure_recovery - ❌ No alternate path between 1 and 3
+2025-11-15 18:58:06,855 - ERROR - ryu.app.failure_recovery - ❌ No alternate path between 2 and 3
+2025-11-15 18:58:06,855 - INFO - SmartDCController - 🌐 Topology updated (link-delete): 3 switches, 2 links
+2025-11-15 18:58:06,856 - INFO - SmartDCController - 🌐 Topology updated (link-delete): 3 switches, 2 links
+2025-11-15 18:58:23,636 - WARNING - ryu.app.failure_recovery - ⚠️ Link down: 2 <-> 1
+2025-11-15 18:58:23,640 - WARNING - ryu.app.failure_recovery - ♻️ Rerouting flows affected by link/switch (2, 1) ...
+2025-11-15 18:58:23,641 - ERROR - ryu.app.failure_recovery - ❌ No alternate path between 1 and 2
+2025-11-15 18:58:23,641 - ERROR - ryu.app.failure_recovery - ❌ No alternate path between 1 and 3
+2025-11-15 18:58:23,642 - ERROR - ryu.app.failure_recovery - ❌ No alternate path between 2 and 3
+2025-11-15 18:58:23,642 - INFO - SmartDCController - 🌐 Topology updated (link-delete): 3 switches, 0 links
+2025-11-15 18:58:23,642 - INFO - SmartDCController - 🌐 Topology updated (link-delete): 3 switches, 0 links
+2025-11-15 18:58:24,719 - INFO - ryu.app.failure_recovery - 🧩 Link added: 3 <-> 2
+2025-11-15 18:58:24,720 - INFO - SmartDCController - 🌐 Topology updated (link-add): 3 switches, 1 links
+2025-11-15 18:58:24,770 - INFO - ryu.app.failure_recovery - 🧩 Link added: 2 <-> 3
+2025-11-15 18:58:24,770 - INFO - SmartDCController - 🌐 Topology updated (link-add): 3 switches, 2 links
+2025-11-15 18:58:53,340 - INFO - ryu.app.failure_recovery - 🧩 Link added: 1 <-> 3
+2025-11-15 18:58:53,341 - INFO - SmartDCController - 🌐 Topology updated (link-add): 3 switches, 3 links
+2025-11-15 18:58:53,395 - INFO - ryu.app.failure_recovery - 🧩 Link added: 3 <-> 1
+2025-11-15 18:58:53,396 - INFO - SmartDCController - 🌐 Topology updated (link-add): 3 switches, 4 links

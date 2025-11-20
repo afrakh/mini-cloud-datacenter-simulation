@@ -1,0 +1,45 @@
+2025-11-16 06:37:00,109 - INFO - LoggerApp - ✅ LoggerApp initialized successfully.
+2025-11-16 06:37:00,109 - INFO - LoggerApp - 📁 Logs folder: /home/vboxuser/mini-cloud/ryu_logs
+2025-11-16 06:37:00,109 - INFO - LoggerApp - 📝 Log file created: /home/vboxuser/mini-cloud/ryu_logs/controller_log_2025-11-16_06-37-00.log
+2025-11-16 06:37:00,110 - INFO - ryu.base.app_manager - instantiating app ryu-failure.py of FailureRecoveryDynamic
+2025-11-16 06:37:00,110 - INFO - FailureRecoveryDynamic - ✅ Failure Recovery module loaded (dynamic rerouting with Dijkstra)
+2025-11-16 06:37:00,110 - INFO - ryu.base.app_manager - instantiating app ryu_host_mig.py of HostMigration
+2025-11-16 06:37:00,110 - INFO - HostMigration - ✅ Host Migration module loaded
+2025-11-16 06:37:00,111 - INFO - ryu.base.app_manager - instantiating app controller.py of SmartDCController
+2025-11-16 06:37:00,111 - INFO - SmartDCController - 🚀 Smart DataCenter Controller started (OpenFlow 1.3)
+2025-11-16 06:37:00,111 - INFO - ryu.base.app_manager - instantiating app ryu.controller.ofp_handler of OFPHandler
+2025-11-16 06:37:00,111 - INFO - ryu.base.app_manager - instantiating app ryu.topology.switches of Switches
+2025-11-16 06:37:00,469 - INFO - SmartDCController - datapath registered: None
+2025-11-16 06:37:00,973 - INFO - MultiLayerLB - 🔌 Switch 1 features handled
+2025-11-16 06:37:00,973 - INFO - SmartDCController - 🟢 Switch 1 connected
+2025-11-16 06:37:00,975 - INFO - MultiLayerLB - 🔌 Switch 3 features handled
+2025-11-16 06:37:00,976 - INFO - MultiLayerLB - 🔌 Switch 2 features handled
+2025-11-16 06:37:00,976 - INFO - SmartDCController - 🟢 Switch 3 connected
+2025-11-16 06:37:00,976 - INFO - SmartDCController - 🟢 Switch 2 connected
+2025-11-16 06:37:00,979 - INFO - SmartDCController - datapath registered: 1
+2025-11-16 06:37:00,982 - ERROR - ryu.base.app_manager - FailureRecoveryDynamic: Exception occurred during handler processing. Backtrace from offending handler [switch_enter] servicing event [EventSwitchEnter] follows.
+Traceback (most recent call last):
+  File "/home/vboxuser/mini-cloud/ryu39-env/lib/python3.9/site-packages/ryu/base/app_manager.py", line 290, in _event_loop
+    handler(ev)
+  File "/home/vboxuser/mini-cloud/ryu-failure.py", line 35, in switch_enter
+    self.update_links()
+AttributeError: 'FailureRecoveryDynamic' object has no attribute 'update_links'
+2025-11-16 06:37:00,985 - ERROR - ryu.base.app_manager - FailureRecoveryDynamic: Exception occurred during handler processing. Backtrace from offending handler [switch_enter] servicing event [EventSwitchEnter] follows.
+Traceback (most recent call last):
+  File "/home/vboxuser/mini-cloud/ryu39-env/lib/python3.9/site-packages/ryu/base/app_manager.py", line 290, in _event_loop
+    handler(ev)
+  File "/home/vboxuser/mini-cloud/ryu-failure.py", line 35, in switch_enter
+    self.update_links()
+AttributeError: 'FailureRecoveryDynamic' object has no attribute 'update_links'
+2025-11-16 06:37:00,985 - INFO - SmartDCController - 🌐 Topology updated (switch-enter): 3 switches, 0 links
+2025-11-16 06:37:00,985 - INFO - SmartDCController - datapath registered: 3
+2025-11-16 06:37:00,985 - INFO - SmartDCController - datapath registered: 2
+2025-11-16 06:37:00,985 - ERROR - ryu.base.app_manager - FailureRecoveryDynamic: Exception occurred during handler processing. Backtrace from offending handler [switch_enter] servicing event [EventSwitchEnter] follows.
+Traceback (most recent call last):
+  File "/home/vboxuser/mini-cloud/ryu39-env/lib/python3.9/site-packages/ryu/base/app_manager.py", line 290, in _event_loop
+    handler(ev)
+  File "/home/vboxuser/mini-cloud/ryu-failure.py", line 35, in switch_enter
+    self.update_links()
+AttributeError: 'FailureRecoveryDynamic' object has no attribute 'update_links'
+2025-11-16 06:37:00,986 - INFO - SmartDCController - 🌐 Topology updated (switch-enter): 3 switches, 0 links
+2025-11-16 06:37:00,986 - INFO - SmartDCController - 🌐 Topology updated (switch-enter): 3 switches, 0 links

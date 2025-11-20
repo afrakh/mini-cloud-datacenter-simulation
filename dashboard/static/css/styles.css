@@ -1,0 +1,31 @@
+body { background: #f7f9fc; }
+.card { box-shadow: 0 6px 18px rgba(0,0,0,0.06); }
+#topoSvg { background: white; border: 1px solid #e6e9ef; }
+.card {
+  text-align: center;
+  font-size: 14px;
+  border-radius: 5px;
+}
+/* Dashboard Chart Cards */
+.card canvas {
+    /* Fix the height so charts don't grow vertically */
+    height: 250px !important;
+    width: 100% !important;
+}
+
+/* Hosts & Servers Cards */
+#servers .card,
+#clients .card {
+    height: 100px;
+    overflow: hidden;
+    text-align: center;
+    font-size: 0.9rem;
+}
+
+/* Optional: Recent Events box */
+#eventsList {
+    max-height: 200px;
+    overflow-y: auto;
+}
+
+

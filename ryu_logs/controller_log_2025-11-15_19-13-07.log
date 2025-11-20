@@ -1,0 +1,240 @@
+2025-11-15 19:13:07,752 - INFO - LoggerApp - ✅ LoggerApp initialized successfully.
+2025-11-15 19:13:07,753 - INFO - LoggerApp - 📁 Logs folder: /home/vboxuser/mini-cloud/ryu_logs
+2025-11-15 19:13:07,753 - INFO - LoggerApp - 📝 Log file created: /home/vboxuser/mini-cloud/ryu_logs/controller_log_2025-11-15_19-13-07.log
+2025-11-15 19:13:07,753 - INFO - ryu.base.app_manager - instantiating app ryu-failure.py of FailureRecoveryDynamic
+2025-11-15 19:13:07,753 - INFO - FailureRecoveryDynamic - ✅ Failure Recovery module loaded (dynamic rerouting with Dijkstra)
+2025-11-15 19:13:07,753 - INFO - ryu.base.app_manager - instantiating app controller.py of SmartDCController
+2025-11-15 19:13:07,753 - INFO - SmartDCController - 🚀 Smart DataCenter Controller started (OpenFlow 1.3)
+2025-11-15 19:13:07,753 - INFO - ryu.base.app_manager - instantiating app ryu.controller.ofp_handler of OFPHandler
+2025-11-15 19:13:07,754 - INFO - ryu.base.app_manager - instantiating app ryu.topology.switches of Switches
+2025-11-15 19:13:13,547 - INFO - SmartDCController - datapath registered: None
+2025-11-15 19:13:13,556 - INFO - MultiLayerLB - 🔌 Switch 3 features handled
+2025-11-15 19:13:13,556 - INFO - MultiLayerLB - 🔌 Switch 1 features handled
+2025-11-15 19:13:13,556 - INFO - SmartDCController - 🟢 Switch 3 connected
+2025-11-15 19:13:13,556 - INFO - SmartDCController - 🟢 Switch 1 connected
+2025-11-15 19:13:13,559 - INFO - MultiLayerLB - 🔌 Switch 2 features handled
+2025-11-15 19:13:13,559 - INFO - SmartDCController - 🟢 Switch 2 connected
+2025-11-15 19:13:13,559 - INFO - SmartDCController - datapath registered: 1
+2025-11-15 19:13:13,559 - INFO - SmartDCController - datapath registered: 3
+2025-11-15 19:13:13,561 - ERROR - ryu.base.app_manager - FailureRecoveryDynamic: Exception occurred during handler processing. Backtrace from offending handler [switch_enter] servicing event [EventSwitchEnter] follows.
+Traceback (most recent call last):
+  File "/home/vboxuser/mini-cloud/ryu39-env/lib/python3.9/site-packages/ryu/base/app_manager.py", line 290, in _event_loop
+    handler(ev)
+  File "/home/vboxuser/mini-cloud/ryu-failure.py", line 35, in switch_enter
+    self.update_links()
+AttributeError: 'FailureRecoveryDynamic' object has no attribute 'update_links'
+2025-11-15 19:13:13,561 - ERROR - ryu.base.app_manager - FailureRecoveryDynamic: Exception occurred during handler processing. Backtrace from offending handler [switch_enter] servicing event [EventSwitchEnter] follows.
+Traceback (most recent call last):
+  File "/home/vboxuser/mini-cloud/ryu39-env/lib/python3.9/site-packages/ryu/base/app_manager.py", line 290, in _event_loop
+    handler(ev)
+  File "/home/vboxuser/mini-cloud/ryu-failure.py", line 35, in switch_enter
+    self.update_links()
+AttributeError: 'FailureRecoveryDynamic' object has no attribute 'update_links'
+2025-11-15 19:13:13,561 - INFO - SmartDCController - 🌐 Topology updated (switch-enter): 2 switches, 0 links
+2025-11-15 19:13:13,561 - INFO - SmartDCController - 🌐 Topology updated (switch-enter): 2 switches, 0 links
+2025-11-15 19:13:13,568 - INFO - SmartDCController - datapath registered: 2
+2025-11-15 19:13:13,571 - ERROR - ryu.base.app_manager - FailureRecoveryDynamic: Exception occurred during handler processing. Backtrace from offending handler [switch_enter] servicing event [EventSwitchEnter] follows.
+Traceback (most recent call last):
+  File "/home/vboxuser/mini-cloud/ryu39-env/lib/python3.9/site-packages/ryu/base/app_manager.py", line 290, in _event_loop
+    handler(ev)
+  File "/home/vboxuser/mini-cloud/ryu-failure.py", line 35, in switch_enter
+    self.update_links()
+AttributeError: 'FailureRecoveryDynamic' object has no attribute 'update_links'
+2025-11-15 19:13:13,574 - INFO - SmartDCController - 🌐 Topology updated (switch-enter): 3 switches, 6 links
+2025-11-15 19:13:13,575 - INFO - FailureRecoveryDynamic - 🧩 Link added: 1 <-> 2
+2025-11-15 19:13:13,575 - INFO - FailureRecoveryDynamic - 🧩 Link added: 3 <-> 2
+2025-11-15 19:13:13,575 - INFO - FailureRecoveryDynamic - 🧩 Link added: 3 <-> 1
+2025-11-15 19:13:13,575 - INFO - FailureRecoveryDynamic - 🧩 Link added: 2 <-> 1
+2025-11-15 19:13:13,575 - INFO - FailureRecoveryDynamic - 🧩 Link added: 1 <-> 3
+2025-11-15 19:13:13,575 - INFO - FailureRecoveryDynamic - 🧩 Link added: 2 <-> 3
+2025-11-15 19:13:13,582 - INFO - SmartDCController - 🌐 Topology updated (link-add): 3 switches, 6 links
+2025-11-15 19:13:13,583 - INFO - SmartDCController - 🌐 Topology updated (link-add): 3 switches, 6 links
+2025-11-15 19:13:13,584 - INFO - SmartDCController - 🌐 Topology updated (link-add): 3 switches, 6 links
+2025-11-15 19:13:13,584 - INFO - SmartDCController - 🌐 Topology updated (link-add): 3 switches, 6 links
+2025-11-15 19:13:13,585 - INFO - SmartDCController - 🌐 Topology updated (link-add): 3 switches, 6 links
+2025-11-15 19:13:13,585 - INFO - SmartDCController - 🌐 Topology updated (link-add): 3 switches, 6 links
+2025-11-15 19:13:13,640 - WARNING - FailureRecoveryDynamic - ⚠️ Host 00:00:00:00:00:06 has no IPv4 yet, skipping
+2025-11-15 19:13:13,652 - WARNING - FailureRecoveryDynamic - ⚠️ Host 00:00:00:00:00:05 has no IPv4 yet, skipping
+2025-11-15 19:13:13,691 - WARNING - FailureRecoveryDynamic - ⚠️ Host 00:00:00:00:00:07 has no IPv4 yet, skipping
+2025-11-15 19:13:13,840 - WARNING - FailureRecoveryDynamic - ⚠️ Host 00:00:00:00:00:01 has no IPv4 yet, skipping
+2025-11-15 19:13:14,025 - WARNING - FailureRecoveryDynamic - ⚠️ Host 00:00:00:00:00:08 has no IPv4 yet, skipping
+2025-11-15 19:13:14,089 - WARNING - FailureRecoveryDynamic - ⚠️ Host 00:00:00:00:00:04 has no IPv4 yet, skipping
+2025-11-15 19:13:14,149 - WARNING - FailureRecoveryDynamic - ⚠️ Host 00:00:00:00:00:03 has no IPv4 yet, skipping
+2025-11-15 19:13:14,473 - WARNING - FailureRecoveryDynamic - ⚠️ Host 00:00:00:00:00:02 has no IPv4 yet, skipping
+2025-11-15 19:13:24,034 - INFO - MultiLayerLB - 🔌 Switch None features handled
+2025-11-15 19:13:24,059 - INFO - SmartDCController - 🟢 Switch 1 connected
+2025-11-15 19:13:24,091 - INFO - MultiLayerLB - 🔌 Switch None features handled
+2025-11-15 19:13:24,098 - INFO - SmartDCController - 🟢 Switch 2 connected
+2025-11-15 19:13:24,127 - INFO - MultiLayerLB - 🔌 Switch None features handled
+2025-11-15 19:13:24,134 - INFO - SmartDCController - 🟢 Switch 3 connected
+2025-11-15 19:13:24,146 - WARNING - ryu.topology.switches - Multiple connections from 0000000000000001
+2025-11-15 19:13:24,147 - WARNING - ryu.topology.switches - Multiple connections from 0000000000000002
+2025-11-15 19:13:24,166 - WARNING - FailureRecoveryDynamic - 💥 Switch failure detected: 3
+2025-11-15 19:13:24,166 - WARNING - FailureRecoveryDynamic - ⚠️ Host 3a:e8:5f:ca:2f:cf has no IPv4 yet, skipping
+2025-11-15 19:13:24,166 - WARNING - FailureRecoveryDynamic - ⚠️ Host 2a:1e:ac:bf:39:a4 has no IPv4 yet, skipping
+2025-11-15 19:13:24,167 - WARNING - FailureRecoveryDynamic - ⚠️ Host b6:72:11:f1:e8:47 has no IPv4 yet, skipping
+2025-11-15 19:13:24,167 - WARNING - FailureRecoveryDynamic - ⚠️ Host ea:1c:99:d5:8c:95 has no IPv4 yet, skipping
+2025-11-15 19:13:24,167 - WARNING - FailureRecoveryDynamic - ⚠️ Host 52:f8:15:b3:a6:40 has no IPv4 yet, skipping
+2025-11-15 19:13:24,168 - ERROR - ryu.base.app_manager - FailureRecoveryDynamic: Exception occurred during handler processing. Backtrace from offending handler [switch_enter] servicing event [EventSwitchEnter] follows.
+Traceback (most recent call last):
+  File "/home/vboxuser/mini-cloud/ryu39-env/lib/python3.9/site-packages/ryu/base/app_manager.py", line 290, in _event_loop
+    handler(ev)
+  File "/home/vboxuser/mini-cloud/ryu-failure.py", line 35, in switch_enter
+    self.update_links()
+AttributeError: 'FailureRecoveryDynamic' object has no attribute 'update_links'
+2025-11-15 19:13:24,168 - INFO - SmartDCController - 🌐 Topology updated (link-delete): 3 switches, 2 links
+2025-11-15 19:13:24,168 - INFO - SmartDCController - 🌐 Topology updated (link-delete): 3 switches, 2 links
+2025-11-15 19:13:24,168 - INFO - SmartDCController - 🌐 Topology updated (link-delete): 3 switches, 2 links
+2025-11-15 19:13:24,169 - INFO - SmartDCController - 🌐 Topology updated (link-delete): 3 switches, 2 links
+2025-11-15 19:13:24,169 - INFO - SmartDCController - 🌐 Topology updated (switch-enter): 3 switches, 2 links
+2025-11-15 19:13:37,782 - WARNING - FailureRecoveryDynamic - ⚠️ Link down: 1 <-> 2
+2025-11-15 19:13:37,782 - INFO - SmartDCController - 🌐 Topology updated (link-delete): 3 switches, 0 links
+2025-11-15 19:13:37,782 - INFO - SmartDCController - 🌐 Topology updated (link-delete): 3 switches, 0 links
+2025-11-15 19:13:53,918 - INFO - MultiLayerLB - ARP learning: 10.0.0.4 -> dpid 3, port 4, mac 00:00:00:00:00:06
+2025-11-15 19:13:53,926 - INFO - MultiLayerLB - ARP learning: 10.0.0.4 -> dpid 2, port 2, mac 00:00:00:00:00:06
+2025-11-15 19:13:53,997 - INFO - MultiLayerLB - ARP learning: 10.0.0.1 -> dpid 2, port 3, mac 00:00:00:00:00:07
+2025-11-15 19:13:54,021 - INFO - FailureRecoveryDynamic - 🧩 Link added: 3 <-> 2
+2025-11-15 19:13:54,022 - INFO - SmartDCController - 🌐 Topology updated (link-add): 3 switches, 1 links
+2025-11-15 19:13:54,038 - INFO - MultiLayerLB - ARP learning: 10.0.0.2 -> dpid 2, port 4, mac 00:00:00:00:00:08
+2025-11-15 19:13:54,073 - INFO - FailureRecoveryDynamic - 🧩 Link added: 2 <-> 3
+2025-11-15 19:13:54,075 - INFO - SmartDCController - 🌐 Topology updated (link-add): 3 switches, 2 links
+2025-11-15 19:13:54,098 - INFO - MultiLayerLB - ARP learning: 10.0.0.3 -> dpid 3, port 3, mac 00:00:00:00:00:01
+2025-11-15 19:13:54,104 - INFO - MultiLayerLB - ARP learning: 10.0.0.3 -> dpid 2, port 2, mac 00:00:00:00:00:01
+2025-11-15 19:13:54,141 - INFO - FailureRecoveryDynamic - 🧩 Link added: 3 <-> 1
+2025-11-15 19:13:54,142 - INFO - SmartDCController - 🌐 Topology updated (link-add): 3 switches, 3 links
+2025-11-15 19:13:54,175 - INFO - FailureRecoveryDynamic - 🏠 Host learned dynamically: 10.0.0.13 @ 3:5
+2025-11-15 19:13:54,193 - INFO - FailureRecoveryDynamic - 🧩 Link added: 1 <-> 3
+2025-11-15 19:13:54,196 - INFO - SmartDCController - 🌐 Topology updated (link-add): 3 switches, 4 links
+2025-11-15 19:13:54,229 - INFO - FailureRecoveryDynamic - 🏠 Host learned dynamically: 10.0.0.14 @ 3:6
+2025-11-15 19:13:54,229 - INFO - FailureRecoveryDynamic - ✅ Path 3 -> 3: [3]
+2025-11-15 19:13:54,229 - INFO - FailureRecoveryDynamic - ✅ Path 3 -> 3: [3]
+2025-11-15 19:13:54,303 - INFO - MultiLayerLB - ARP learning: 10.0.0.4 -> dpid 3, port 4, mac 00:00:00:00:00:06
+2025-11-15 19:13:54,304 - INFO - FailureRecoveryDynamic - 🏠 Host learned dynamically: 10.0.0.4 @ 3:4
+2025-11-15 19:13:54,304 - INFO - FailureRecoveryDynamic - ✅ Path 3 -> 3: [3]
+2025-11-15 19:13:54,305 - INFO - FailureRecoveryDynamic - ✅ Path 3 -> 3: [3]
+2025-11-15 19:13:54,305 - INFO - FailureRecoveryDynamic - ✅ Path 3 -> 3: [3]
+2025-11-15 19:13:54,306 - INFO - FailureRecoveryDynamic - ✅ Path 3 -> 3: [3]
+2025-11-15 19:13:54,308 - INFO - FailureRecoveryDynamic - ✅ Path 3 -> 3: [3]
+2025-11-15 19:13:54,309 - INFO - FailureRecoveryDynamic - ✅ Path 3 -> 3: [3]
+2025-11-15 19:13:54,310 - INFO - MultiLayerLB - ARP learning: 10.0.0.4 -> dpid 2, port 2, mac 00:00:00:00:00:06
+2025-11-15 19:13:54,388 - INFO - MultiLayerLB - ARP learning: 10.0.0.1 -> dpid 2, port 3, mac 00:00:00:00:00:07
+2025-11-15 19:13:54,433 - INFO - MultiLayerLB - ARP learning: 10.0.0.2 -> dpid 2, port 4, mac 00:00:00:00:00:08
+2025-11-15 19:13:54,485 - INFO - MultiLayerLB - ARP learning: 10.0.0.3 -> dpid 3, port 3, mac 00:00:00:00:00:01
+2025-11-15 19:13:54,619 - INFO - MultiLayerLB - ARP learning: 10.0.0.4 -> dpid 3, port 4, mac 00:00:00:00:00:06
+2025-11-15 19:13:54,681 - INFO - MultiLayerLB - ARP learning: 10.0.0.1 -> dpid 2, port 3, mac 00:00:00:00:00:07
+2025-11-15 19:13:54,687 - INFO - MultiLayerLB - ARP learning: 10.0.0.1 -> dpid 3, port 2, mac 00:00:00:00:00:07
+2025-11-15 19:13:54,743 - INFO - MultiLayerLB - ARP learning: 10.0.0.2 -> dpid 2, port 4, mac 00:00:00:00:00:08
+2025-11-15 19:13:54,751 - INFO - MultiLayerLB - ARP learning: 10.0.0.2 -> dpid 3, port 2, mac 00:00:00:00:00:08
+2025-11-15 19:13:54,811 - INFO - MultiLayerLB - ARP learning: 10.0.0.3 -> dpid 3, port 3, mac 00:00:00:00:00:01
+2025-11-15 19:13:54,933 - INFO - MultiLayerLB - ARP learning: 10.0.0.4 -> dpid 3, port 4, mac 00:00:00:00:00:06
+2025-11-15 19:13:54,997 - INFO - MultiLayerLB - ARP learning: 10.0.0.1 -> dpid 2, port 3, mac 00:00:00:00:00:07
+2025-11-15 19:13:55,003 - INFO - MultiLayerLB - ARP learning: 10.0.0.1 -> dpid 3, port 2, mac 00:00:00:00:00:07
+2025-11-15 19:13:55,063 - INFO - MultiLayerLB - ARP learning: 10.0.0.2 -> dpid 2, port 4, mac 00:00:00:00:00:08
+2025-11-15 19:13:55,070 - INFO - MultiLayerLB - ARP learning: 10.0.0.2 -> dpid 3, port 2, mac 00:00:00:00:00:08
+2025-11-15 19:13:55,125 - INFO - MultiLayerLB - ARP learning: 10.0.0.4 -> dpid 3, port 4, mac 00:00:00:00:00:06
+2025-11-15 19:13:55,131 - INFO - MultiLayerLB - ARP learning: 10.0.0.4 -> dpid 1, port 2, mac 00:00:00:00:00:06
+2025-11-15 19:13:55,132 - INFO - MultiLayerLB - ARP learning: 10.0.0.4 -> dpid 2, port 2, mac 00:00:00:00:00:06
+2025-11-15 19:13:55,151 - INFO - MultiLayerLB - ARP learning: 10.0.0.3 -> dpid 3, port 3, mac 00:00:00:00:00:01
+2025-11-15 19:13:55,437 - INFO - MultiLayerLB - ARP learning: 10.0.0.4 -> dpid 3, port 4, mac 00:00:00:00:00:06
+2025-11-15 19:13:55,442 - INFO - MultiLayerLB - ARP learning: 10.0.0.4 -> dpid 2, port 2, mac 00:00:00:00:00:06
+2025-11-15 19:13:55,443 - INFO - MultiLayerLB - ARP learning: 10.0.0.4 -> dpid 1, port 2, mac 00:00:00:00:00:06
+2025-11-15 19:13:55,457 - INFO - MultiLayerLB - ARP learning: 10.0.0.1 -> dpid 2, port 3, mac 00:00:00:00:00:07
+2025-11-15 19:13:55,464 - INFO - MultiLayerLB - ARP learning: 10.0.0.1 -> dpid 3, port 2, mac 00:00:00:00:00:07
+2025-11-15 19:13:55,561 - INFO - MultiLayerLB - ARP learning: 10.0.0.4 -> dpid 3, port 4, mac 00:00:00:00:00:06
+2025-11-15 19:13:55,565 - INFO - MultiLayerLB - ARP learning: 10.0.0.4 -> dpid 1, port 2, mac 00:00:00:00:00:06
+2025-11-15 19:13:55,566 - INFO - MultiLayerLB - ARP learning: 10.0.0.4 -> dpid 2, port 2, mac 00:00:00:00:00:06
+2025-11-15 19:13:55,580 - INFO - MultiLayerLB - ARP learning: 10.0.0.2 -> dpid 2, port 4, mac 00:00:00:00:00:08
+2025-11-15 19:13:55,586 - INFO - MultiLayerLB - ARP learning: 10.0.0.2 -> dpid 3, port 2, mac 00:00:00:00:00:08
+2025-11-15 19:13:55,670 - INFO - MultiLayerLB - ARP learning: 10.0.0.1 -> dpid 2, port 3, mac 00:00:00:00:00:07
+2025-11-15 19:13:55,677 - INFO - MultiLayerLB - ARP learning: 10.0.0.1 -> dpid 3, port 2, mac 00:00:00:00:00:07
+2025-11-15 19:13:55,682 - INFO - MultiLayerLB - ARP learning: 10.0.0.1 -> dpid 1, port 2, mac 00:00:00:00:00:07
+2025-11-15 19:13:55,700 - INFO - MultiLayerLB - ARP learning: 10.0.0.3 -> dpid 3, port 3, mac 00:00:00:00:00:01
+2025-11-15 19:13:55,706 - INFO - MultiLayerLB - ARP learning: 10.0.0.3 -> dpid 2, port 2, mac 00:00:00:00:00:01
+2025-11-15 19:13:55,919 - INFO - MultiLayerLB - ARP learning: 10.0.0.1 -> dpid 2, port 3, mac 00:00:00:00:00:07
+2025-11-15 19:13:55,925 - INFO - MultiLayerLB - ARP learning: 10.0.0.1 -> dpid 3, port 2, mac 00:00:00:00:00:07
+2025-11-15 19:13:55,930 - INFO - MultiLayerLB - ARP learning: 10.0.0.1 -> dpid 1, port 2, mac 00:00:00:00:00:07
+2025-11-15 19:13:55,932 - INFO - MultiLayerLB - ARP learning: 10.0.0.2 -> dpid 2, port 4, mac 00:00:00:00:00:08
+2025-11-15 19:13:55,976 - INFO - MultiLayerLB - ARP learning: 10.0.0.2 -> dpid 2, port 4, mac 00:00:00:00:00:08
+2025-11-15 19:13:55,984 - INFO - MultiLayerLB - ARP learning: 10.0.0.2 -> dpid 3, port 2, mac 00:00:00:00:00:08
+2025-11-15 19:13:55,991 - INFO - MultiLayerLB - ARP learning: 10.0.0.2 -> dpid 1, port 2, mac 00:00:00:00:00:08
+2025-11-15 19:13:56,010 - INFO - MultiLayerLB - ARP learning: 10.0.0.3 -> dpid 3, port 3, mac 00:00:00:00:00:01
+2025-11-15 19:13:56,017 - INFO - MultiLayerLB - ARP learning: 10.0.0.3 -> dpid 2, port 2, mac 00:00:00:00:00:01
+2025-11-15 19:14:07,258 - WARNING - FailureRecoveryDynamic - ⚠️ Link down: 3 <-> 2
+2025-11-15 19:14:07,258 - INFO - FailureRecoveryDynamic - ✅ Path 3 -> 3: [3]
+2025-11-15 19:14:07,259 - INFO - FailureRecoveryDynamic - ✅ Path 3 -> 3: [3]
+2025-11-15 19:14:07,259 - INFO - FailureRecoveryDynamic - ✅ Path 3 -> 3: [3]
+2025-11-15 19:14:07,259 - INFO - FailureRecoveryDynamic - ✅ Path 3 -> 3: [3]
+2025-11-15 19:14:07,259 - INFO - FailureRecoveryDynamic - ✅ Path 3 -> 3: [3]
+2025-11-15 19:14:07,260 - INFO - FailureRecoveryDynamic - ✅ Path 3 -> 3: [3]
+2025-11-15 19:14:07,260 - INFO - FailureRecoveryDynamic - ✅ Path 3 -> 3: [3]
+2025-11-15 19:14:07,260 - INFO - FailureRecoveryDynamic - ✅ Path 3 -> 3: [3]
+2025-11-15 19:14:07,260 - INFO - FailureRecoveryDynamic - ✅ Path 3 -> 3: [3]
+2025-11-15 19:14:07,261 - INFO - FailureRecoveryDynamic - ✅ Path 3 -> 3: [3]
+2025-11-15 19:14:07,261 - INFO - FailureRecoveryDynamic - ✅ Path 3 -> 3: [3]
+2025-11-15 19:14:07,261 - INFO - FailureRecoveryDynamic - ✅ Path 3 -> 3: [3]
+2025-11-15 19:14:07,262 - INFO - SmartDCController - 🌐 Topology updated (link-delete): 3 switches, 2 links
+2025-11-15 19:14:07,262 - INFO - SmartDCController - 🌐 Topology updated (link-delete): 3 switches, 2 links
+2025-11-15 19:14:10,852 - WARNING - FailureRecoveryDynamic - ⚠️ Host 2a:1e:ac:bf:39:a4 has no IPv4 yet, skipping
+2025-11-15 19:14:37,267 - INFO - FailureRecoveryDynamic - 🧩 Link added: 2 <-> 1
+2025-11-15 19:14:37,268 - INFO - FailureRecoveryDynamic - ✅ Path 3 -> 3: [3]
+2025-11-15 19:14:37,268 - INFO - FailureRecoveryDynamic - ✅ Path 3 -> 3: [3]
+2025-11-15 19:14:37,268 - INFO - FailureRecoveryDynamic - ✅ Path 3 -> 3: [3]
+2025-11-15 19:14:37,268 - INFO - FailureRecoveryDynamic - ✅ Path 3 -> 3: [3]
+2025-11-15 19:14:37,268 - INFO - FailureRecoveryDynamic - ✅ Path 3 -> 3: [3]
+2025-11-15 19:14:37,268 - INFO - FailureRecoveryDynamic - ✅ Path 3 -> 3: [3]
+2025-11-15 19:14:37,269 - INFO - SmartDCController - 🌐 Topology updated (link-add): 3 switches, 3 links
+2025-11-15 19:14:37,320 - INFO - FailureRecoveryDynamic - 🧩 Link added: 1 <-> 2
+2025-11-15 19:14:37,321 - INFO - FailureRecoveryDynamic - ✅ Path 3 -> 3: [3]
+2025-11-15 19:14:37,321 - INFO - FailureRecoveryDynamic - ✅ Path 3 -> 3: [3]
+2025-11-15 19:14:37,321 - INFO - FailureRecoveryDynamic - ✅ Path 3 -> 3: [3]
+2025-11-15 19:14:37,321 - INFO - FailureRecoveryDynamic - ✅ Path 3 -> 3: [3]
+2025-11-15 19:14:37,322 - INFO - FailureRecoveryDynamic - ✅ Path 3 -> 3: [3]
+2025-11-15 19:14:37,322 - INFO - FailureRecoveryDynamic - ✅ Path 3 -> 3: [3]
+2025-11-15 19:14:37,322 - INFO - SmartDCController - 🌐 Topology updated (link-add): 3 switches, 4 links
+2025-11-15 19:15:17,845 - WARNING - FailureRecoveryDynamic - ⚠️ Link down: 2 <-> 1
+2025-11-15 19:15:17,845 - INFO - FailureRecoveryDynamic - ✅ Path 3 -> 3: [3]
+2025-11-15 19:15:17,846 - INFO - FailureRecoveryDynamic - ✅ Path 3 -> 3: [3]
+2025-11-15 19:15:17,846 - INFO - FailureRecoveryDynamic - ✅ Path 3 -> 3: [3]
+2025-11-15 19:15:17,847 - INFO - FailureRecoveryDynamic - ✅ Path 3 -> 3: [3]
+2025-11-15 19:15:17,847 - INFO - FailureRecoveryDynamic - ✅ Path 3 -> 3: [3]
+2025-11-15 19:15:17,847 - INFO - FailureRecoveryDynamic - ✅ Path 3 -> 3: [3]
+2025-11-15 19:15:17,849 - INFO - FailureRecoveryDynamic - ✅ Path 3 -> 3: [3]
+2025-11-15 19:15:17,849 - INFO - FailureRecoveryDynamic - ✅ Path 3 -> 3: [3]
+2025-11-15 19:15:17,849 - INFO - FailureRecoveryDynamic - ✅ Path 3 -> 3: [3]
+2025-11-15 19:15:17,850 - INFO - FailureRecoveryDynamic - ✅ Path 3 -> 3: [3]
+2025-11-15 19:15:17,850 - INFO - FailureRecoveryDynamic - ✅ Path 3 -> 3: [3]
+2025-11-15 19:15:17,850 - INFO - FailureRecoveryDynamic - ✅ Path 3 -> 3: [3]
+2025-11-15 19:15:17,851 - INFO - SmartDCController - 🌐 Topology updated (link-delete): 3 switches, 2 links
+2025-11-15 19:15:17,852 - INFO - SmartDCController - 🌐 Topology updated (link-delete): 3 switches, 2 links
+2025-11-15 19:15:21,209 - WARNING - FailureRecoveryDynamic - ⚠️ Host 2a:1e:ac:bf:39:a4 has no IPv4 yet, skipping
+2025-11-15 19:15:25,210 - INFO - MultiLayerLB - ARP learning: 10.0.0.3 -> dpid 3, port 3, mac 00:00:00:00:00:01
+2025-11-15 19:15:25,214 - INFO - MultiLayerLB - ARP learning: 10.0.0.3 -> dpid 1, port 2, mac 00:00:00:00:00:01
+2025-11-15 19:15:26,252 - INFO - MultiLayerLB - ARP learning: 10.0.0.3 -> dpid 3, port 3, mac 00:00:00:00:00:01
+2025-11-15 19:15:26,258 - INFO - MultiLayerLB - ARP learning: 10.0.0.3 -> dpid 1, port 2, mac 00:00:00:00:00:01
+2025-11-15 19:15:27,277 - INFO - MultiLayerLB - ARP learning: 10.0.0.3 -> dpid 3, port 3, mac 00:00:00:00:00:01
+2025-11-15 19:15:27,284 - INFO - MultiLayerLB - ARP learning: 10.0.0.3 -> dpid 1, port 2, mac 00:00:00:00:00:01
+2025-11-15 19:15:33,150 - INFO - FailureRecoveryDynamic - 🧩 Link added: 2 <-> 3
+2025-11-15 19:15:33,152 - INFO - FailureRecoveryDynamic - ✅ Path 3 -> 3: [3]
+2025-11-15 19:15:33,153 - INFO - FailureRecoveryDynamic - ✅ Path 3 -> 3: [3]
+2025-11-15 19:15:33,153 - INFO - FailureRecoveryDynamic - ✅ Path 3 -> 3: [3]
+2025-11-15 19:15:33,153 - INFO - FailureRecoveryDynamic - ✅ Path 3 -> 3: [3]
+2025-11-15 19:15:33,154 - INFO - FailureRecoveryDynamic - ✅ Path 3 -> 3: [3]
+2025-11-15 19:15:33,154 - INFO - FailureRecoveryDynamic - ✅ Path 3 -> 3: [3]
+2025-11-15 19:15:33,155 - INFO - SmartDCController - 🌐 Topology updated (link-add): 3 switches, 3 links
+2025-11-15 19:15:33,208 - INFO - FailureRecoveryDynamic - 🧩 Link added: 3 <-> 2
+2025-11-15 19:15:33,208 - INFO - FailureRecoveryDynamic - ✅ Path 3 -> 3: [3]
+2025-11-15 19:15:33,209 - INFO - FailureRecoveryDynamic - ✅ Path 3 -> 3: [3]
+2025-11-15 19:15:33,209 - INFO - FailureRecoveryDynamic - ✅ Path 3 -> 3: [3]
+2025-11-15 19:15:33,211 - INFO - FailureRecoveryDynamic - ✅ Path 3 -> 3: [3]
+2025-11-15 19:15:33,211 - INFO - FailureRecoveryDynamic - ✅ Path 3 -> 3: [3]
+2025-11-15 19:15:33,212 - INFO - FailureRecoveryDynamic - ✅ Path 3 -> 3: [3]
+2025-11-15 19:15:33,213 - INFO - SmartDCController - 🌐 Topology updated (link-add): 3 switches, 4 links
+2025-11-15 19:15:38,326 - INFO - MultiLayerLB - ARP learning: 10.0.0.3 -> dpid 3, port 3, mac 00:00:00:00:00:01
+2025-11-15 19:15:38,331 - INFO - MultiLayerLB - ARP learning: 10.0.0.3 -> dpid 1, port 2, mac 00:00:00:00:00:01
+2025-11-15 19:15:38,332 - INFO - MultiLayerLB - ARP learning: 10.0.0.3 -> dpid 2, port 2, mac 00:00:00:00:00:01
+2025-11-15 19:15:38,532 - INFO - MultiLayerLB - ARP learning: 10.0.0.3 -> dpid 3, port 3, mac 00:00:00:00:00:01
+2025-11-15 19:15:38,537 - INFO - MultiLayerLB - ARP learning: 10.0.0.3 -> dpid 1, port 2, mac 00:00:00:00:00:01
+2025-11-15 19:15:38,539 - INFO - MultiLayerLB - ARP learning: 10.0.0.3 -> dpid 2, port 2, mac 00:00:00:00:00:01
+2025-11-15 19:15:39,448 - INFO - MultiLayerLB - ARP learning: 10.0.0.3 -> dpid 3, port 3, mac 00:00:00:00:00:01
+2025-11-15 19:15:39,452 - INFO - MultiLayerLB - ARP learning: 10.0.0.3 -> dpid 1, port 2, mac 00:00:00:00:00:01
+2025-11-15 19:15:39,455 - INFO - MultiLayerLB - ARP learning: 10.0.0.3 -> dpid 2, port 2, mac 00:00:00:00:00:01

@@ -1,0 +1,566 @@
+2025-11-19 23:58:05,407 - INFO - LoggerApp - ✅ LoggerApp initialized successfully.
+2025-11-19 23:58:05,407 - INFO - LoggerApp - 📁 Logs folder: /home/vboxuser/mini-cloud/ryu_logs
+2025-11-19 23:58:05,407 - INFO - LoggerApp - 📝 Log file created: /home/vboxuser/mini-cloud/ryu_logs/controller_log_2025-11-19_23-58-05.log
+2025-11-19 23:58:05,407 - INFO - ryu.base.app_manager - instantiating app ryu-failure.py of FailureRecoveryDynamic
+2025-11-19 23:58:05,408 - INFO - FailureRecoveryDynamic - ✅ Failure Recovery module loaded (Dijkstra rerouting)
+2025-11-19 23:58:05,408 - INFO - ryu.base.app_manager - instantiating app ryu_host_mig.py of HostMigration
+2025-11-19 23:58:05,408 - INFO - HostMigration - ✅ Host Migration module loaded (REST 8080 enabled)
+2025-11-19 23:58:05,408 - INFO - ryu.base.app_manager - instantiating app controller.py of SmartDCController
+2025-11-19 23:58:05,408 - INFO - SmartDCController - 🚀 Smart DataCenter Controller started (OpenFlow 1.3)
+2025-11-19 23:58:05,408 - INFO - ryu.base.app_manager - instantiating app dashboard/ryu-push.py of RyuPushLiveHosts
+2025-11-19 23:58:05,408 - INFO - RyuPushLiveHosts - RyuPushLiveHosts initialized
+2025-11-19 23:58:05,413 - INFO - ryu.base.app_manager - instantiating app ryu.controller.ofp_handler of OFPHandler
+2025-11-19 23:58:05,414 - INFO - ryu.base.app_manager - instantiating app ryu.topology.switches of Switches
+2025-11-19 23:58:05,417 - INFO - RyuPushLiveHosts - Pushed to Flask: {'hosts': [{'id': '10.0.0.12', 'ip': '10.0.0.12', 'status': 'DOWN'}, {'id': '10.0.0.13', 'ip': '10.0.0.13', 'status': 'DOWN'}, {'id': '10.0.0.14', 'ip': '10.0.0.14', 'status': 'DOWN'}, {'id': '10.0.0.11', 'ip': '10.0.0.11', 'status': 'DOWN'}], 'servers': [{'id': '10.0.0.1', 'ip': '10.0.0.1', 'status': 'UP'}, {'id': '10.0.0.2', 'ip': '10.0.0.2', 'status': 'UP'}, {'id': '10.0.0.3', 'ip': '10.0.0.3', 'status': 'UP'}, {'id': '10.0.0.4', 'ip': '10.0.0.4', 'status': 'UP'}]}
+2025-11-19 23:58:05,419 - INFO - ryu.lib.hub - (55837) wsgi starting up on http://0.0.0.0:8080
+2025-11-19 23:58:10,423 - INFO - RyuPushLiveHosts - Pushed to Flask: {'hosts': [{'id': '10.0.0.12', 'ip': '10.0.0.12', 'status': 'DOWN'}, {'id': '10.0.0.13', 'ip': '10.0.0.13', 'status': 'DOWN'}, {'id': '10.0.0.14', 'ip': '10.0.0.14', 'status': 'DOWN'}, {'id': '10.0.0.11', 'ip': '10.0.0.11', 'status': 'DOWN'}], 'servers': [{'id': '10.0.0.1', 'ip': '10.0.0.1', 'status': 'UP'}, {'id': '10.0.0.2', 'ip': '10.0.0.2', 'status': 'UP'}, {'id': '10.0.0.3', 'ip': '10.0.0.3', 'status': 'UP'}, {'id': '10.0.0.4', 'ip': '10.0.0.4', 'status': 'UP'}]}
+2025-11-19 23:58:15,433 - INFO - RyuPushLiveHosts - Pushed to Flask: {'hosts': [{'id': '10.0.0.12', 'ip': '10.0.0.12', 'status': 'DOWN'}, {'id': '10.0.0.13', 'ip': '10.0.0.13', 'status': 'DOWN'}, {'id': '10.0.0.14', 'ip': '10.0.0.14', 'status': 'DOWN'}, {'id': '10.0.0.11', 'ip': '10.0.0.11', 'status': 'DOWN'}], 'servers': [{'id': '10.0.0.1', 'ip': '10.0.0.1', 'status': 'UP'}, {'id': '10.0.0.2', 'ip': '10.0.0.2', 'status': 'UP'}, {'id': '10.0.0.3', 'ip': '10.0.0.3', 'status': 'UP'}, {'id': '10.0.0.4', 'ip': '10.0.0.4', 'status': 'UP'}]}
+2025-11-19 23:58:16,005 - INFO - SmartDCController - ✅ Datapath registered: None
+2025-11-19 23:58:16,012 - INFO - MultiLayerLB - 🔌 Switch 1 features handled
+2025-11-19 23:58:16,013 - INFO - FailureRecoveryDynamic - 🟢 Switch 1 connected
+2025-11-19 23:58:16,013 - INFO - HostMigration - 🟢 Switch connected: 1
+2025-11-19 23:58:16,013 - INFO - SmartDCController - 🟢 Switch 1 connected
+2025-11-19 23:58:16,014 - INFO - MultiLayerLB - 🔌 Switch 3 features handled
+2025-11-19 23:58:16,014 - INFO - FailureRecoveryDynamic - 🟢 Switch 3 connected
+2025-11-19 23:58:16,014 - INFO - HostMigration - 🟢 Switch connected: 3
+2025-11-19 23:58:16,014 - INFO - SmartDCController - 🟢 Switch 3 connected
+2025-11-19 23:58:16,020 - INFO - MultiLayerLB - 🔌 Switch 2 features handled
+2025-11-19 23:58:16,020 - INFO - FailureRecoveryDynamic - 🟢 Switch 2 connected
+2025-11-19 23:58:16,021 - INFO - HostMigration - 🟢 Switch connected: 2
+2025-11-19 23:58:16,021 - INFO - SmartDCController - 🟢 Switch 2 connected
+2025-11-19 23:58:16,023 - INFO - SmartDCController - ✅ Datapath registered: 2
+2025-11-19 23:58:16,025 - INFO - FailureRecoveryDynamic - 🌐 Topology updated (switch-enter): 1 switches, 0 links
+2025-11-19 23:58:16,025 - INFO - SmartDCController - 🌐 Topology updated (switch-enter): 1 switches, 0 links
+2025-11-19 23:58:16,027 - INFO - SmartDCController - ✅ Datapath registered: 1
+2025-11-19 23:58:16,028 - INFO - FailureRecoveryDynamic - 🌐 Topology updated (switch-enter): 2 switches, 0 links
+2025-11-19 23:58:16,030 - INFO - SmartDCController - 🌐 Topology updated (switch-enter): 2 switches, 0 links
+2025-11-19 23:58:16,034 - INFO - SmartDCController - ✅ Datapath registered: 3
+2025-11-19 23:58:16,048 - INFO - FailureRecoveryDynamic - 🌐 Topology updated (switch-enter): 3 switches, 0 links
+2025-11-19 23:58:16,048 - INFO - FailureRecoveryDynamic - 🌐 Topology updated (link-add): 3 switches, 1 links
+2025-11-19 23:58:16,049 - INFO - FailureRecoveryDynamic - 🌐 Topology updated (link-add): 3 switches, 2 links
+2025-11-19 23:58:16,052 - INFO - SmartDCController - 🌐 Topology updated (switch-enter): 3 switches, 2 links
+2025-11-19 23:58:16,053 - INFO - SmartDCController - 🌐 Topology updated (link-add): 3 switches, 2 links
+2025-11-19 23:58:16,053 - INFO - SmartDCController - 🌐 Topology updated (link-add): 3 switches, 2 links
+2025-11-19 23:58:16,065 - INFO - FailureRecoveryDynamic - 🌐 Topology updated (link-add): 3 switches, 3 links
+2025-11-19 23:58:16,068 - INFO - FailureRecoveryDynamic - 🌐 Topology updated (link-add): 3 switches, 3 links
+2025-11-19 23:58:16,068 - INFO - FailureRecoveryDynamic - 🌐 Topology updated (link-add): 3 switches, 3 links
+2025-11-19 23:58:16,068 - INFO - SmartDCController - 🌐 Topology updated (link-add): 3 switches, 5 links
+2025-11-19 23:58:16,069 - INFO - SmartDCController - 🌐 Topology updated (link-add): 3 switches, 5 links
+2025-11-19 23:58:16,069 - INFO - FailureRecoveryDynamic - 🌐 Topology updated (link-add): 3 switches, 3 links
+2025-11-19 23:58:16,069 - INFO - SmartDCController - 🌐 Topology updated (link-add): 3 switches, 6 links
+2025-11-19 23:58:16,070 - INFO - SmartDCController - 🌐 Topology updated (link-add): 3 switches, 6 links
+2025-11-19 23:58:20,563 - INFO - RyuPushLiveHosts - Pushed to Flask: {'hosts': [{'id': '10.0.0.12', 'ip': '10.0.0.12', 'status': 'DOWN'}, {'id': '10.0.0.13', 'ip': '10.0.0.13', 'status': 'DOWN'}, {'id': '10.0.0.14', 'ip': '10.0.0.14', 'status': 'DOWN'}, {'id': '10.0.0.11', 'ip': '10.0.0.11', 'status': 'DOWN'}], 'servers': [{'id': '10.0.0.1', 'ip': '10.0.0.1', 'status': 'UP'}, {'id': '10.0.0.2', 'ip': '10.0.0.2', 'status': 'UP'}, {'id': '10.0.0.3', 'ip': '10.0.0.3', 'status': 'UP'}, {'id': '10.0.0.4', 'ip': '10.0.0.4', 'status': 'UP'}]}
+2025-11-19 23:58:25,720 - INFO - RyuPushLiveHosts - Pushed to Flask: {'hosts': [{'id': '10.0.0.12', 'ip': '10.0.0.12', 'status': 'DOWN'}, {'id': '10.0.0.13', 'ip': '10.0.0.13', 'status': 'DOWN'}, {'id': '10.0.0.14', 'ip': '10.0.0.14', 'status': 'DOWN'}, {'id': '10.0.0.11', 'ip': '10.0.0.11', 'status': 'DOWN'}], 'servers': [{'id': '10.0.0.1', 'ip': '10.0.0.1', 'status': 'UP'}, {'id': '10.0.0.2', 'ip': '10.0.0.2', 'status': 'UP'}, {'id': '10.0.0.3', 'ip': '10.0.0.3', 'status': 'UP'}, {'id': '10.0.0.4', 'ip': '10.0.0.4', 'status': 'UP'}]}
+2025-11-19 23:58:26,900 - INFO - FailureRecoveryDynamic - 🌐 Topology updated (switch-leave): 2 switches, 1 links
+2025-11-19 23:58:26,901 - WARNING - FailureRecoveryDynamic - ⚠️ Link down: 1 <-> 2
+2025-11-19 23:58:26,901 - INFO - FailureRecoveryDynamic - 🌐 Topology updated (link-delete): 2 switches, 1 links
+2025-11-19 23:58:26,901 - WARNING - FailureRecoveryDynamic - ♻️ Recomputing all alternate paths...
+2025-11-19 23:58:26,915 - INFO - MultiLayerLB - 🔌 Switch 1 features handled
+2025-11-19 23:58:26,916 - INFO - MultiLayerLB - 🔌 Switch 2 features handled
+2025-11-19 23:58:26,918 - INFO - FailureRecoveryDynamic - 🟢 Switch 1 connected
+2025-11-19 23:58:26,918 - INFO - FailureRecoveryDynamic - 🟢 Switch 2 connected
+2025-11-19 23:58:26,918 - WARNING - FailureRecoveryDynamic - ⚠️ Link down: 2 <-> 1
+2025-11-19 23:58:26,919 - INFO - FailureRecoveryDynamic - 🌐 Topology updated (link-delete): 2 switches, 1 links
+2025-11-19 23:58:26,919 - WARNING - FailureRecoveryDynamic - ♻️ Recomputing all alternate paths...
+2025-11-19 23:58:26,919 - WARNING - FailureRecoveryDynamic - ⚠️ Link down: 1 <-> 3
+2025-11-19 23:58:26,919 - INFO - FailureRecoveryDynamic - 🌐 Topology updated (link-delete): 2 switches, 1 links
+2025-11-19 23:58:26,919 - WARNING - FailureRecoveryDynamic - ♻️ Recomputing all alternate paths...
+2025-11-19 23:58:26,919 - WARNING - FailureRecoveryDynamic - ⚠️ Link down: 3 <-> 1
+2025-11-19 23:58:26,919 - INFO - FailureRecoveryDynamic - 🌐 Topology updated (link-delete): 2 switches, 1 links
+2025-11-19 23:58:26,919 - WARNING - FailureRecoveryDynamic - ♻️ Recomputing all alternate paths...
+2025-11-19 23:58:26,919 - INFO - HostMigration - 🟢 Switch connected: 1
+2025-11-19 23:58:26,919 - INFO - HostMigration - 🟢 Switch connected: 2
+2025-11-19 23:58:26,931 - INFO - MultiLayerLB - 🔌 Switch 3 features handled
+2025-11-19 23:58:26,932 - INFO - FailureRecoveryDynamic - 🟢 Switch 3 connected
+2025-11-19 23:58:26,932 - INFO - FailureRecoveryDynamic - 🌐 Topology updated (switch-leave): 1 switches, 0 links
+2025-11-19 23:58:26,932 - WARNING - FailureRecoveryDynamic - ⚠️ Link down: 2 <-> 3
+2025-11-19 23:58:26,932 - INFO - FailureRecoveryDynamic - 🌐 Topology updated (link-delete): 1 switches, 0 links
+2025-11-19 23:58:26,932 - WARNING - FailureRecoveryDynamic - ♻️ Recomputing all alternate paths...
+2025-11-19 23:58:26,932 - WARNING - FailureRecoveryDynamic - ⚠️ Link down: 3 <-> 2
+2025-11-19 23:58:26,932 - INFO - FailureRecoveryDynamic - 🌐 Topology updated (link-delete): 1 switches, 0 links
+2025-11-19 23:58:26,932 - WARNING - FailureRecoveryDynamic - ♻️ Recomputing all alternate paths...
+2025-11-19 23:58:26,932 - INFO - FailureRecoveryDynamic - 🌐 Topology updated (switch-leave): 0 switches, 0 links
+2025-11-19 23:58:26,932 - INFO - HostMigration - 🟢 Switch connected: 3
+2025-11-19 23:58:26,934 - INFO - SmartDCController - 🌐 Topology updated (link-delete): 0 switches, 0 links
+2025-11-19 23:58:26,934 - INFO - SmartDCController - 🟢 Switch 1 connected
+2025-11-19 23:58:26,934 - INFO - SmartDCController - 🟢 Switch 2 connected
+2025-11-19 23:58:26,939 - INFO - FailureRecoveryDynamic - 🌐 Topology updated (switch-enter): 3 switches, 0 links
+2025-11-19 23:58:26,939 - INFO - FailureRecoveryDynamic - 🌐 Topology updated (switch-enter): 3 switches, 0 links
+2025-11-19 23:58:26,940 - INFO - SmartDCController - 🌐 Topology updated (link-delete): 3 switches, 0 links
+2025-11-19 23:58:26,944 - INFO - FailureRecoveryDynamic - 🌐 Topology updated (switch-enter): 3 switches, 0 links
+2025-11-19 23:58:26,944 - INFO - SmartDCController - 🌐 Topology updated (link-delete): 3 switches, 0 links
+2025-11-19 23:58:26,948 - INFO - SmartDCController - 🌐 Topology updated (link-delete): 3 switches, 0 links
+2025-11-19 23:58:26,994 - INFO - SmartDCController - 🟢 Switch 3 connected
+2025-11-19 23:58:26,995 - INFO - SmartDCController - 🌐 Topology updated (link-delete): 3 switches, 0 links
+2025-11-19 23:58:26,996 - INFO - SmartDCController - 🌐 Topology updated (link-delete): 3 switches, 0 links
+2025-11-19 23:58:26,996 - INFO - SmartDCController - 🌐 Topology updated (switch-enter): 3 switches, 0 links
+2025-11-19 23:58:26,996 - INFO - SmartDCController - 🌐 Topology updated (switch-enter): 3 switches, 0 links
+2025-11-19 23:58:26,997 - INFO - SmartDCController - 🌐 Topology updated (switch-enter): 3 switches, 0 links
+2025-11-19 23:58:30,725 - INFO - RyuPushLiveHosts - Pushed to Flask: {'hosts': [{'id': '10.0.0.12', 'ip': '10.0.0.12', 'status': 'DOWN'}, {'id': '10.0.0.13', 'ip': '10.0.0.13', 'status': 'DOWN'}, {'id': '10.0.0.14', 'ip': '10.0.0.14', 'status': 'DOWN'}, {'id': '10.0.0.11', 'ip': '10.0.0.11', 'status': 'DOWN'}], 'servers': [{'id': '10.0.0.1', 'ip': '10.0.0.1', 'status': 'UP'}, {'id': '10.0.0.2', 'ip': '10.0.0.2', 'status': 'UP'}, {'id': '10.0.0.3', 'ip': '10.0.0.3', 'status': 'UP'}, {'id': '10.0.0.4', 'ip': '10.0.0.4', 'status': 'UP'}]}
+2025-11-19 23:58:35,730 - INFO - RyuPushLiveHosts - Pushed to Flask: {'hosts': [{'id': '10.0.0.12', 'ip': '10.0.0.12', 'status': 'DOWN'}, {'id': '10.0.0.13', 'ip': '10.0.0.13', 'status': 'DOWN'}, {'id': '10.0.0.14', 'ip': '10.0.0.14', 'status': 'DOWN'}, {'id': '10.0.0.11', 'ip': '10.0.0.11', 'status': 'DOWN'}], 'servers': [{'id': '10.0.0.1', 'ip': '10.0.0.1', 'status': 'UP'}, {'id': '10.0.0.2', 'ip': '10.0.0.2', 'status': 'UP'}, {'id': '10.0.0.3', 'ip': '10.0.0.3', 'status': 'UP'}, {'id': '10.0.0.4', 'ip': '10.0.0.4', 'status': 'UP'}]}
+2025-11-19 23:58:40,738 - INFO - RyuPushLiveHosts - Pushed to Flask: {'hosts': [{'id': '10.0.0.12', 'ip': '10.0.0.12', 'status': 'DOWN'}, {'id': '10.0.0.13', 'ip': '10.0.0.13', 'status': 'DOWN'}, {'id': '10.0.0.14', 'ip': '10.0.0.14', 'status': 'DOWN'}, {'id': '10.0.0.11', 'ip': '10.0.0.11', 'status': 'DOWN'}], 'servers': [{'id': '10.0.0.1', 'ip': '10.0.0.1', 'status': 'UP'}, {'id': '10.0.0.2', 'ip': '10.0.0.2', 'status': 'UP'}, {'id': '10.0.0.3', 'ip': '10.0.0.3', 'status': 'UP'}, {'id': '10.0.0.4', 'ip': '10.0.0.4', 'status': 'UP'}]}
+2025-11-19 23:58:45,745 - INFO - RyuPushLiveHosts - Pushed to Flask: {'hosts': [{'id': '10.0.0.12', 'ip': '10.0.0.12', 'status': 'DOWN'}, {'id': '10.0.0.13', 'ip': '10.0.0.13', 'status': 'DOWN'}, {'id': '10.0.0.14', 'ip': '10.0.0.14', 'status': 'DOWN'}, {'id': '10.0.0.11', 'ip': '10.0.0.11', 'status': 'DOWN'}], 'servers': [{'id': '10.0.0.1', 'ip': '10.0.0.1', 'status': 'UP'}, {'id': '10.0.0.2', 'ip': '10.0.0.2', 'status': 'UP'}, {'id': '10.0.0.3', 'ip': '10.0.0.3', 'status': 'UP'}, {'id': '10.0.0.4', 'ip': '10.0.0.4', 'status': 'UP'}]}
+2025-11-19 23:58:50,752 - INFO - RyuPushLiveHosts - Pushed to Flask: {'hosts': [{'id': '10.0.0.12', 'ip': '10.0.0.12', 'status': 'DOWN'}, {'id': '10.0.0.13', 'ip': '10.0.0.13', 'status': 'DOWN'}, {'id': '10.0.0.14', 'ip': '10.0.0.14', 'status': 'DOWN'}, {'id': '10.0.0.11', 'ip': '10.0.0.11', 'status': 'DOWN'}], 'servers': [{'id': '10.0.0.1', 'ip': '10.0.0.1', 'status': 'UP'}, {'id': '10.0.0.2', 'ip': '10.0.0.2', 'status': 'UP'}, {'id': '10.0.0.3', 'ip': '10.0.0.3', 'status': 'UP'}, {'id': '10.0.0.4', 'ip': '10.0.0.4', 'status': 'UP'}]}
+2025-11-19 23:58:55,758 - INFO - RyuPushLiveHosts - Pushed to Flask: {'hosts': [{'id': '10.0.0.12', 'ip': '10.0.0.12', 'status': 'DOWN'}, {'id': '10.0.0.13', 'ip': '10.0.0.13', 'status': 'DOWN'}, {'id': '10.0.0.14', 'ip': '10.0.0.14', 'status': 'DOWN'}, {'id': '10.0.0.11', 'ip': '10.0.0.11', 'status': 'DOWN'}], 'servers': [{'id': '10.0.0.1', 'ip': '10.0.0.1', 'status': 'UP'}, {'id': '10.0.0.2', 'ip': '10.0.0.2', 'status': 'UP'}, {'id': '10.0.0.3', 'ip': '10.0.0.3', 'status': 'UP'}, {'id': '10.0.0.4', 'ip': '10.0.0.4', 'status': 'UP'}]}
+2025-11-19 23:58:56,399 - INFO - FailureRecoveryDynamic - 🌐 Topology updated (link-add): 3 switches, 1 links
+2025-11-19 23:58:56,400 - INFO - SmartDCController - 🌐 Topology updated (link-add): 3 switches, 1 links
+2025-11-19 23:58:56,451 - INFO - FailureRecoveryDynamic - 🌐 Topology updated (link-add): 3 switches, 1 links
+2025-11-19 23:58:56,452 - INFO - SmartDCController - 🌐 Topology updated (link-add): 3 switches, 2 links
+2025-11-19 23:58:56,791 - INFO - FailureRecoveryDynamic - 🌐 Topology updated (link-add): 3 switches, 2 links
+2025-11-19 23:58:56,792 - INFO - SmartDCController - 🌐 Topology updated (link-add): 3 switches, 3 links
+2025-11-19 23:58:56,843 - INFO - FailureRecoveryDynamic - 🌐 Topology updated (link-add): 3 switches, 2 links
+2025-11-19 23:58:56,843 - INFO - SmartDCController - 🌐 Topology updated (link-add): 3 switches, 4 links
+2025-11-19 23:58:57,266 - INFO - FailureRecoveryDynamic - 📡 Learned host: 10.0.0.11 -> S2:5
+2025-11-19 23:58:57,267 - INFO - HostMigration - 🏠 Learned host (ARP): 10.0.0.11 @ 2:5
+2025-11-19 23:58:57,268 - INFO - RyuPushLiveHosts - Host seen via ARP: 10.0.0.11
+2025-11-19 23:58:57,271 - INFO - FailureRecoveryDynamic - 📡 Learned host: 10.0.0.11 -> S1:1
+2025-11-19 23:58:57,272 - INFO - HostMigration - 🏠 Learned host (ARP): 10.0.0.11 @ 1:1
+2025-11-19 23:58:57,273 - INFO - RyuPushLiveHosts - Host seen via ARP: 10.0.0.11
+2025-11-19 23:58:57,274 - INFO - FailureRecoveryDynamic - 📡 Learned host: 10.0.0.12 -> S2:6
+2025-11-19 23:58:57,274 - INFO - FailureRecoveryDynamic - 📡 Learned host: 10.0.0.11 -> S3:2
+2025-11-19 23:58:57,274 - INFO - HostMigration - 🏠 Learned host (ARP): 10.0.0.12 @ 2:6
+2025-11-19 23:58:57,274 - INFO - HostMigration - 🏠 Learned host (ARP): 10.0.0.11 @ 3:2
+2025-11-19 23:58:57,276 - INFO - RyuPushLiveHosts - Host seen via ARP: 10.0.0.12
+2025-11-19 23:58:57,276 - INFO - RyuPushLiveHosts - Host seen via ARP: 10.0.0.11
+2025-11-19 23:58:57,282 - INFO - RyuPushLiveHosts - Host seen via IPv4: 10.0.0.11
+2025-11-19 23:58:57,293 - INFO - FailureRecoveryDynamic - 📡 Learned host: 10.0.0.11 -> S2:5
+2025-11-19 23:58:57,293 - INFO - HostMigration - 🏠 Learned host (ARP): 10.0.0.11 @ 2:5
+2025-11-19 23:58:57,294 - INFO - RyuPushLiveHosts - Host seen via ARP: 10.0.0.11
+2025-11-19 23:58:57,297 - INFO - FailureRecoveryDynamic - 📡 Learned host: 10.0.0.11 -> S1:1
+2025-11-19 23:58:57,298 - INFO - HostMigration - 🏠 Learned host (ARP): 10.0.0.11 @ 1:1
+2025-11-19 23:58:57,299 - INFO - RyuPushLiveHosts - Host seen via ARP: 10.0.0.11
+2025-11-19 23:58:57,300 - INFO - FailureRecoveryDynamic - 📡 Learned host: 10.0.0.11 -> S3:2
+2025-11-19 23:58:57,300 - INFO - HostMigration - 🏠 Learned host (ARP): 10.0.0.11 @ 3:2
+2025-11-19 23:58:57,301 - INFO - RyuPushLiveHosts - Host seen via ARP: 10.0.0.11
+2025-11-19 23:58:57,308 - INFO - FailureRecoveryDynamic - 📡 Learned host: 10.0.0.13 -> S3:5
+2025-11-19 23:58:57,308 - INFO - HostMigration - 🏠 Learned host (ARP): 10.0.0.13 @ 3:5
+2025-11-19 23:58:57,310 - INFO - RyuPushLiveHosts - Host seen via ARP: 10.0.0.13
+2025-11-19 23:58:57,311 - INFO - HostMigration - 🏠 Host added (EventHostAdd): 10.0.0.13 @ 3:5
+2025-11-19 23:58:57,317 - INFO - FailureRecoveryDynamic - 📡 Learned host: 10.0.0.13 -> S2:2
+2025-11-19 23:58:57,318 - INFO - HostMigration - 🏠 Learned host (ARP): 10.0.0.13 @ 2:2
+2025-11-19 23:58:57,320 - INFO - RyuPushLiveHosts - Host seen via ARP: 10.0.0.13
+2025-11-19 23:58:57,327 - INFO - RyuPushLiveHosts - Host seen via IPv4: 10.0.0.11
+2025-11-19 23:58:57,335 - INFO - RyuPushLiveHosts - Host seen via IPv4: 10.0.0.11
+2025-11-19 23:58:57,340 - INFO - RyuPushLiveHosts - Host seen via IPv4: 10.0.0.11
+2025-11-19 23:58:57,352 - INFO - FailureRecoveryDynamic - 📡 Learned host: 10.0.0.11 -> S2:5
+2025-11-19 23:58:57,352 - INFO - HostMigration - 🏠 Learned host (ARP): 10.0.0.11 @ 2:5
+2025-11-19 23:58:57,354 - INFO - RyuPushLiveHosts - Host seen via ARP: 10.0.0.11
+2025-11-19 23:58:57,359 - INFO - FailureRecoveryDynamic - 📡 Learned host: 10.0.0.11 -> S1:1
+2025-11-19 23:58:57,360 - INFO - HostMigration - 🏠 Learned host (ARP): 10.0.0.11 @ 1:1
+2025-11-19 23:58:57,361 - INFO - RyuPushLiveHosts - Host seen via ARP: 10.0.0.11
+2025-11-19 23:58:57,362 - INFO - FailureRecoveryDynamic - 📡 Learned host: 10.0.0.11 -> S3:2
+2025-11-19 23:58:57,362 - INFO - HostMigration - 🏠 Learned host (ARP): 10.0.0.11 @ 3:2
+2025-11-19 23:58:57,363 - INFO - RyuPushLiveHosts - Host seen via ARP: 10.0.0.11
+2025-11-19 23:58:57,367 - INFO - FailureRecoveryDynamic - 📡 Learned host: 10.0.0.14 -> S3:6
+2025-11-19 23:58:57,367 - INFO - HostMigration - 🏠 Learned host (ARP): 10.0.0.14 @ 3:6
+2025-11-19 23:58:57,368 - INFO - RyuPushLiveHosts - Host seen via ARP: 10.0.0.14
+2025-11-19 23:58:57,373 - INFO - FailureRecoveryDynamic - 📡 Learned host: 10.0.0.14 -> S2:2
+2025-11-19 23:58:57,373 - INFO - HostMigration - 🏠 Learned host (ARP): 10.0.0.14 @ 2:2
+2025-11-19 23:58:57,374 - INFO - RyuPushLiveHosts - Host seen via ARP: 10.0.0.14
+2025-11-19 23:58:57,383 - INFO - RyuPushLiveHosts - Host seen via IPv4: 10.0.0.11
+2025-11-19 23:58:57,392 - INFO - RyuPushLiveHosts - Host seen via IPv4: 10.0.0.11
+2025-11-19 23:58:57,392 - INFO - RyuPushLiveHosts - Host seen via IPv4: 10.0.0.11
+2025-11-19 23:58:57,408 - INFO - FailureRecoveryDynamic - 📡 Learned host: 10.0.0.11 -> S2:5
+2025-11-19 23:58:57,409 - INFO - HostMigration - 🏠 Learned host (ARP): 10.0.0.11 @ 2:5
+2025-11-19 23:58:57,410 - INFO - RyuPushLiveHosts - Host seen via ARP: 10.0.0.11
+2025-11-19 23:58:57,415 - INFO - FailureRecoveryDynamic - 📡 Learned host: 10.0.0.11 -> S1:1
+2025-11-19 23:58:57,415 - INFO - FailureRecoveryDynamic - 📡 Learned host: 10.0.0.11 -> S3:2
+2025-11-19 23:58:57,415 - INFO - HostMigration - 🏠 Learned host (ARP): 10.0.0.11 @ 1:1
+2025-11-19 23:58:57,415 - INFO - HostMigration - 🏠 Learned host (ARP): 10.0.0.11 @ 3:2
+2025-11-19 23:58:57,419 - INFO - RyuPushLiveHosts - Host seen via ARP: 10.0.0.11
+2025-11-19 23:58:57,419 - INFO - RyuPushLiveHosts - Host seen via ARP: 10.0.0.11
+2025-11-19 23:58:57,453 - INFO - MultiLayerLB - ARP learning: 10.0.0.4 -> dpid 3, port 4, mac 00:00:00:00:00:06
+2025-11-19 23:58:57,454 - INFO - FailureRecoveryDynamic - 📡 Learned host: 10.0.0.4 -> S3:4
+2025-11-19 23:58:57,454 - INFO - HostMigration - 🏠 Learned host (ARP): 10.0.0.4 @ 3:4
+2025-11-19 23:58:57,460 - INFO - MultiLayerLB - ARP learning: 10.0.0.4 -> dpid 2, port 2, mac 00:00:00:00:00:06
+2025-11-19 23:58:57,461 - INFO - FailureRecoveryDynamic - 📡 Learned host: 10.0.0.4 -> S2:2
+2025-11-19 23:58:57,461 - INFO - HostMigration - 🏠 Learned host (ARP): 10.0.0.4 @ 2:2
+2025-11-19 23:58:57,469 - INFO - RyuPushLiveHosts - Host seen via IPv4: 10.0.0.11
+2025-11-19 23:58:57,477 - INFO - RyuPushLiveHosts - Host seen via IPv4: 10.0.0.11
+2025-11-19 23:58:57,478 - INFO - RyuPushLiveHosts - Host seen via IPv4: 10.0.0.11
+2025-11-19 23:58:57,523 - INFO - FailureRecoveryDynamic - 📡 Learned host: 10.0.0.11 -> S2:5
+2025-11-19 23:58:57,523 - INFO - HostMigration - 🏠 Learned host (ARP): 10.0.0.11 @ 2:5
+2025-11-19 23:58:57,525 - INFO - RyuPushLiveHosts - Host seen via ARP: 10.0.0.11
+2025-11-19 23:58:57,530 - INFO - FailureRecoveryDynamic - 📡 Learned host: 10.0.0.11 -> S1:1
+2025-11-19 23:58:57,530 - INFO - HostMigration - 🏠 Learned host (ARP): 10.0.0.11 @ 1:1
+2025-11-19 23:58:57,531 - INFO - RyuPushLiveHosts - Host seen via ARP: 10.0.0.11
+2025-11-19 23:58:57,532 - INFO - FailureRecoveryDynamic - 📡 Learned host: 10.0.0.11 -> S3:2
+2025-11-19 23:58:57,533 - INFO - HostMigration - 🏠 Learned host (ARP): 10.0.0.11 @ 3:2
+2025-11-19 23:58:57,533 - INFO - RyuPushLiveHosts - Host seen via ARP: 10.0.0.11
+2025-11-19 23:58:57,537 - INFO - MultiLayerLB - ARP learning: 10.0.0.1 -> dpid 2, port 3, mac 00:00:00:00:00:07
+2025-11-19 23:58:57,537 - INFO - FailureRecoveryDynamic - 📡 Learned host: 10.0.0.1 -> S2:3
+2025-11-19 23:58:57,538 - INFO - HostMigration - 🏠 Learned host (ARP): 10.0.0.1 @ 2:3
+2025-11-19 23:58:57,545 - INFO - RyuPushLiveHosts - Host seen via IPv4: 10.0.0.11
+2025-11-19 23:58:57,566 - INFO - FailureRecoveryDynamic - 📡 Learned host: 10.0.0.11 -> S2:5
+2025-11-19 23:58:57,567 - INFO - HostMigration - 🏠 Learned host (ARP): 10.0.0.11 @ 2:5
+2025-11-19 23:58:57,568 - INFO - RyuPushLiveHosts - Host seen via ARP: 10.0.0.11
+2025-11-19 23:58:57,573 - INFO - FailureRecoveryDynamic - 📡 Learned host: 10.0.0.11 -> S1:1
+2025-11-19 23:58:57,573 - INFO - HostMigration - 🏠 Learned host (ARP): 10.0.0.11 @ 1:1
+2025-11-19 23:58:57,574 - INFO - RyuPushLiveHosts - Host seen via ARP: 10.0.0.11
+2025-11-19 23:58:57,576 - INFO - FailureRecoveryDynamic - 📡 Learned host: 10.0.0.11 -> S3:2
+2025-11-19 23:58:57,576 - INFO - HostMigration - 🏠 Learned host (ARP): 10.0.0.11 @ 3:2
+2025-11-19 23:58:57,577 - INFO - RyuPushLiveHosts - Host seen via ARP: 10.0.0.11
+2025-11-19 23:58:57,582 - INFO - MultiLayerLB - ARP learning: 10.0.0.2 -> dpid 2, port 4, mac 00:00:00:00:00:08
+2025-11-19 23:58:57,582 - INFO - FailureRecoveryDynamic - 📡 Learned host: 10.0.0.2 -> S2:4
+2025-11-19 23:58:57,583 - INFO - HostMigration - 🏠 Learned host (ARP): 10.0.0.2 @ 2:4
+2025-11-19 23:58:57,586 - INFO - HostMigration - 🏠 Host added (EventHostAdd): 10.0.0.2 @ 2:4
+2025-11-19 23:58:57,591 - INFO - RyuPushLiveHosts - Host seen via IPv4: 10.0.0.11
+2025-11-19 23:58:57,614 - INFO - FailureRecoveryDynamic - 📡 Learned host: 10.0.0.12 -> S2:6
+2025-11-19 23:58:57,615 - INFO - HostMigration - 🏠 Learned host (ARP): 10.0.0.12 @ 2:6
+2025-11-19 23:58:57,616 - INFO - RyuPushLiveHosts - Host seen via ARP: 10.0.0.12
+2025-11-19 23:58:57,622 - INFO - FailureRecoveryDynamic - 📡 Learned host: 10.0.0.12 -> S1:1
+2025-11-19 23:58:57,622 - INFO - HostMigration - 🏠 Learned host (ARP): 10.0.0.12 @ 1:1
+2025-11-19 23:58:57,623 - INFO - RyuPushLiveHosts - Host seen via ARP: 10.0.0.12
+2025-11-19 23:58:57,624 - INFO - FailureRecoveryDynamic - 📡 Learned host: 10.0.0.12 -> S3:2
+2025-11-19 23:58:57,624 - INFO - HostMigration - 🏠 Learned host (ARP): 10.0.0.12 @ 3:2
+2025-11-19 23:58:57,625 - INFO - RyuPushLiveHosts - Host seen via ARP: 10.0.0.12
+2025-11-19 23:58:57,648 - INFO - MultiLayerLB - ARP learning: 10.0.0.3 -> dpid 3, port 3, mac 00:00:00:00:00:01
+2025-11-19 23:58:57,648 - INFO - FailureRecoveryDynamic - 📡 Learned host: 10.0.0.3 -> S3:3
+2025-11-19 23:58:57,649 - INFO - HostMigration - 🏠 Learned host (ARP): 10.0.0.3 @ 3:3
+2025-11-19 23:58:57,650 - INFO - HostMigration - 🏠 Host added (EventHostAdd): 10.0.0.3 @ 3:3
+2025-11-19 23:58:57,656 - INFO - MultiLayerLB - ARP learning: 10.0.0.3 -> dpid 2, port 2, mac 00:00:00:00:00:01
+2025-11-19 23:58:57,657 - INFO - FailureRecoveryDynamic - 📡 Learned host: 10.0.0.3 -> S2:2
+2025-11-19 23:58:57,657 - INFO - HostMigration - 🏠 Learned host (ARP): 10.0.0.3 @ 2:2
+2025-11-19 23:58:57,666 - INFO - RyuPushLiveHosts - Host seen via IPv4: 10.0.0.12
+2025-11-19 23:58:57,672 - INFO - RyuPushLiveHosts - Host seen via IPv4: 10.0.0.12
+2025-11-19 23:58:57,676 - INFO - RyuPushLiveHosts - Host seen via IPv4: 10.0.0.12
+2025-11-19 23:58:57,715 - INFO - FailureRecoveryDynamic - 📡 Learned host: 10.0.0.12 -> S2:6
+2025-11-19 23:58:57,715 - INFO - HostMigration - 🏠 Learned host (ARP): 10.0.0.12 @ 2:6
+2025-11-19 23:58:57,716 - INFO - RyuPushLiveHosts - Host seen via ARP: 10.0.0.12
+2025-11-19 23:58:57,722 - INFO - FailureRecoveryDynamic - 📡 Learned host: 10.0.0.12 -> S1:1
+2025-11-19 23:58:57,723 - INFO - HostMigration - 🏠 Learned host (ARP): 10.0.0.12 @ 1:1
+2025-11-19 23:58:57,724 - INFO - RyuPushLiveHosts - Host seen via ARP: 10.0.0.12
+2025-11-19 23:58:57,725 - INFO - FailureRecoveryDynamic - 📡 Learned host: 10.0.0.12 -> S3:2
+2025-11-19 23:58:57,726 - INFO - HostMigration - 🏠 Learned host (ARP): 10.0.0.12 @ 3:2
+2025-11-19 23:58:57,727 - INFO - RyuPushLiveHosts - Host seen via ARP: 10.0.0.12
+2025-11-19 23:58:57,733 - INFO - FailureRecoveryDynamic - 📡 Learned host: 10.0.0.13 -> S3:5
+2025-11-19 23:58:57,734 - INFO - HostMigration - 🏠 Learned host (ARP): 10.0.0.13 @ 3:5
+2025-11-19 23:58:57,736 - INFO - RyuPushLiveHosts - Host seen via ARP: 10.0.0.13
+2025-11-19 23:58:57,742 - INFO - FailureRecoveryDynamic - 📡 Learned host: 10.0.0.13 -> S2:2
+2025-11-19 23:58:57,747 - INFO - HostMigration - 🏠 Learned host (ARP): 10.0.0.13 @ 2:2
+2025-11-19 23:58:57,749 - INFO - RyuPushLiveHosts - Host seen via ARP: 10.0.0.13
+2025-11-19 23:58:57,760 - INFO - RyuPushLiveHosts - Host seen via IPv4: 10.0.0.12
+2025-11-19 23:58:57,767 - INFO - RyuPushLiveHosts - Host seen via IPv4: 10.0.0.12
+2025-11-19 23:58:57,770 - INFO - RyuPushLiveHosts - Host seen via IPv4: 10.0.0.12
+2025-11-19 23:58:57,786 - INFO - FailureRecoveryDynamic - 📡 Learned host: 10.0.0.12 -> S2:6
+2025-11-19 23:58:57,787 - INFO - HostMigration - 🏠 Learned host (ARP): 10.0.0.12 @ 2:6
+2025-11-19 23:58:57,788 - INFO - RyuPushLiveHosts - Host seen via ARP: 10.0.0.12
+2025-11-19 23:58:57,792 - INFO - FailureRecoveryDynamic - 📡 Learned host: 10.0.0.12 -> S1:1
+2025-11-19 23:58:57,792 - INFO - HostMigration - 🏠 Learned host (ARP): 10.0.0.12 @ 1:1
+2025-11-19 23:58:57,794 - INFO - RyuPushLiveHosts - Host seen via ARP: 10.0.0.12
+2025-11-19 23:58:57,795 - INFO - FailureRecoveryDynamic - 📡 Learned host: 10.0.0.12 -> S3:2
+2025-11-19 23:58:57,795 - INFO - HostMigration - 🏠 Learned host (ARP): 10.0.0.12 @ 3:2
+2025-11-19 23:58:57,798 - INFO - RyuPushLiveHosts - Host seen via ARP: 10.0.0.12
+2025-11-19 23:58:57,803 - INFO - FailureRecoveryDynamic - 📡 Learned host: 10.0.0.14 -> S3:6
+2025-11-19 23:58:57,803 - INFO - HostMigration - 🏠 Learned host (ARP): 10.0.0.14 @ 3:6
+2025-11-19 23:58:57,804 - INFO - RyuPushLiveHosts - Host seen via ARP: 10.0.0.14
+2025-11-19 23:58:57,809 - INFO - FailureRecoveryDynamic - 📡 Learned host: 10.0.0.14 -> S2:2
+2025-11-19 23:58:57,809 - INFO - HostMigration - 🏠 Learned host (ARP): 10.0.0.14 @ 2:2
+2025-11-19 23:58:57,811 - INFO - RyuPushLiveHosts - Host seen via ARP: 10.0.0.14
+2025-11-19 23:58:57,817 - INFO - RyuPushLiveHosts - Host seen via IPv4: 10.0.0.12
+2025-11-19 23:58:57,828 - INFO - RyuPushLiveHosts - Host seen via IPv4: 10.0.0.12
+2025-11-19 23:58:57,828 - INFO - RyuPushLiveHosts - Host seen via IPv4: 10.0.0.12
+2025-11-19 23:58:57,848 - INFO - FailureRecoveryDynamic - 📡 Learned host: 10.0.0.12 -> S2:6
+2025-11-19 23:58:57,849 - INFO - HostMigration - 🏠 Learned host (ARP): 10.0.0.12 @ 2:6
+2025-11-19 23:58:57,850 - INFO - RyuPushLiveHosts - Host seen via ARP: 10.0.0.12
+2025-11-19 23:58:57,855 - INFO - FailureRecoveryDynamic - 📡 Learned host: 10.0.0.12 -> S1:1
+2025-11-19 23:58:57,856 - INFO - HostMigration - 🏠 Learned host (ARP): 10.0.0.12 @ 1:1
+2025-11-19 23:58:57,858 - INFO - RyuPushLiveHosts - Host seen via ARP: 10.0.0.12
+2025-11-19 23:58:57,859 - INFO - FailureRecoveryDynamic - 📡 Learned host: 10.0.0.12 -> S3:2
+2025-11-19 23:58:57,859 - INFO - HostMigration - 🏠 Learned host (ARP): 10.0.0.12 @ 3:2
+2025-11-19 23:58:57,860 - INFO - RyuPushLiveHosts - Host seen via ARP: 10.0.0.12
+2025-11-19 23:58:57,893 - INFO - MultiLayerLB - ARP learning: 10.0.0.4 -> dpid 3, port 4, mac 00:00:00:00:00:06
+2025-11-19 23:58:57,894 - INFO - FailureRecoveryDynamic - 📡 Learned host: 10.0.0.4 -> S3:4
+2025-11-19 23:58:57,894 - INFO - HostMigration - 🏠 Learned host (ARP): 10.0.0.4 @ 3:4
+2025-11-19 23:58:57,902 - INFO - MultiLayerLB - ARP learning: 10.0.0.4 -> dpid 2, port 2, mac 00:00:00:00:00:06
+2025-11-19 23:58:57,903 - INFO - FailureRecoveryDynamic - 📡 Learned host: 10.0.0.4 -> S2:2
+2025-11-19 23:58:57,903 - INFO - HostMigration - 🏠 Learned host (ARP): 10.0.0.4 @ 2:2
+2025-11-19 23:58:57,909 - INFO - RyuPushLiveHosts - Host seen via IPv4: 10.0.0.12
+2025-11-19 23:58:57,918 - INFO - RyuPushLiveHosts - Host seen via IPv4: 10.0.0.12
+2025-11-19 23:58:57,918 - INFO - RyuPushLiveHosts - Host seen via IPv4: 10.0.0.12
+2025-11-19 23:58:57,961 - INFO - FailureRecoveryDynamic - 📡 Learned host: 10.0.0.12 -> S2:6
+2025-11-19 23:58:57,962 - INFO - HostMigration - 🏠 Learned host (ARP): 10.0.0.12 @ 2:6
+2025-11-19 23:58:57,963 - INFO - RyuPushLiveHosts - Host seen via ARP: 10.0.0.12
+2025-11-19 23:58:57,967 - INFO - FailureRecoveryDynamic - 📡 Learned host: 10.0.0.12 -> S1:1
+2025-11-19 23:58:57,967 - INFO - HostMigration - 🏠 Learned host (ARP): 10.0.0.12 @ 1:1
+2025-11-19 23:58:57,969 - INFO - RyuPushLiveHosts - Host seen via ARP: 10.0.0.12
+2025-11-19 23:58:57,969 - INFO - FailureRecoveryDynamic - 📡 Learned host: 10.0.0.12 -> S3:2
+2025-11-19 23:58:57,970 - INFO - HostMigration - 🏠 Learned host (ARP): 10.0.0.12 @ 3:2
+2025-11-19 23:58:57,971 - INFO - RyuPushLiveHosts - Host seen via ARP: 10.0.0.12
+2025-11-19 23:58:57,975 - INFO - MultiLayerLB - ARP learning: 10.0.0.1 -> dpid 2, port 3, mac 00:00:00:00:00:07
+2025-11-19 23:58:57,975 - INFO - FailureRecoveryDynamic - 📡 Learned host: 10.0.0.1 -> S2:3
+2025-11-19 23:58:57,976 - INFO - HostMigration - 🏠 Learned host (ARP): 10.0.0.1 @ 2:3
+2025-11-19 23:58:57,986 - INFO - RyuPushLiveHosts - Host seen via IPv4: 10.0.0.12
+2025-11-19 23:58:58,009 - INFO - FailureRecoveryDynamic - 📡 Learned host: 10.0.0.12 -> S2:6
+2025-11-19 23:58:58,009 - INFO - HostMigration - 🏠 Learned host (ARP): 10.0.0.12 @ 2:6
+2025-11-19 23:58:58,010 - INFO - RyuPushLiveHosts - Host seen via ARP: 10.0.0.12
+2025-11-19 23:58:58,015 - INFO - FailureRecoveryDynamic - 📡 Learned host: 10.0.0.12 -> S3:2
+2025-11-19 23:58:58,016 - INFO - FailureRecoveryDynamic - 📡 Learned host: 10.0.0.12 -> S1:1
+2025-11-19 23:58:58,016 - INFO - HostMigration - 🏠 Learned host (ARP): 10.0.0.12 @ 3:2
+2025-11-19 23:58:58,016 - INFO - HostMigration - 🏠 Learned host (ARP): 10.0.0.12 @ 1:1
+2025-11-19 23:58:58,018 - INFO - RyuPushLiveHosts - Host seen via ARP: 10.0.0.12
+2025-11-19 23:58:58,018 - INFO - RyuPushLiveHosts - Host seen via ARP: 10.0.0.12
+2025-11-19 23:58:58,022 - INFO - MultiLayerLB - ARP learning: 10.0.0.2 -> dpid 2, port 4, mac 00:00:00:00:00:08
+2025-11-19 23:58:58,022 - INFO - FailureRecoveryDynamic - 📡 Learned host: 10.0.0.2 -> S2:4
+2025-11-19 23:58:58,022 - INFO - HostMigration - 🏠 Learned host (ARP): 10.0.0.2 @ 2:4
+2025-11-19 23:58:58,028 - INFO - RyuPushLiveHosts - Host seen via IPv4: 10.0.0.12
+2025-11-19 23:58:58,053 - INFO - FailureRecoveryDynamic - 📡 Learned host: 10.0.0.13 -> S3:5
+2025-11-19 23:58:58,053 - INFO - HostMigration - 🏠 Learned host (ARP): 10.0.0.13 @ 3:5
+2025-11-19 23:58:58,055 - INFO - RyuPushLiveHosts - Host seen via ARP: 10.0.0.13
+2025-11-19 23:58:58,061 - INFO - FailureRecoveryDynamic - 📡 Learned host: 10.0.0.13 -> S2:2
+2025-11-19 23:58:58,062 - INFO - HostMigration - 🏠 Learned host (ARP): 10.0.0.13 @ 2:2
+2025-11-19 23:58:58,065 - INFO - RyuPushLiveHosts - Host seen via ARP: 10.0.0.13
+2025-11-19 23:58:58,069 - INFO - FailureRecoveryDynamic - 📡 Learned host: 10.0.0.13 -> S1:1
+2025-11-19 23:58:58,070 - INFO - HostMigration - 🏠 Learned host (ARP): 10.0.0.13 @ 1:1
+2025-11-19 23:58:58,072 - INFO - RyuPushLiveHosts - Host seen via ARP: 10.0.0.13
+2025-11-19 23:58:58,078 - INFO - MultiLayerLB - ARP learning: 10.0.0.3 -> dpid 3, port 3, mac 00:00:00:00:00:01
+2025-11-19 23:58:58,078 - INFO - FailureRecoveryDynamic - 📡 Learned host: 10.0.0.3 -> S3:3
+2025-11-19 23:58:58,078 - INFO - HostMigration - 🏠 Learned host (ARP): 10.0.0.3 @ 3:3
+2025-11-19 23:58:58,090 - INFO - RyuPushLiveHosts - Host seen via IPv4: 10.0.0.13
+2025-11-19 23:58:58,157 - INFO - FailureRecoveryDynamic - 📡 Learned host: 10.0.0.13 -> S3:5
+2025-11-19 23:58:58,157 - INFO - HostMigration - 🏠 Learned host (ARP): 10.0.0.13 @ 3:5
+2025-11-19 23:58:58,157 - INFO - RyuPushLiveHosts - Host seen via ARP: 10.0.0.13
+2025-11-19 23:58:58,162 - INFO - FailureRecoveryDynamic - 📡 Learned host: 10.0.0.14 -> S3:6
+2025-11-19 23:58:58,164 - INFO - HostMigration - 🏠 Learned host (ARP): 10.0.0.14 @ 3:6
+2025-11-19 23:58:58,167 - INFO - RyuPushLiveHosts - Host seen via ARP: 10.0.0.14
+2025-11-19 23:58:58,168 - INFO - FailureRecoveryDynamic - 📡 Learned host: 10.0.0.13 -> S2:2
+2025-11-19 23:58:58,169 - INFO - HostMigration - 🏠 Learned host (ARP): 10.0.0.13 @ 2:2
+2025-11-19 23:58:58,170 - INFO - RyuPushLiveHosts - Host seen via ARP: 10.0.0.13
+2025-11-19 23:58:58,173 - INFO - RyuPushLiveHosts - Host seen via IPv4: 10.0.0.13
+2025-11-19 23:58:58,174 - INFO - FailureRecoveryDynamic - 📡 Learned host: 10.0.0.13 -> S1:1
+2025-11-19 23:58:58,174 - INFO - HostMigration - 🏠 Learned host (ARP): 10.0.0.13 @ 1:1
+2025-11-19 23:58:58,175 - INFO - RyuPushLiveHosts - Host seen via ARP: 10.0.0.13
+2025-11-19 23:58:58,186 - INFO - FailureRecoveryDynamic - 📡 Learned host: 10.0.0.13 -> S3:5
+2025-11-19 23:58:58,187 - INFO - HostMigration - 🏠 Learned host (ARP): 10.0.0.13 @ 3:5
+2025-11-19 23:58:58,187 - INFO - RyuPushLiveHosts - Host seen via ARP: 10.0.0.13
+2025-11-19 23:58:58,193 - INFO - FailureRecoveryDynamic - 📡 Learned host: 10.0.0.13 -> S2:2
+2025-11-19 23:58:58,193 - INFO - HostMigration - 🏠 Learned host (ARP): 10.0.0.13 @ 2:2
+2025-11-19 23:58:58,194 - INFO - RyuPushLiveHosts - Host seen via ARP: 10.0.0.13
+2025-11-19 23:58:58,200 - INFO - FailureRecoveryDynamic - 📡 Learned host: 10.0.0.13 -> S1:1
+2025-11-19 23:58:58,201 - INFO - HostMigration - 🏠 Learned host (ARP): 10.0.0.13 @ 1:1
+2025-11-19 23:58:58,202 - INFO - RyuPushLiveHosts - Host seen via ARP: 10.0.0.13
+2025-11-19 23:58:58,222 - INFO - MultiLayerLB - ARP learning: 10.0.0.4 -> dpid 3, port 4, mac 00:00:00:00:00:06
+2025-11-19 23:58:58,223 - INFO - FailureRecoveryDynamic - 📡 Learned host: 10.0.0.4 -> S3:4
+2025-11-19 23:58:58,223 - INFO - HostMigration - 🏠 Learned host (ARP): 10.0.0.4 @ 3:4
+2025-11-19 23:58:58,232 - INFO - RyuPushLiveHosts - Host seen via IPv4: 10.0.0.13
+2025-11-19 23:58:58,277 - INFO - FailureRecoveryDynamic - 📡 Learned host: 10.0.0.13 -> S3:5
+2025-11-19 23:58:58,278 - INFO - HostMigration - 🏠 Learned host (ARP): 10.0.0.13 @ 3:5
+2025-11-19 23:58:58,279 - INFO - RyuPushLiveHosts - Host seen via ARP: 10.0.0.13
+2025-11-19 23:58:58,284 - INFO - FailureRecoveryDynamic - 📡 Learned host: 10.0.0.13 -> S2:2
+2025-11-19 23:58:58,284 - INFO - HostMigration - 🏠 Learned host (ARP): 10.0.0.13 @ 2:2
+2025-11-19 23:58:58,285 - INFO - RyuPushLiveHosts - Host seen via ARP: 10.0.0.13
+2025-11-19 23:58:58,288 - INFO - FailureRecoveryDynamic - 📡 Learned host: 10.0.0.13 -> S1:1
+2025-11-19 23:58:58,289 - INFO - HostMigration - 🏠 Learned host (ARP): 10.0.0.13 @ 1:1
+2025-11-19 23:58:58,290 - INFO - RyuPushLiveHosts - Host seen via ARP: 10.0.0.13
+2025-11-19 23:58:58,297 - INFO - MultiLayerLB - ARP learning: 10.0.0.1 -> dpid 2, port 3, mac 00:00:00:00:00:07
+2025-11-19 23:58:58,298 - INFO - FailureRecoveryDynamic - 📡 Learned host: 10.0.0.1 -> S2:3
+2025-11-19 23:58:58,298 - INFO - HostMigration - 🏠 Learned host (ARP): 10.0.0.1 @ 2:3
+2025-11-19 23:58:58,305 - INFO - MultiLayerLB - ARP learning: 10.0.0.1 -> dpid 3, port 2, mac 00:00:00:00:00:07
+2025-11-19 23:58:58,306 - INFO - FailureRecoveryDynamic - 📡 Learned host: 10.0.0.1 -> S3:2
+2025-11-19 23:58:58,306 - INFO - HostMigration - 🏠 Learned host (ARP): 10.0.0.1 @ 3:2
+2025-11-19 23:58:58,313 - INFO - RyuPushLiveHosts - Host seen via IPv4: 10.0.0.13
+2025-11-19 23:58:58,321 - INFO - RyuPushLiveHosts - Host seen via IPv4: 10.0.0.13
+2025-11-19 23:58:58,324 - INFO - RyuPushLiveHosts - Host seen via IPv4: 10.0.0.13
+2025-11-19 23:58:58,345 - INFO - FailureRecoveryDynamic - 📡 Learned host: 10.0.0.13 -> S3:5
+2025-11-19 23:58:58,347 - INFO - HostMigration - 🏠 Learned host (ARP): 10.0.0.13 @ 3:5
+2025-11-19 23:58:58,348 - INFO - RyuPushLiveHosts - Host seen via ARP: 10.0.0.13
+2025-11-19 23:58:58,354 - INFO - FailureRecoveryDynamic - 📡 Learned host: 10.0.0.13 -> S2:2
+2025-11-19 23:58:58,354 - INFO - HostMigration - 🏠 Learned host (ARP): 10.0.0.13 @ 2:2
+2025-11-19 23:58:58,355 - INFO - RyuPushLiveHosts - Host seen via ARP: 10.0.0.13
+2025-11-19 23:58:58,359 - INFO - FailureRecoveryDynamic - 📡 Learned host: 10.0.0.13 -> S1:1
+2025-11-19 23:58:58,359 - INFO - HostMigration - 🏠 Learned host (ARP): 10.0.0.13 @ 1:1
+2025-11-19 23:58:58,360 - INFO - RyuPushLiveHosts - Host seen via ARP: 10.0.0.13
+2025-11-19 23:58:58,368 - INFO - MultiLayerLB - ARP learning: 10.0.0.2 -> dpid 2, port 4, mac 00:00:00:00:00:08
+2025-11-19 23:58:58,368 - INFO - FailureRecoveryDynamic - 📡 Learned host: 10.0.0.2 -> S2:4
+2025-11-19 23:58:58,369 - INFO - HostMigration - 🏠 Learned host (ARP): 10.0.0.2 @ 2:4
+2025-11-19 23:58:58,376 - INFO - MultiLayerLB - ARP learning: 10.0.0.2 -> dpid 3, port 2, mac 00:00:00:00:00:08
+2025-11-19 23:58:58,376 - INFO - FailureRecoveryDynamic - 📡 Learned host: 10.0.0.2 -> S3:2
+2025-11-19 23:58:58,376 - INFO - HostMigration - 🏠 Learned host (ARP): 10.0.0.2 @ 3:2
+2025-11-19 23:58:58,386 - INFO - RyuPushLiveHosts - Host seen via IPv4: 10.0.0.13
+2025-11-19 23:58:58,394 - INFO - RyuPushLiveHosts - Host seen via IPv4: 10.0.0.13
+2025-11-19 23:58:58,395 - INFO - RyuPushLiveHosts - Host seen via IPv4: 10.0.0.13
+2025-11-19 23:58:58,424 - INFO - FailureRecoveryDynamic - 📡 Learned host: 10.0.0.14 -> S3:6
+2025-11-19 23:58:58,425 - INFO - HostMigration - 🏠 Learned host (ARP): 10.0.0.14 @ 3:6
+2025-11-19 23:58:58,426 - INFO - RyuPushLiveHosts - Host seen via ARP: 10.0.0.14
+2025-11-19 23:58:58,434 - INFO - FailureRecoveryDynamic - 📡 Learned host: 10.0.0.14 -> S2:2
+2025-11-19 23:58:58,434 - INFO - HostMigration - 🏠 Learned host (ARP): 10.0.0.14 @ 2:2
+2025-11-19 23:58:58,435 - INFO - RyuPushLiveHosts - Host seen via ARP: 10.0.0.14
+2025-11-19 23:58:58,442 - INFO - FailureRecoveryDynamic - 📡 Learned host: 10.0.0.14 -> S1:1
+2025-11-19 23:58:58,442 - INFO - HostMigration - 🏠 Learned host (ARP): 10.0.0.14 @ 1:1
+2025-11-19 23:58:58,443 - INFO - RyuPushLiveHosts - Host seen via ARP: 10.0.0.14
+2025-11-19 23:58:58,453 - INFO - MultiLayerLB - ARP learning: 10.0.0.3 -> dpid 3, port 3, mac 00:00:00:00:00:01
+2025-11-19 23:58:58,453 - INFO - FailureRecoveryDynamic - 📡 Learned host: 10.0.0.3 -> S3:3
+2025-11-19 23:58:58,454 - INFO - HostMigration - 🏠 Learned host (ARP): 10.0.0.3 @ 3:3
+2025-11-19 23:58:58,465 - INFO - RyuPushLiveHosts - Host seen via IPv4: 10.0.0.14
+2025-11-19 23:58:58,541 - INFO - FailureRecoveryDynamic - 📡 Learned host: 10.0.0.14 -> S3:6
+2025-11-19 23:58:58,542 - INFO - HostMigration - 🏠 Learned host (ARP): 10.0.0.14 @ 3:6
+2025-11-19 23:58:58,546 - INFO - RyuPushLiveHosts - Host seen via ARP: 10.0.0.14
+2025-11-19 23:58:58,554 - INFO - FailureRecoveryDynamic - 📡 Learned host: 10.0.0.14 -> S2:2
+2025-11-19 23:58:58,555 - INFO - HostMigration - 🏠 Learned host (ARP): 10.0.0.14 @ 2:2
+2025-11-19 23:58:58,555 - INFO - RyuPushLiveHosts - Host seen via ARP: 10.0.0.14
+2025-11-19 23:58:58,559 - INFO - FailureRecoveryDynamic - 📡 Learned host: 10.0.0.14 -> S1:1
+2025-11-19 23:58:58,560 - INFO - HostMigration - 🏠 Learned host (ARP): 10.0.0.14 @ 1:1
+2025-11-19 23:58:58,560 - INFO - RyuPushLiveHosts - Host seen via ARP: 10.0.0.14
+2025-11-19 23:58:58,581 - INFO - MultiLayerLB - ARP learning: 10.0.0.4 -> dpid 3, port 4, mac 00:00:00:00:00:06
+2025-11-19 23:58:58,582 - INFO - FailureRecoveryDynamic - 📡 Learned host: 10.0.0.4 -> S3:4
+2025-11-19 23:58:58,582 - INFO - HostMigration - 🏠 Learned host (ARP): 10.0.0.4 @ 3:4
+2025-11-19 23:58:58,590 - INFO - RyuPushLiveHosts - Host seen via IPv4: 10.0.0.14
+2025-11-19 23:58:58,630 - INFO - FailureRecoveryDynamic - 📡 Learned host: 10.0.0.14 -> S3:6
+2025-11-19 23:58:58,630 - INFO - HostMigration - 🏠 Learned host (ARP): 10.0.0.14 @ 3:6
+2025-11-19 23:58:58,631 - INFO - RyuPushLiveHosts - Host seen via ARP: 10.0.0.14
+2025-11-19 23:58:58,635 - INFO - FailureRecoveryDynamic - 📡 Learned host: 10.0.0.14 -> S2:2
+2025-11-19 23:58:58,636 - INFO - HostMigration - 🏠 Learned host (ARP): 10.0.0.14 @ 2:2
+2025-11-19 23:58:58,637 - INFO - RyuPushLiveHosts - Host seen via ARP: 10.0.0.14
+2025-11-19 23:58:58,641 - INFO - FailureRecoveryDynamic - 📡 Learned host: 10.0.0.14 -> S1:1
+2025-11-19 23:58:58,641 - INFO - HostMigration - 🏠 Learned host (ARP): 10.0.0.14 @ 1:1
+2025-11-19 23:58:58,642 - INFO - RyuPushLiveHosts - Host seen via ARP: 10.0.0.14
+2025-11-19 23:58:58,650 - INFO - MultiLayerLB - ARP learning: 10.0.0.1 -> dpid 2, port 3, mac 00:00:00:00:00:07
+2025-11-19 23:58:58,651 - INFO - FailureRecoveryDynamic - 📡 Learned host: 10.0.0.1 -> S2:3
+2025-11-19 23:58:58,652 - INFO - HostMigration - 🏠 Learned host (ARP): 10.0.0.1 @ 2:3
+2025-11-19 23:58:58,659 - INFO - MultiLayerLB - ARP learning: 10.0.0.1 -> dpid 3, port 2, mac 00:00:00:00:00:07
+2025-11-19 23:58:58,660 - INFO - FailureRecoveryDynamic - 📡 Learned host: 10.0.0.1 -> S3:2
+2025-11-19 23:58:58,660 - INFO - HostMigration - 🏠 Learned host (ARP): 10.0.0.1 @ 3:2
+2025-11-19 23:58:58,672 - INFO - RyuPushLiveHosts - Host seen via IPv4: 10.0.0.14
+2025-11-19 23:58:58,679 - INFO - RyuPushLiveHosts - Host seen via IPv4: 10.0.0.14
+2025-11-19 23:58:58,682 - INFO - RyuPushLiveHosts - Host seen via IPv4: 10.0.0.14
+2025-11-19 23:58:58,707 - INFO - FailureRecoveryDynamic - 📡 Learned host: 10.0.0.14 -> S3:6
+2025-11-19 23:58:58,707 - INFO - HostMigration - 🏠 Learned host (ARP): 10.0.0.14 @ 3:6
+2025-11-19 23:58:58,708 - INFO - RyuPushLiveHosts - Host seen via ARP: 10.0.0.14
+2025-11-19 23:58:58,713 - INFO - FailureRecoveryDynamic - 📡 Learned host: 10.0.0.14 -> S2:2
+2025-11-19 23:58:58,713 - INFO - HostMigration - 🏠 Learned host (ARP): 10.0.0.14 @ 2:2
+2025-11-19 23:58:58,714 - INFO - RyuPushLiveHosts - Host seen via ARP: 10.0.0.14
+2025-11-19 23:58:58,719 - INFO - FailureRecoveryDynamic - 📡 Learned host: 10.0.0.14 -> S1:1
+2025-11-19 23:58:58,720 - INFO - HostMigration - 🏠 Learned host (ARP): 10.0.0.14 @ 1:1
+2025-11-19 23:58:58,722 - INFO - RyuPushLiveHosts - Host seen via ARP: 10.0.0.14
+2025-11-19 23:58:58,727 - INFO - MultiLayerLB - ARP learning: 10.0.0.2 -> dpid 2, port 4, mac 00:00:00:00:00:08
+2025-11-19 23:58:58,728 - INFO - FailureRecoveryDynamic - 📡 Learned host: 10.0.0.2 -> S2:4
+2025-11-19 23:58:58,728 - INFO - HostMigration - 🏠 Learned host (ARP): 10.0.0.2 @ 2:4
+2025-11-19 23:58:58,740 - INFO - MultiLayerLB - ARP learning: 10.0.0.2 -> dpid 3, port 2, mac 00:00:00:00:00:08
+2025-11-19 23:58:58,740 - INFO - FailureRecoveryDynamic - 📡 Learned host: 10.0.0.2 -> S3:2
+2025-11-19 23:58:58,741 - INFO - HostMigration - 🏠 Learned host (ARP): 10.0.0.2 @ 3:2
+2025-11-19 23:58:58,748 - INFO - RyuPushLiveHosts - Host seen via IPv4: 10.0.0.14
+2025-11-19 23:58:58,757 - INFO - RyuPushLiveHosts - Host seen via IPv4: 10.0.0.14
+2025-11-19 23:58:58,760 - INFO - RyuPushLiveHosts - Host seen via IPv4: 10.0.0.14
+2025-11-19 23:58:58,799 - INFO - MultiLayerLB - ARP learning: 10.0.0.4 -> dpid 3, port 4, mac 00:00:00:00:00:06
+2025-11-19 23:58:58,800 - INFO - FailureRecoveryDynamic - 📡 Learned host: 10.0.0.4 -> S3:4
+2025-11-19 23:58:58,801 - INFO - HostMigration - 🏠 Learned host (ARP): 10.0.0.4 @ 3:4
+2025-11-19 23:58:58,808 - INFO - MultiLayerLB - ARP learning: 10.0.0.4 -> dpid 2, port 2, mac 00:00:00:00:00:06
+2025-11-19 23:58:58,809 - INFO - FailureRecoveryDynamic - 📡 Learned host: 10.0.0.4 -> S2:2
+2025-11-19 23:58:58,809 - INFO - HostMigration - 🏠 Learned host (ARP): 10.0.0.4 @ 2:2
+2025-11-19 23:58:58,813 - INFO - MultiLayerLB - ARP learning: 10.0.0.4 -> dpid 1, port 1, mac 00:00:00:00:00:06
+2025-11-19 23:58:58,814 - INFO - FailureRecoveryDynamic - 📡 Learned host: 10.0.0.4 -> S1:1
+2025-11-19 23:58:58,814 - INFO - HostMigration - 🏠 Learned host (ARP): 10.0.0.4 @ 1:1
+2025-11-19 23:58:58,824 - INFO - MultiLayerLB - ARP learning: 10.0.0.3 -> dpid 3, port 3, mac 00:00:00:00:00:01
+2025-11-19 23:58:58,825 - INFO - FailureRecoveryDynamic - 📡 Learned host: 10.0.0.3 -> S3:3
+2025-11-19 23:58:58,825 - INFO - HostMigration - 🏠 Learned host (ARP): 10.0.0.3 @ 3:3
+2025-11-19 23:58:59,079 - INFO - MultiLayerLB - ARP learning: 10.0.0.4 -> dpid 3, port 4, mac 00:00:00:00:00:06
+2025-11-19 23:58:59,079 - INFO - FailureRecoveryDynamic - 📡 Learned host: 10.0.0.4 -> S3:4
+2025-11-19 23:58:59,079 - INFO - HostMigration - 🏠 Learned host (ARP): 10.0.0.4 @ 3:4
+2025-11-19 23:58:59,086 - INFO - MultiLayerLB - ARP learning: 10.0.0.4 -> dpid 2, port 2, mac 00:00:00:00:00:06
+2025-11-19 23:58:59,087 - INFO - FailureRecoveryDynamic - 📡 Learned host: 10.0.0.4 -> S2:2
+2025-11-19 23:58:59,088 - INFO - HostMigration - 🏠 Learned host (ARP): 10.0.0.4 @ 2:2
+2025-11-19 23:58:59,093 - INFO - MultiLayerLB - ARP learning: 10.0.0.4 -> dpid 1, port 1, mac 00:00:00:00:00:06
+2025-11-19 23:58:59,093 - INFO - FailureRecoveryDynamic - 📡 Learned host: 10.0.0.4 -> S1:1
+2025-11-19 23:58:59,093 - INFO - HostMigration - 🏠 Learned host (ARP): 10.0.0.4 @ 1:1
+2025-11-19 23:58:59,103 - INFO - MultiLayerLB - ARP learning: 10.0.0.1 -> dpid 2, port 3, mac 00:00:00:00:00:07
+2025-11-19 23:58:59,103 - INFO - FailureRecoveryDynamic - 📡 Learned host: 10.0.0.1 -> S2:3
+2025-11-19 23:58:59,104 - INFO - HostMigration - 🏠 Learned host (ARP): 10.0.0.1 @ 2:3
+2025-11-19 23:58:59,110 - INFO - MultiLayerLB - ARP learning: 10.0.0.1 -> dpid 3, port 2, mac 00:00:00:00:00:07
+2025-11-19 23:58:59,110 - INFO - FailureRecoveryDynamic - 📡 Learned host: 10.0.0.1 -> S3:2
+2025-11-19 23:58:59,111 - INFO - HostMigration - 🏠 Learned host (ARP): 10.0.0.1 @ 3:2
+2025-11-19 23:58:59,203 - INFO - MultiLayerLB - ARP learning: 10.0.0.4 -> dpid 3, port 4, mac 00:00:00:00:00:06
+2025-11-19 23:58:59,204 - INFO - FailureRecoveryDynamic - 📡 Learned host: 10.0.0.4 -> S3:4
+2025-11-19 23:58:59,204 - INFO - HostMigration - 🏠 Learned host (ARP): 10.0.0.4 @ 3:4
+2025-11-19 23:58:59,209 - INFO - MultiLayerLB - ARP learning: 10.0.0.4 -> dpid 2, port 2, mac 00:00:00:00:00:06
+2025-11-19 23:58:59,211 - INFO - FailureRecoveryDynamic - 📡 Learned host: 10.0.0.4 -> S2:2
+2025-11-19 23:58:59,211 - INFO - HostMigration - 🏠 Learned host (ARP): 10.0.0.4 @ 2:2
+2025-11-19 23:58:59,219 - INFO - MultiLayerLB - ARP learning: 10.0.0.4 -> dpid 1, port 1, mac 00:00:00:00:00:06
+2025-11-19 23:58:59,222 - INFO - FailureRecoveryDynamic - 📡 Learned host: 10.0.0.4 -> S1:1
+2025-11-19 23:58:59,223 - INFO - HostMigration - 🏠 Learned host (ARP): 10.0.0.4 @ 1:1
+2025-11-19 23:58:59,233 - INFO - MultiLayerLB - ARP learning: 10.0.0.2 -> dpid 2, port 4, mac 00:00:00:00:00:08
+2025-11-19 23:58:59,233 - INFO - FailureRecoveryDynamic - 📡 Learned host: 10.0.0.2 -> S2:4
+2025-11-19 23:58:59,234 - INFO - HostMigration - 🏠 Learned host (ARP): 10.0.0.2 @ 2:4
+2025-11-19 23:58:59,246 - INFO - MultiLayerLB - ARP learning: 10.0.0.2 -> dpid 3, port 2, mac 00:00:00:00:00:08
+2025-11-19 23:58:59,246 - INFO - FailureRecoveryDynamic - 📡 Learned host: 10.0.0.2 -> S3:2
+2025-11-19 23:58:59,246 - INFO - HostMigration - 🏠 Learned host (ARP): 10.0.0.2 @ 3:2
+2025-11-19 23:58:59,330 - INFO - MultiLayerLB - ARP learning: 10.0.0.1 -> dpid 2, port 3, mac 00:00:00:00:00:07
+2025-11-19 23:58:59,330 - INFO - FailureRecoveryDynamic - 📡 Learned host: 10.0.0.1 -> S2:3
+2025-11-19 23:58:59,331 - INFO - HostMigration - 🏠 Learned host (ARP): 10.0.0.1 @ 2:3
+2025-11-19 23:58:59,335 - INFO - MultiLayerLB - ARP learning: 10.0.0.1 -> dpid 1, port 1, mac 00:00:00:00:00:07
+2025-11-19 23:58:59,335 - INFO - FailureRecoveryDynamic - 📡 Learned host: 10.0.0.1 -> S1:1
+2025-11-19 23:58:59,336 - INFO - HostMigration - 🏠 Learned host (ARP): 10.0.0.1 @ 1:1
+2025-11-19 23:58:59,337 - INFO - MultiLayerLB - ARP learning: 10.0.0.1 -> dpid 3, port 2, mac 00:00:00:00:00:07
+2025-11-19 23:58:59,338 - INFO - FailureRecoveryDynamic - 📡 Learned host: 10.0.0.1 -> S3:2
+2025-11-19 23:58:59,338 - INFO - HostMigration - 🏠 Learned host (ARP): 10.0.0.1 @ 3:2
+2025-11-19 23:58:59,361 - INFO - MultiLayerLB - ARP learning: 10.0.0.3 -> dpid 3, port 3, mac 00:00:00:00:00:01
+2025-11-19 23:58:59,361 - INFO - FailureRecoveryDynamic - 📡 Learned host: 10.0.0.3 -> S3:3
+2025-11-19 23:58:59,362 - INFO - HostMigration - 🏠 Learned host (ARP): 10.0.0.3 @ 3:3
+2025-11-19 23:58:59,368 - INFO - MultiLayerLB - ARP learning: 10.0.0.3 -> dpid 2, port 2, mac 00:00:00:00:00:01
+2025-11-19 23:58:59,369 - INFO - FailureRecoveryDynamic - 📡 Learned host: 10.0.0.3 -> S2:2
+2025-11-19 23:58:59,369 - INFO - HostMigration - 🏠 Learned host (ARP): 10.0.0.3 @ 2:2
+2025-11-19 23:58:59,569 - INFO - MultiLayerLB - ARP learning: 10.0.0.1 -> dpid 2, port 3, mac 00:00:00:00:00:07
+2025-11-19 23:58:59,569 - INFO - FailureRecoveryDynamic - 📡 Learned host: 10.0.0.1 -> S2:3
+2025-11-19 23:58:59,569 - INFO - HostMigration - 🏠 Learned host (ARP): 10.0.0.1 @ 2:3
+2025-11-19 23:58:59,573 - INFO - MultiLayerLB - ARP learning: 10.0.0.1 -> dpid 1, port 1, mac 00:00:00:00:00:07
+2025-11-19 23:58:59,574 - INFO - FailureRecoveryDynamic - 📡 Learned host: 10.0.0.1 -> S1:1
+2025-11-19 23:58:59,574 - INFO - HostMigration - 🏠 Learned host (ARP): 10.0.0.1 @ 1:1
+2025-11-19 23:58:59,576 - INFO - MultiLayerLB - ARP learning: 10.0.0.1 -> dpid 3, port 2, mac 00:00:00:00:00:07
+2025-11-19 23:58:59,576 - INFO - FailureRecoveryDynamic - 📡 Learned host: 10.0.0.1 -> S3:2
+2025-11-19 23:58:59,576 - INFO - HostMigration - 🏠 Learned host (ARP): 10.0.0.1 @ 3:2
+2025-11-19 23:58:59,582 - INFO - MultiLayerLB - ARP learning: 10.0.0.2 -> dpid 2, port 4, mac 00:00:00:00:00:08
+2025-11-19 23:58:59,582 - INFO - FailureRecoveryDynamic - 📡 Learned host: 10.0.0.2 -> S2:4
+2025-11-19 23:58:59,583 - INFO - HostMigration - 🏠 Learned host (ARP): 10.0.0.2 @ 2:4
+2025-11-19 23:58:59,631 - INFO - MultiLayerLB - ARP learning: 10.0.0.2 -> dpid 2, port 4, mac 00:00:00:00:00:08
+2025-11-19 23:58:59,631 - INFO - FailureRecoveryDynamic - 📡 Learned host: 10.0.0.2 -> S2:4
+2025-11-19 23:58:59,631 - INFO - HostMigration - 🏠 Learned host (ARP): 10.0.0.2 @ 2:4
+2025-11-19 23:58:59,635 - INFO - MultiLayerLB - ARP learning: 10.0.0.2 -> dpid 1, port 1, mac 00:00:00:00:00:08
+2025-11-19 23:58:59,635 - INFO - FailureRecoveryDynamic - 📡 Learned host: 10.0.0.2 -> S1:1
+2025-11-19 23:58:59,636 - INFO - HostMigration - 🏠 Learned host (ARP): 10.0.0.2 @ 1:1
+2025-11-19 23:58:59,637 - INFO - MultiLayerLB - ARP learning: 10.0.0.2 -> dpid 3, port 2, mac 00:00:00:00:00:08
+2025-11-19 23:58:59,638 - INFO - FailureRecoveryDynamic - 📡 Learned host: 10.0.0.2 -> S3:2
+2025-11-19 23:58:59,638 - INFO - HostMigration - 🏠 Learned host (ARP): 10.0.0.2 @ 3:2
+2025-11-19 23:58:59,662 - INFO - MultiLayerLB - ARP learning: 10.0.0.3 -> dpid 3, port 3, mac 00:00:00:00:00:01
+2025-11-19 23:58:59,663 - INFO - FailureRecoveryDynamic - 📡 Learned host: 10.0.0.3 -> S3:3
+2025-11-19 23:58:59,664 - INFO - HostMigration - 🏠 Learned host (ARP): 10.0.0.3 @ 3:3
+2025-11-19 23:58:59,671 - INFO - MultiLayerLB - ARP learning: 10.0.0.3 -> dpid 2, port 2, mac 00:00:00:00:00:01
+2025-11-19 23:58:59,671 - INFO - FailureRecoveryDynamic - 📡 Learned host: 10.0.0.3 -> S2:2
+2025-11-19 23:58:59,671 - INFO - HostMigration - 🏠 Learned host (ARP): 10.0.0.3 @ 2:2
+2025-11-19 23:59:00,767 - INFO - RyuPushLiveHosts - Pushed to Flask: {'hosts': [{'id': '10.0.0.12', 'ip': '10.0.0.12', 'status': 'UP'}, {'id': '10.0.0.13', 'ip': '10.0.0.13', 'status': 'UP'}, {'id': '10.0.0.14', 'ip': '10.0.0.14', 'status': 'UP'}, {'id': '10.0.0.11', 'ip': '10.0.0.11', 'status': 'UP'}], 'servers': [{'id': '10.0.0.1', 'ip': '10.0.0.1', 'status': 'UP'}, {'id': '10.0.0.2', 'ip': '10.0.0.2', 'status': 'UP'}, {'id': '10.0.0.3', 'ip': '10.0.0.3', 'status': 'UP'}, {'id': '10.0.0.4', 'ip': '10.0.0.4', 'status': 'UP'}]}
+2025-11-19 23:59:05,774 - INFO - RyuPushLiveHosts - Pushed to Flask: {'hosts': [{'id': '10.0.0.12', 'ip': '10.0.0.12', 'status': 'UP'}, {'id': '10.0.0.13', 'ip': '10.0.0.13', 'status': 'UP'}, {'id': '10.0.0.14', 'ip': '10.0.0.14', 'status': 'UP'}, {'id': '10.0.0.11', 'ip': '10.0.0.11', 'status': 'UP'}], 'servers': [{'id': '10.0.0.1', 'ip': '10.0.0.1', 'status': 'UP'}, {'id': '10.0.0.2', 'ip': '10.0.0.2', 'status': 'UP'}, {'id': '10.0.0.3', 'ip': '10.0.0.3', 'status': 'UP'}, {'id': '10.0.0.4', 'ip': '10.0.0.4', 'status': 'UP'}]}
+2025-11-19 23:59:10,790 - INFO - RyuPushLiveHosts - Pushed to Flask: {'hosts': [{'id': '10.0.0.12', 'ip': '10.0.0.12', 'status': 'UP'}, {'id': '10.0.0.13', 'ip': '10.0.0.13', 'status': 'UP'}, {'id': '10.0.0.14', 'ip': '10.0.0.14', 'status': 'UP'}, {'id': '10.0.0.11', 'ip': '10.0.0.11', 'status': 'UP'}], 'servers': [{'id': '10.0.0.1', 'ip': '10.0.0.1', 'status': 'UP'}, {'id': '10.0.0.2', 'ip': '10.0.0.2', 'status': 'UP'}, {'id': '10.0.0.3', 'ip': '10.0.0.3', 'status': 'UP'}, {'id': '10.0.0.4', 'ip': '10.0.0.4', 'status': 'UP'}]}
+2025-11-19 23:59:15,797 - INFO - RyuPushLiveHosts - Pushed to Flask: {'hosts': [{'id': '10.0.0.12', 'ip': '10.0.0.12', 'status': 'DOWN'}, {'id': '10.0.0.13', 'ip': '10.0.0.13', 'status': 'DOWN'}, {'id': '10.0.0.14', 'ip': '10.0.0.14', 'status': 'DOWN'}, {'id': '10.0.0.11', 'ip': '10.0.0.11', 'status': 'DOWN'}], 'servers': [{'id': '10.0.0.1', 'ip': '10.0.0.1', 'status': 'UP'}, {'id': '10.0.0.2', 'ip': '10.0.0.2', 'status': 'UP'}, {'id': '10.0.0.3', 'ip': '10.0.0.3', 'status': 'UP'}, {'id': '10.0.0.4', 'ip': '10.0.0.4', 'status': 'UP'}]}
+2025-11-19 23:59:20,808 - INFO - RyuPushLiveHosts - Pushed to Flask: {'hosts': [{'id': '10.0.0.12', 'ip': '10.0.0.12', 'status': 'DOWN'}, {'id': '10.0.0.13', 'ip': '10.0.0.13', 'status': 'DOWN'}, {'id': '10.0.0.14', 'ip': '10.0.0.14', 'status': 'DOWN'}, {'id': '10.0.0.11', 'ip': '10.0.0.11', 'status': 'DOWN'}], 'servers': [{'id': '10.0.0.1', 'ip': '10.0.0.1', 'status': 'UP'}, {'id': '10.0.0.2', 'ip': '10.0.0.2', 'status': 'UP'}, {'id': '10.0.0.3', 'ip': '10.0.0.3', 'status': 'UP'}, {'id': '10.0.0.4', 'ip': '10.0.0.4', 'status': 'UP'}]}
+2025-11-19 23:59:25,815 - INFO - RyuPushLiveHosts - Pushed to Flask: {'hosts': [{'id': '10.0.0.12', 'ip': '10.0.0.12', 'status': 'DOWN'}, {'id': '10.0.0.13', 'ip': '10.0.0.13', 'status': 'DOWN'}, {'id': '10.0.0.14', 'ip': '10.0.0.14', 'status': 'DOWN'}, {'id': '10.0.0.11', 'ip': '10.0.0.11', 'status': 'DOWN'}], 'servers': [{'id': '10.0.0.1', 'ip': '10.0.0.1', 'status': 'UP'}, {'id': '10.0.0.2', 'ip': '10.0.0.2', 'status': 'UP'}, {'id': '10.0.0.3', 'ip': '10.0.0.3', 'status': 'UP'}, {'id': '10.0.0.4', 'ip': '10.0.0.4', 'status': 'UP'}]}
+2025-11-19 23:59:30,822 - INFO - RyuPushLiveHosts - Pushed to Flask: {'hosts': [{'id': '10.0.0.12', 'ip': '10.0.0.12', 'status': 'DOWN'}, {'id': '10.0.0.13', 'ip': '10.0.0.13', 'status': 'DOWN'}, {'id': '10.0.0.14', 'ip': '10.0.0.14', 'status': 'DOWN'}, {'id': '10.0.0.11', 'ip': '10.0.0.11', 'status': 'DOWN'}], 'servers': [{'id': '10.0.0.1', 'ip': '10.0.0.1', 'status': 'UP'}, {'id': '10.0.0.2', 'ip': '10.0.0.2', 'status': 'UP'}, {'id': '10.0.0.3', 'ip': '10.0.0.3', 'status': 'UP'}, {'id': '10.0.0.4', 'ip': '10.0.0.4', 'status': 'UP'}]}
+2025-11-19 23:59:35,830 - INFO - RyuPushLiveHosts - Pushed to Flask: {'hosts': [{'id': '10.0.0.12', 'ip': '10.0.0.12', 'status': 'DOWN'}, {'id': '10.0.0.13', 'ip': '10.0.0.13', 'status': 'DOWN'}, {'id': '10.0.0.14', 'ip': '10.0.0.14', 'status': 'DOWN'}, {'id': '10.0.0.11', 'ip': '10.0.0.11', 'status': 'DOWN'}], 'servers': [{'id': '10.0.0.1', 'ip': '10.0.0.1', 'status': 'UP'}, {'id': '10.0.0.2', 'ip': '10.0.0.2', 'status': 'UP'}, {'id': '10.0.0.3', 'ip': '10.0.0.3', 'status': 'UP'}, {'id': '10.0.0.4', 'ip': '10.0.0.4', 'status': 'UP'}]}
+2025-11-19 23:59:40,857 - INFO - RyuPushLiveHosts - Pushed to Flask: {'hosts': [{'id': '10.0.0.12', 'ip': '10.0.0.12', 'status': 'DOWN'}, {'id': '10.0.0.13', 'ip': '10.0.0.13', 'status': 'DOWN'}, {'id': '10.0.0.14', 'ip': '10.0.0.14', 'status': 'DOWN'}, {'id': '10.0.0.11', 'ip': '10.0.0.11', 'status': 'DOWN'}], 'servers': [{'id': '10.0.0.1', 'ip': '10.0.0.1', 'status': 'UP'}, {'id': '10.0.0.2', 'ip': '10.0.0.2', 'status': 'UP'}, {'id': '10.0.0.3', 'ip': '10.0.0.3', 'status': 'UP'}, {'id': '10.0.0.4', 'ip': '10.0.0.4', 'status': 'UP'}]}
+2025-11-19 23:59:45,882 - INFO - RyuPushLiveHosts - Pushed to Flask: {'hosts': [{'id': '10.0.0.12', 'ip': '10.0.0.12', 'status': 'DOWN'}, {'id': '10.0.0.13', 'ip': '10.0.0.13', 'status': 'DOWN'}, {'id': '10.0.0.14', 'ip': '10.0.0.14', 'status': 'DOWN'}, {'id': '10.0.0.11', 'ip': '10.0.0.11', 'status': 'DOWN'}], 'servers': [{'id': '10.0.0.1', 'ip': '10.0.0.1', 'status': 'UP'}, {'id': '10.0.0.2', 'ip': '10.0.0.2', 'status': 'UP'}, {'id': '10.0.0.3', 'ip': '10.0.0.3', 'status': 'UP'}, {'id': '10.0.0.4', 'ip': '10.0.0.4', 'status': 'UP'}]}
+2025-11-19 23:59:50,893 - INFO - RyuPushLiveHosts - Pushed to Flask: {'hosts': [{'id': '10.0.0.12', 'ip': '10.0.0.12', 'status': 'DOWN'}, {'id': '10.0.0.13', 'ip': '10.0.0.13', 'status': 'DOWN'}, {'id': '10.0.0.14', 'ip': '10.0.0.14', 'status': 'DOWN'}, {'id': '10.0.0.11', 'ip': '10.0.0.11', 'status': 'DOWN'}], 'servers': [{'id': '10.0.0.1', 'ip': '10.0.0.1', 'status': 'UP'}, {'id': '10.0.0.2', 'ip': '10.0.0.2', 'status': 'UP'}, {'id': '10.0.0.3', 'ip': '10.0.0.3', 'status': 'UP'}, {'id': '10.0.0.4', 'ip': '10.0.0.4', 'status': 'UP'}]}
+2025-11-19 23:59:55,903 - INFO - RyuPushLiveHosts - Pushed to Flask: {'hosts': [{'id': '10.0.0.12', 'ip': '10.0.0.12', 'status': 'DOWN'}, {'id': '10.0.0.13', 'ip': '10.0.0.13', 'status': 'DOWN'}, {'id': '10.0.0.14', 'ip': '10.0.0.14', 'status': 'DOWN'}, {'id': '10.0.0.11', 'ip': '10.0.0.11', 'status': 'DOWN'}], 'servers': [{'id': '10.0.0.1', 'ip': '10.0.0.1', 'status': 'UP'}, {'id': '10.0.0.2', 'ip': '10.0.0.2', 'status': 'UP'}, {'id': '10.0.0.3', 'ip': '10.0.0.3', 'status': 'UP'}, {'id': '10.0.0.4', 'ip': '10.0.0.4', 'status': 'UP'}]}
+2025-11-20 00:00:00,917 - INFO - RyuPushLiveHosts - Pushed to Flask: {'hosts': [{'id': '10.0.0.12', 'ip': '10.0.0.12', 'status': 'DOWN'}, {'id': '10.0.0.13', 'ip': '10.0.0.13', 'status': 'DOWN'}, {'id': '10.0.0.14', 'ip': '10.0.0.14', 'status': 'DOWN'}, {'id': '10.0.0.11', 'ip': '10.0.0.11', 'status': 'DOWN'}], 'servers': [{'id': '10.0.0.1', 'ip': '10.0.0.1', 'status': 'UP'}, {'id': '10.0.0.2', 'ip': '10.0.0.2', 'status': 'UP'}, {'id': '10.0.0.3', 'ip': '10.0.0.3', 'status': 'UP'}, {'id': '10.0.0.4', 'ip': '10.0.0.4', 'status': 'UP'}]}
+2025-11-20 00:00:05,925 - INFO - RyuPushLiveHosts - Pushed to Flask: {'hosts': [{'id': '10.0.0.12', 'ip': '10.0.0.12', 'status': 'DOWN'}, {'id': '10.0.0.13', 'ip': '10.0.0.13', 'status': 'DOWN'}, {'id': '10.0.0.14', 'ip': '10.0.0.14', 'status': 'DOWN'}, {'id': '10.0.0.11', 'ip': '10.0.0.11', 'status': 'DOWN'}], 'servers': [{'id': '10.0.0.1', 'ip': '10.0.0.1', 'status': 'UP'}, {'id': '10.0.0.2', 'ip': '10.0.0.2', 'status': 'UP'}, {'id': '10.0.0.3', 'ip': '10.0.0.3', 'status': 'UP'}, {'id': '10.0.0.4', 'ip': '10.0.0.4', 'status': 'UP'}]}
+2025-11-20 00:00:10,973 - INFO - RyuPushLiveHosts - Pushed to Flask: {'hosts': [{'id': '10.0.0.12', 'ip': '10.0.0.12', 'status': 'DOWN'}, {'id': '10.0.0.13', 'ip': '10.0.0.13', 'status': 'DOWN'}, {'id': '10.0.0.14', 'ip': '10.0.0.14', 'status': 'DOWN'}, {'id': '10.0.0.11', 'ip': '10.0.0.11', 'status': 'DOWN'}], 'servers': [{'id': '10.0.0.1', 'ip': '10.0.0.1', 'status': 'UP'}, {'id': '10.0.0.2', 'ip': '10.0.0.2', 'status': 'UP'}, {'id': '10.0.0.3', 'ip': '10.0.0.3', 'status': 'UP'}, {'id': '10.0.0.4', 'ip': '10.0.0.4', 'status': 'UP'}]}
+2025-11-20 00:00:15,987 - INFO - RyuPushLiveHosts - Pushed to Flask: {'hosts': [{'id': '10.0.0.12', 'ip': '10.0.0.12', 'status': 'DOWN'}, {'id': '10.0.0.13', 'ip': '10.0.0.13', 'status': 'DOWN'}, {'id': '10.0.0.14', 'ip': '10.0.0.14', 'status': 'DOWN'}, {'id': '10.0.0.11', 'ip': '10.0.0.11', 'status': 'DOWN'}], 'servers': [{'id': '10.0.0.1', 'ip': '10.0.0.1', 'status': 'UP'}, {'id': '10.0.0.2', 'ip': '10.0.0.2', 'status': 'UP'}, {'id': '10.0.0.3', 'ip': '10.0.0.3', 'status': 'UP'}, {'id': '10.0.0.4', 'ip': '10.0.0.4', 'status': 'UP'}]}
+2025-11-20 00:00:20,997 - INFO - RyuPushLiveHosts - Pushed to Flask: {'hosts': [{'id': '10.0.0.12', 'ip': '10.0.0.12', 'status': 'DOWN'}, {'id': '10.0.0.13', 'ip': '10.0.0.13', 'status': 'DOWN'}, {'id': '10.0.0.14', 'ip': '10.0.0.14', 'status': 'DOWN'}, {'id': '10.0.0.11', 'ip': '10.0.0.11', 'status': 'DOWN'}], 'servers': [{'id': '10.0.0.1', 'ip': '10.0.0.1', 'status': 'UP'}, {'id': '10.0.0.2', 'ip': '10.0.0.2', 'status': 'UP'}, {'id': '10.0.0.3', 'ip': '10.0.0.3', 'status': 'UP'}, {'id': '10.0.0.4', 'ip': '10.0.0.4', 'status': 'UP'}]}
+2025-11-20 00:00:26,005 - INFO - RyuPushLiveHosts - Pushed to Flask: {'hosts': [{'id': '10.0.0.12', 'ip': '10.0.0.12', 'status': 'DOWN'}, {'id': '10.0.0.13', 'ip': '10.0.0.13', 'status': 'DOWN'}, {'id': '10.0.0.14', 'ip': '10.0.0.14', 'status': 'DOWN'}, {'id': '10.0.0.11', 'ip': '10.0.0.11', 'status': 'DOWN'}], 'servers': [{'id': '10.0.0.1', 'ip': '10.0.0.1', 'status': 'UP'}, {'id': '10.0.0.2', 'ip': '10.0.0.2', 'status': 'UP'}, {'id': '10.0.0.3', 'ip': '10.0.0.3', 'status': 'UP'}, {'id': '10.0.0.4', 'ip': '10.0.0.4', 'status': 'UP'}]}
+2025-11-20 00:00:31,013 - INFO - RyuPushLiveHosts - Pushed to Flask: {'hosts': [{'id': '10.0.0.12', 'ip': '10.0.0.12', 'status': 'DOWN'}, {'id': '10.0.0.13', 'ip': '10.0.0.13', 'status': 'DOWN'}, {'id': '10.0.0.14', 'ip': '10.0.0.14', 'status': 'DOWN'}, {'id': '10.0.0.11', 'ip': '10.0.0.11', 'status': 'DOWN'}], 'servers': [{'id': '10.0.0.1', 'ip': '10.0.0.1', 'status': 'UP'}, {'id': '10.0.0.2', 'ip': '10.0.0.2', 'status': 'UP'}, {'id': '10.0.0.3', 'ip': '10.0.0.3', 'status': 'UP'}, {'id': '10.0.0.4', 'ip': '10.0.0.4', 'status': 'UP'}]}
+2025-11-20 00:00:36,020 - INFO - RyuPushLiveHosts - Pushed to Flask: {'hosts': [{'id': '10.0.0.12', 'ip': '10.0.0.12', 'status': 'DOWN'}, {'id': '10.0.0.13', 'ip': '10.0.0.13', 'status': 'DOWN'}, {'id': '10.0.0.14', 'ip': '10.0.0.14', 'status': 'DOWN'}, {'id': '10.0.0.11', 'ip': '10.0.0.11', 'status': 'DOWN'}], 'servers': [{'id': '10.0.0.1', 'ip': '10.0.0.1', 'status': 'UP'}, {'id': '10.0.0.2', 'ip': '10.0.0.2', 'status': 'UP'}, {'id': '10.0.0.3', 'ip': '10.0.0.3', 'status': 'UP'}, {'id': '10.0.0.4', 'ip': '10.0.0.4', 'status': 'UP'}]}
+2025-11-20 00:00:41,028 - INFO - RyuPushLiveHosts - Pushed to Flask: {'hosts': [{'id': '10.0.0.12', 'ip': '10.0.0.12', 'status': 'DOWN'}, {'id': '10.0.0.13', 'ip': '10.0.0.13', 'status': 'DOWN'}, {'id': '10.0.0.14', 'ip': '10.0.0.14', 'status': 'DOWN'}, {'id': '10.0.0.11', 'ip': '10.0.0.11', 'status': 'DOWN'}], 'servers': [{'id': '10.0.0.1', 'ip': '10.0.0.1', 'status': 'UP'}, {'id': '10.0.0.2', 'ip': '10.0.0.2', 'status': 'UP'}, {'id': '10.0.0.3', 'ip': '10.0.0.3', 'status': 'UP'}, {'id': '10.0.0.4', 'ip': '10.0.0.4', 'status': 'UP'}]}
+2025-11-20 00:00:46,034 - INFO - RyuPushLiveHosts - Pushed to Flask: {'hosts': [{'id': '10.0.0.12', 'ip': '10.0.0.12', 'status': 'DOWN'}, {'id': '10.0.0.13', 'ip': '10.0.0.13', 'status': 'DOWN'}, {'id': '10.0.0.14', 'ip': '10.0.0.14', 'status': 'DOWN'}, {'id': '10.0.0.11', 'ip': '10.0.0.11', 'status': 'DOWN'}], 'servers': [{'id': '10.0.0.1', 'ip': '10.0.0.1', 'status': 'UP'}, {'id': '10.0.0.2', 'ip': '10.0.0.2', 'status': 'UP'}, {'id': '10.0.0.3', 'ip': '10.0.0.3', 'status': 'UP'}, {'id': '10.0.0.4', 'ip': '10.0.0.4', 'status': 'UP'}]}
+2025-11-20 00:00:51,050 - INFO - RyuPushLiveHosts - Pushed to Flask: {'hosts': [{'id': '10.0.0.12', 'ip': '10.0.0.12', 'status': 'DOWN'}, {'id': '10.0.0.13', 'ip': '10.0.0.13', 'status': 'DOWN'}, {'id': '10.0.0.14', 'ip': '10.0.0.14', 'status': 'DOWN'}, {'id': '10.0.0.11', 'ip': '10.0.0.11', 'status': 'DOWN'}], 'servers': [{'id': '10.0.0.1', 'ip': '10.0.0.1', 'status': 'UP'}, {'id': '10.0.0.2', 'ip': '10.0.0.2', 'status': 'UP'}, {'id': '10.0.0.3', 'ip': '10.0.0.3', 'status': 'UP'}, {'id': '10.0.0.4', 'ip': '10.0.0.4', 'status': 'UP'}]}
+2025-11-20 00:00:56,069 - INFO - RyuPushLiveHosts - Pushed to Flask: {'hosts': [{'id': '10.0.0.12', 'ip': '10.0.0.12', 'status': 'DOWN'}, {'id': '10.0.0.13', 'ip': '10.0.0.13', 'status': 'DOWN'}, {'id': '10.0.0.14', 'ip': '10.0.0.14', 'status': 'DOWN'}, {'id': '10.0.0.11', 'ip': '10.0.0.11', 'status': 'DOWN'}], 'servers': [{'id': '10.0.0.1', 'ip': '10.0.0.1', 'status': 'UP'}, {'id': '10.0.0.2', 'ip': '10.0.0.2', 'status': 'UP'}, {'id': '10.0.0.3', 'ip': '10.0.0.3', 'status': 'UP'}, {'id': '10.0.0.4', 'ip': '10.0.0.4', 'status': 'UP'}]}
+2025-11-20 00:01:01,082 - INFO - RyuPushLiveHosts - Pushed to Flask: {'hosts': [{'id': '10.0.0.12', 'ip': '10.0.0.12', 'status': 'DOWN'}, {'id': '10.0.0.13', 'ip': '10.0.0.13', 'status': 'DOWN'}, {'id': '10.0.0.14', 'ip': '10.0.0.14', 'status': 'DOWN'}, {'id': '10.0.0.11', 'ip': '10.0.0.11', 'status': 'DOWN'}], 'servers': [{'id': '10.0.0.1', 'ip': '10.0.0.1', 'status': 'UP'}, {'id': '10.0.0.2', 'ip': '10.0.0.2', 'status': 'UP'}, {'id': '10.0.0.3', 'ip': '10.0.0.3', 'status': 'UP'}, {'id': '10.0.0.4', 'ip': '10.0.0.4', 'status': 'UP'}]}
+2025-11-20 00:01:06,089 - INFO - RyuPushLiveHosts - Pushed to Flask: {'hosts': [{'id': '10.0.0.12', 'ip': '10.0.0.12', 'status': 'DOWN'}, {'id': '10.0.0.13', 'ip': '10.0.0.13', 'status': 'DOWN'}, {'id': '10.0.0.14', 'ip': '10.0.0.14', 'status': 'DOWN'}, {'id': '10.0.0.11', 'ip': '10.0.0.11', 'status': 'DOWN'}], 'servers': [{'id': '10.0.0.1', 'ip': '10.0.0.1', 'status': 'UP'}, {'id': '10.0.0.2', 'ip': '10.0.0.2', 'status': 'UP'}, {'id': '10.0.0.3', 'ip': '10.0.0.3', 'status': 'UP'}, {'id': '10.0.0.4', 'ip': '10.0.0.4', 'status': 'UP'}]}
+2025-11-20 00:01:11,095 - INFO - RyuPushLiveHosts - Pushed to Flask: {'hosts': [{'id': '10.0.0.12', 'ip': '10.0.0.12', 'status': 'DOWN'}, {'id': '10.0.0.13', 'ip': '10.0.0.13', 'status': 'DOWN'}, {'id': '10.0.0.14', 'ip': '10.0.0.14', 'status': 'DOWN'}, {'id': '10.0.0.11', 'ip': '10.0.0.11', 'status': 'DOWN'}], 'servers': [{'id': '10.0.0.1', 'ip': '10.0.0.1', 'status': 'UP'}, {'id': '10.0.0.2', 'ip': '10.0.0.2', 'status': 'UP'}, {'id': '10.0.0.3', 'ip': '10.0.0.3', 'status': 'UP'}, {'id': '10.0.0.4', 'ip': '10.0.0.4', 'status': 'UP'}]}
+2025-11-20 00:01:16,100 - INFO - RyuPushLiveHosts - Pushed to Flask: {'hosts': [{'id': '10.0.0.12', 'ip': '10.0.0.12', 'status': 'DOWN'}, {'id': '10.0.0.13', 'ip': '10.0.0.13', 'status': 'DOWN'}, {'id': '10.0.0.14', 'ip': '10.0.0.14', 'status': 'DOWN'}, {'id': '10.0.0.11', 'ip': '10.0.0.11', 'status': 'DOWN'}], 'servers': [{'id': '10.0.0.1', 'ip': '10.0.0.1', 'status': 'UP'}, {'id': '10.0.0.2', 'ip': '10.0.0.2', 'status': 'UP'}, {'id': '10.0.0.3', 'ip': '10.0.0.3', 'status': 'UP'}, {'id': '10.0.0.4', 'ip': '10.0.0.4', 'status': 'UP'}]}
+2025-11-20 00:01:21,105 - INFO - RyuPushLiveHosts - Pushed to Flask: {'hosts': [{'id': '10.0.0.12', 'ip': '10.0.0.12', 'status': 'DOWN'}, {'id': '10.0.0.13', 'ip': '10.0.0.13', 'status': 'DOWN'}, {'id': '10.0.0.14', 'ip': '10.0.0.14', 'status': 'DOWN'}, {'id': '10.0.0.11', 'ip': '10.0.0.11', 'status': 'DOWN'}], 'servers': [{'id': '10.0.0.1', 'ip': '10.0.0.1', 'status': 'UP'}, {'id': '10.0.0.2', 'ip': '10.0.0.2', 'status': 'UP'}, {'id': '10.0.0.3', 'ip': '10.0.0.3', 'status': 'UP'}, {'id': '10.0.0.4', 'ip': '10.0.0.4', 'status': 'UP'}]}
+2025-11-20 00:01:26,111 - INFO - RyuPushLiveHosts - Pushed to Flask: {'hosts': [{'id': '10.0.0.12', 'ip': '10.0.0.12', 'status': 'DOWN'}, {'id': '10.0.0.13', 'ip': '10.0.0.13', 'status': 'DOWN'}, {'id': '10.0.0.14', 'ip': '10.0.0.14', 'status': 'DOWN'}, {'id': '10.0.0.11', 'ip': '10.0.0.11', 'status': 'DOWN'}], 'servers': [{'id': '10.0.0.1', 'ip': '10.0.0.1', 'status': 'UP'}, {'id': '10.0.0.2', 'ip': '10.0.0.2', 'status': 'UP'}, {'id': '10.0.0.3', 'ip': '10.0.0.3', 'status': 'UP'}, {'id': '10.0.0.4', 'ip': '10.0.0.4', 'status': 'UP'}]}
+2025-11-20 00:01:31,116 - INFO - RyuPushLiveHosts - Pushed to Flask: {'hosts': [{'id': '10.0.0.12', 'ip': '10.0.0.12', 'status': 'DOWN'}, {'id': '10.0.0.13', 'ip': '10.0.0.13', 'status': 'DOWN'}, {'id': '10.0.0.14', 'ip': '10.0.0.14', 'status': 'DOWN'}, {'id': '10.0.0.11', 'ip': '10.0.0.11', 'status': 'DOWN'}], 'servers': [{'id': '10.0.0.1', 'ip': '10.0.0.1', 'status': 'UP'}, {'id': '10.0.0.2', 'ip': '10.0.0.2', 'status': 'UP'}, {'id': '10.0.0.3', 'ip': '10.0.0.3', 'status': 'UP'}, {'id': '10.0.0.4', 'ip': '10.0.0.4', 'status': 'UP'}]}
+2025-11-20 00:01:36,121 - INFO - RyuPushLiveHosts - Pushed to Flask: {'hosts': [{'id': '10.0.0.12', 'ip': '10.0.0.12', 'status': 'DOWN'}, {'id': '10.0.0.13', 'ip': '10.0.0.13', 'status': 'DOWN'}, {'id': '10.0.0.14', 'ip': '10.0.0.14', 'status': 'DOWN'}, {'id': '10.0.0.11', 'ip': '10.0.0.11', 'status': 'DOWN'}], 'servers': [{'id': '10.0.0.1', 'ip': '10.0.0.1', 'status': 'UP'}, {'id': '10.0.0.2', 'ip': '10.0.0.2', 'status': 'UP'}, {'id': '10.0.0.3', 'ip': '10.0.0.3', 'status': 'UP'}, {'id': '10.0.0.4', 'ip': '10.0.0.4', 'status': 'UP'}]}
+2025-11-20 00:01:41,128 - INFO - RyuPushLiveHosts - Pushed to Flask: {'hosts': [{'id': '10.0.0.12', 'ip': '10.0.0.12', 'status': 'DOWN'}, {'id': '10.0.0.13', 'ip': '10.0.0.13', 'status': 'DOWN'}, {'id': '10.0.0.14', 'ip': '10.0.0.14', 'status': 'DOWN'}, {'id': '10.0.0.11', 'ip': '10.0.0.11', 'status': 'DOWN'}], 'servers': [{'id': '10.0.0.1', 'ip': '10.0.0.1', 'status': 'UP'}, {'id': '10.0.0.2', 'ip': '10.0.0.2', 'status': 'UP'}, {'id': '10.0.0.3', 'ip': '10.0.0.3', 'status': 'UP'}, {'id': '10.0.0.4', 'ip': '10.0.0.4', 'status': 'UP'}]}
+2025-11-20 00:01:46,137 - INFO - RyuPushLiveHosts - Pushed to Flask: {'hosts': [{'id': '10.0.0.12', 'ip': '10.0.0.12', 'status': 'DOWN'}, {'id': '10.0.0.13', 'ip': '10.0.0.13', 'status': 'DOWN'}, {'id': '10.0.0.14', 'ip': '10.0.0.14', 'status': 'DOWN'}, {'id': '10.0.0.11', 'ip': '10.0.0.11', 'status': 'DOWN'}], 'servers': [{'id': '10.0.0.1', 'ip': '10.0.0.1', 'status': 'UP'}, {'id': '10.0.0.2', 'ip': '10.0.0.2', 'status': 'UP'}, {'id': '10.0.0.3', 'ip': '10.0.0.3', 'status': 'UP'}, {'id': '10.0.0.4', 'ip': '10.0.0.4', 'status': 'UP'}]}
+2025-11-20 00:01:51,145 - INFO - RyuPushLiveHosts - Pushed to Flask: {'hosts': [{'id': '10.0.0.12', 'ip': '10.0.0.12', 'status': 'DOWN'}, {'id': '10.0.0.13', 'ip': '10.0.0.13', 'status': 'DOWN'}, {'id': '10.0.0.14', 'ip': '10.0.0.14', 'status': 'DOWN'}, {'id': '10.0.0.11', 'ip': '10.0.0.11', 'status': 'DOWN'}], 'servers': [{'id': '10.0.0.1', 'ip': '10.0.0.1', 'status': 'UP'}, {'id': '10.0.0.2', 'ip': '10.0.0.2', 'status': 'UP'}, {'id': '10.0.0.3', 'ip': '10.0.0.3', 'status': 'UP'}, {'id': '10.0.0.4', 'ip': '10.0.0.4', 'status': 'UP'}]}
+2025-11-20 00:01:56,151 - INFO - RyuPushLiveHosts - Pushed to Flask: {'hosts': [{'id': '10.0.0.12', 'ip': '10.0.0.12', 'status': 'DOWN'}, {'id': '10.0.0.13', 'ip': '10.0.0.13', 'status': 'DOWN'}, {'id': '10.0.0.14', 'ip': '10.0.0.14', 'status': 'DOWN'}, {'id': '10.0.0.11', 'ip': '10.0.0.11', 'status': 'DOWN'}], 'servers': [{'id': '10.0.0.1', 'ip': '10.0.0.1', 'status': 'UP'}, {'id': '10.0.0.2', 'ip': '10.0.0.2', 'status': 'UP'}, {'id': '10.0.0.3', 'ip': '10.0.0.3', 'status': 'UP'}, {'id': '10.0.0.4', 'ip': '10.0.0.4', 'status': 'UP'}]}
+2025-11-20 00:02:01,156 - INFO - RyuPushLiveHosts - Pushed to Flask: {'hosts': [{'id': '10.0.0.12', 'ip': '10.0.0.12', 'status': 'DOWN'}, {'id': '10.0.0.13', 'ip': '10.0.0.13', 'status': 'DOWN'}, {'id': '10.0.0.14', 'ip': '10.0.0.14', 'status': 'DOWN'}, {'id': '10.0.0.11', 'ip': '10.0.0.11', 'status': 'DOWN'}], 'servers': [{'id': '10.0.0.1', 'ip': '10.0.0.1', 'status': 'UP'}, {'id': '10.0.0.2', 'ip': '10.0.0.2', 'status': 'UP'}, {'id': '10.0.0.3', 'ip': '10.0.0.3', 'status': 'UP'}, {'id': '10.0.0.4', 'ip': '10.0.0.4', 'status': 'UP'}]}
+2025-11-20 00:02:06,161 - INFO - RyuPushLiveHosts - Pushed to Flask: {'hosts': [{'id': '10.0.0.12', 'ip': '10.0.0.12', 'status': 'DOWN'}, {'id': '10.0.0.13', 'ip': '10.0.0.13', 'status': 'DOWN'}, {'id': '10.0.0.14', 'ip': '10.0.0.14', 'status': 'DOWN'}, {'id': '10.0.0.11', 'ip': '10.0.0.11', 'status': 'DOWN'}], 'servers': [{'id': '10.0.0.1', 'ip': '10.0.0.1', 'status': 'UP'}, {'id': '10.0.0.2', 'ip': '10.0.0.2', 'status': 'UP'}, {'id': '10.0.0.3', 'ip': '10.0.0.3', 'status': 'UP'}, {'id': '10.0.0.4', 'ip': '10.0.0.4', 'status': 'UP'}]}
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      

@@ -1,0 +1,120 @@
+2025-11-16 07:36:42,614 - INFO - LoggerApp - ✅ LoggerApp initialized successfully.
+2025-11-16 07:36:42,615 - INFO - LoggerApp - 📁 Logs folder: /home/vboxuser/mini-cloud/ryu_logs
+2025-11-16 07:36:42,615 - INFO - LoggerApp - 📝 Log file created: /home/vboxuser/mini-cloud/ryu_logs/controller_log_2025-11-16_07-36-42.log
+2025-11-16 07:36:42,615 - INFO - ryu.base.app_manager - instantiating app ryu-failure.py of FailureRecoveryDynamic
+2025-11-16 07:36:42,616 - INFO - FailureRecoveryDynamic - ✅ Failure Recovery module loaded (Dijkstra rerouting)
+2025-11-16 07:36:42,616 - INFO - ryu.base.app_manager - instantiating app ryu_host_mig.py of HostMigration
+2025-11-16 07:36:42,617 - INFO - HostMigration - ✅ Host Migration module loaded (REST 8080 enabled)
+2025-11-16 07:36:42,617 - INFO - ryu.base.app_manager - instantiating app controller.py of SmartDCController
+2025-11-16 07:36:42,617 - INFO - SmartDCController - 🚀 Smart DataCenter Controller started (OpenFlow 1.3)
+2025-11-16 07:36:42,617 - INFO - ryu.base.app_manager - instantiating app ryu.controller.ofp_handler of OFPHandler
+2025-11-16 07:36:42,618 - INFO - ryu.base.app_manager - instantiating app ryu.topology.switches of Switches
+2025-11-16 07:36:42,620 - INFO - ryu.lib.hub - (4694) wsgi starting up on http://0.0.0.0:8080
+2025-11-16 07:37:00,607 - INFO - SmartDCController - datapath registered: None
+2025-11-16 07:37:00,611 - INFO - MultiLayerLB - 🔌 Switch 3 features handled
+2025-11-16 07:37:00,611 - INFO - FailureRecoveryDynamic - 🟢 Switch 3 connected
+2025-11-16 07:37:00,611 - INFO - HostMigration - 🟢 Switch connected: 3
+2025-11-16 07:37:00,611 - INFO - SmartDCController - 🟢 Switch 3 connected
+2025-11-16 07:37:00,612 - INFO - MultiLayerLB - 🔌 Switch 2 features handled
+2025-11-16 07:37:00,612 - INFO - MultiLayerLB - 🔌 Switch 1 features handled
+2025-11-16 07:37:00,613 - INFO - FailureRecoveryDynamic - 🟢 Switch 2 connected
+2025-11-16 07:37:00,614 - INFO - FailureRecoveryDynamic - 🟢 Switch 1 connected
+2025-11-16 07:37:00,614 - INFO - HostMigration - 🟢 Switch connected: 2
+2025-11-16 07:37:00,615 - INFO - HostMigration - 🟢 Switch connected: 1
+2025-11-16 07:37:00,616 - INFO - SmartDCController - 🟢 Switch 2 connected
+2025-11-16 07:37:00,616 - INFO - SmartDCController - 🟢 Switch 1 connected
+2025-11-16 07:37:00,623 - INFO - SmartDCController - datapath registered: 3
+2025-11-16 07:37:00,643 - INFO - FailureRecoveryDynamic - 🌐 Topology updated (switch-enter): 3 switches, 0 links
+2025-11-16 07:37:00,644 - INFO - FailureRecoveryDynamic - 🌐 Topology updated (switch-enter): 3 switches, 0 links
+2025-11-16 07:37:00,645 - INFO - SmartDCController - 🌐 Topology updated (switch-enter): 3 switches, 0 links
+2025-11-16 07:37:00,645 - INFO - SmartDCController - datapath registered: 2
+2025-11-16 07:37:00,645 - INFO - SmartDCController - datapath registered: 1
+2025-11-16 07:37:00,645 - INFO - FailureRecoveryDynamic - 🌐 Topology updated (switch-enter): 3 switches, 0 links
+2025-11-16 07:37:00,645 - INFO - SmartDCController - 🌐 Topology updated (switch-enter): 3 switches, 0 links
+2025-11-16 07:37:00,646 - INFO - SmartDCController - 🌐 Topology updated (switch-enter): 3 switches, 0 links
+2025-11-16 07:37:00,649 - INFO - FailureRecoveryDynamic - 🌐 Topology updated (link-add): 3 switches, 1 links
+2025-11-16 07:37:00,651 - INFO - SmartDCController - 🌐 Topology updated (link-add): 3 switches, 1 links
+2025-11-16 07:37:00,661 - INFO - FailureRecoveryDynamic - 🌐 Topology updated (link-add): 3 switches, 1 links
+2025-11-16 07:37:00,661 - INFO - FailureRecoveryDynamic - 🌐 Topology updated (link-add): 3 switches, 2 links
+2025-11-16 07:37:00,661 - INFO - FailureRecoveryDynamic - 🌐 Topology updated (link-add): 3 switches, 2 links
+2025-11-16 07:37:00,661 - INFO - FailureRecoveryDynamic - 🌐 Topology updated (link-add): 3 switches, 3 links
+2025-11-16 07:37:00,661 - INFO - FailureRecoveryDynamic - 🌐 Topology updated (link-add): 3 switches, 3 links
+2025-11-16 07:37:00,664 - INFO - SmartDCController - 🌐 Topology updated (link-add): 3 switches, 6 links
+2025-11-16 07:37:00,667 - INFO - SmartDCController - 🌐 Topology updated (link-add): 3 switches, 6 links
+2025-11-16 07:37:00,667 - INFO - SmartDCController - 🌐 Topology updated (link-add): 3 switches, 6 links
+2025-11-16 07:37:00,667 - INFO - SmartDCController - 🌐 Topology updated (link-add): 3 switches, 6 links
+2025-11-16 07:37:00,667 - INFO - SmartDCController - 🌐 Topology updated (link-add): 3 switches, 6 links
+2025-11-16 07:37:11,778 - INFO - MultiLayerLB - 🔌 Switch 2 features handled
+2025-11-16 07:37:11,784 - INFO - MultiLayerLB - 🔌 Switch 3 features handled
+2025-11-16 07:37:11,786 - INFO - MultiLayerLB - 🔌 Switch 1 features handled
+2025-11-16 07:37:11,823 - INFO - FailureRecoveryDynamic - 🟢 Switch 2 connected
+2025-11-16 07:37:11,824 - INFO - FailureRecoveryDynamic - 🟢 Switch 3 connected
+2025-11-16 07:37:11,824 - INFO - FailureRecoveryDynamic - 🟢 Switch 1 connected
+2025-11-16 07:37:11,825 - INFO - HostMigration - 🟢 Switch connected: 2
+2025-11-16 07:37:11,825 - INFO - HostMigration - 🟢 Switch connected: 3
+2025-11-16 07:37:11,825 - INFO - HostMigration - 🟢 Switch connected: 1
+2025-11-16 07:37:11,846 - INFO - SmartDCController - 🟢 Switch 2 connected
+2025-11-16 07:37:11,847 - INFO - SmartDCController - 🟢 Switch 3 connected
+2025-11-16 07:37:11,848 - INFO - SmartDCController - 🟢 Switch 1 connected
+2025-11-16 07:37:11,929 - INFO - FailureRecoveryDynamic - 🌐 Topology updated (switch-leave): 2 switches, 1 links
+2025-11-16 07:37:11,930 - WARNING - FailureRecoveryDynamic - ⚠️ Link down: 1 <-> 2
+2025-11-16 07:37:11,931 - INFO - FailureRecoveryDynamic - 🌐 Topology updated (link-delete): 2 switches, 1 links
+2025-11-16 07:37:11,931 - WARNING - FailureRecoveryDynamic - ♻️ Recomputing all alternate paths...
+2025-11-16 07:37:11,931 - WARNING - FailureRecoveryDynamic - ⚠️ Link down: 2 <-> 1
+2025-11-16 07:37:11,931 - INFO - FailureRecoveryDynamic - 🌐 Topology updated (link-delete): 2 switches, 1 links
+2025-11-16 07:37:11,932 - WARNING - FailureRecoveryDynamic - ♻️ Recomputing all alternate paths...
+2025-11-16 07:37:11,932 - WARNING - FailureRecoveryDynamic - ⚠️ Link down: 1 <-> 3
+2025-11-16 07:37:11,932 - INFO - FailureRecoveryDynamic - 🌐 Topology updated (link-delete): 2 switches, 1 links
+2025-11-16 07:37:11,932 - WARNING - FailureRecoveryDynamic - ♻️ Recomputing all alternate paths...
+2025-11-16 07:37:11,933 - WARNING - FailureRecoveryDynamic - ⚠️ Link down: 3 <-> 1
+2025-11-16 07:37:11,933 - INFO - FailureRecoveryDynamic - 🌐 Topology updated (link-delete): 2 switches, 1 links
+2025-11-16 07:37:11,934 - WARNING - FailureRecoveryDynamic - ♻️ Recomputing all alternate paths...
+2025-11-16 07:37:11,935 - INFO - FailureRecoveryDynamic - 🌐 Topology updated (switch-leave): 1 switches, 0 links
+2025-11-16 07:37:11,935 - WARNING - FailureRecoveryDynamic - ⚠️ Link down: 2 <-> 3
+2025-11-16 07:37:11,935 - INFO - FailureRecoveryDynamic - 🌐 Topology updated (link-delete): 1 switches, 0 links
+2025-11-16 07:37:11,935 - WARNING - FailureRecoveryDynamic - ♻️ Recomputing all alternate paths...
+2025-11-16 07:37:11,935 - WARNING - FailureRecoveryDynamic - ⚠️ Link down: 3 <-> 2
+2025-11-16 07:37:11,935 - INFO - FailureRecoveryDynamic - 🌐 Topology updated (link-delete): 1 switches, 0 links
+2025-11-16 07:37:11,936 - WARNING - FailureRecoveryDynamic - ♻️ Recomputing all alternate paths...
+2025-11-16 07:37:11,936 - INFO - FailureRecoveryDynamic - 🌐 Topology updated (switch-leave): 0 switches, 0 links
+2025-11-16 07:37:11,944 - INFO - SmartDCController - 🌐 Topology updated (link-delete): 0 switches, 0 links
+2025-11-16 07:37:11,946 - INFO - FailureRecoveryDynamic - 🌐 Topology updated (switch-enter): 3 switches, 0 links
+2025-11-16 07:37:11,947 - INFO - FailureRecoveryDynamic - 🌐 Topology updated (switch-enter): 3 switches, 0 links
+2025-11-16 07:37:11,948 - INFO - SmartDCController - 🌐 Topology updated (link-delete): 3 switches, 0 links
+2025-11-16 07:37:11,948 - INFO - FailureRecoveryDynamic - 🌐 Topology updated (switch-enter): 3 switches, 0 links
+2025-11-16 07:37:11,949 - INFO - SmartDCController - 🌐 Topology updated (link-delete): 3 switches, 0 links
+2025-11-16 07:37:11,950 - INFO - SmartDCController - 🌐 Topology updated (link-delete): 3 switches, 0 links
+2025-11-16 07:37:11,952 - INFO - SmartDCController - 🌐 Topology updated (link-delete): 3 switches, 0 links
+2025-11-16 07:37:11,953 - INFO - SmartDCController - 🌐 Topology updated (link-delete): 3 switches, 0 links
+2025-11-16 07:37:11,953 - INFO - SmartDCController - 🌐 Topology updated (switch-enter): 3 switches, 0 links
+2025-11-16 07:37:11,955 - INFO - SmartDCController - 🌐 Topology updated (switch-enter): 3 switches, 0 links
+2025-11-16 07:37:11,956 - INFO - SmartDCController - 🌐 Topology updated (switch-enter): 3 switches, 0 links
+2025-11-16 07:37:27,627 - INFO - ryu.lib.hub - (4694) accepted ('127.0.0.1', 35718)
+2025-11-16 07:37:27,631 - ERROR - HostMigration - ❌ Cannot migrate unknown host 10.0.0.1
+2025-11-16 07:37:27,639 - INFO - ryu.lib.hub - Traceback (most recent call last):
+  File "/home/vboxuser/mini-cloud/ryu39-env/lib/python3.9/site-packages/eventlet/wsgi.py", line 573, in handle_one_response
+    result = self.application(self.environ, start_response)
+  File "/home/vboxuser/mini-cloud/ryu39-env/lib/python3.9/site-packages/ryu/app/wsgi.py", line 236, in __call__
+    return super(wsgify_hack, self).__call__(environ, start_response)
+  File "/home/vboxuser/mini-cloud/ryu39-env/lib/python3.9/site-packages/webob/dec.py", line 129, in __call__
+    resp = self.call_func(req, *args, **kw)
+  File "/home/vboxuser/mini-cloud/ryu39-env/lib/python3.9/site-packages/webob/dec.py", line 193, in call_func
+    return self.func(req, *args, **kwargs)
+  File "/home/vboxuser/mini-cloud/ryu39-env/lib/python3.9/site-packages/ryu/app/wsgi.py", line 290, in __call__
+    return controller(req)
+  File "/home/vboxuser/mini-cloud/ryu39-env/lib/python3.9/site-packages/ryu/app/wsgi.py", line 160, in __call__
+    return getattr(self, action)(req, **kwargs)
+  File "/home/vboxuser/mini-cloud/ryu_host_mig.py", line 121, in migrate
+    return Response(
+  File "/home/vboxuser/mini-cloud/ryu39-env/lib/python3.9/site-packages/webob/response.py", line 296, in __init__
+    raise TypeError(
+TypeError: You cannot set the body to a text value without a charset
+2025-11-16 07:37:27,640 - INFO - ryu.lib.hub - 127.0.0.1 - - [16/Nov/2025 07:37:27] "POST /migrate HTTP/1.1" 500 1446 0.010143
+2025-11-16 07:37:41,037 - INFO - FailureRecoveryDynamic - 🌐 Topology updated (link-add): 3 switches, 1 links
+2025-11-16 07:37:41,040 - INFO - SmartDCController - 🌐 Topology updated (link-add): 3 switches, 1 links
+2025-11-16 07:37:41,086 - INFO - FailureRecoveryDynamic - 🌐 Topology updated (link-add): 3 switches, 1 links
+2025-11-16 07:37:41,089 - INFO - SmartDCController - 🌐 Topology updated (link-add): 3 switches, 2 links
+2025-11-16 07:37:41,412 - INFO - FailureRecoveryDynamic - 🌐 Topology updated (link-add): 3 switches, 2 links
+2025-11-16 07:37:41,417 - INFO - SmartDCController - 🌐 Topology updated (link-add): 3 switches, 3 links
+2025-11-16 07:37:41,463 - INFO - FailureRecoveryDynamic - 🌐 Topology updated (link-add): 3 switches, 2 links
+2025-11-16 07:37:41,466 - INFO - SmartDCController - 🌐 Topology updated (link-add): 3 switches, 4 links

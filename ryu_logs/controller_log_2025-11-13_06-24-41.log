@@ -1,0 +1,145 @@
+2025-11-13 06:24:41,356 - INFO - LoggerApp - ✅ LoggerApp initialized successfully.
+2025-11-13 06:24:41,356 - INFO - LoggerApp - 📁 Logs folder: /home/vboxuser/mini-cloud/ryu_logs
+2025-11-13 06:24:41,357 - INFO - LoggerApp - 📝 Log file created: /home/vboxuser/mini-cloud/ryu_logs/controller_log_2025-11-13_06-24-41.log
+2025-11-13 06:24:41,357 - INFO - ryu.base.app_manager - instantiating app ryu-lb.py of MultiLayerLB
+2025-11-13 06:24:41,357 - INFO - MultiLayerLB - 🔀 Multi-Layer Load Balancer started (policy=round_robin)
+2025-11-13 06:24:41,357 - INFO - MultiLayerLB - Housekeeper started (dynamic counters decaying).
+2025-11-13 06:24:41,357 - INFO - ryu.base.app_manager - instantiating app controller.py of SmartDCController
+2025-11-13 06:24:41,358 - INFO - SmartDCController - 🚀 Smart DataCenter Controller started (OpenFlow 1.3)
+2025-11-13 06:24:41,358 - INFO - ryu.base.app_manager - instantiating app ryu.controller.ofp_handler of OFPHandler
+2025-11-13 06:24:41,358 - INFO - ryu.base.app_manager - instantiating app ryu.topology.switches of Switches
+2025-11-13 06:25:05,174 - INFO - SmartDCController - datapath registered: None
+2025-11-13 06:25:05,198 - INFO - MultiLayerLB - 🔌 Switch 1 features handled
+2025-11-13 06:25:05,200 - INFO - SmartDCController - 🟢 Switch 1 connected
+2025-11-13 06:25:05,201 - INFO - SmartDCController - datapath registered: 1
+2025-11-13 06:25:05,216 - INFO - MultiLayerLB - 🔌 Switch 2 features handled
+2025-11-13 06:25:05,217 - INFO - MultiLayerLB - 🔌 Switch 3 features handled
+2025-11-13 06:25:05,218 - INFO - SmartDCController - 🌐 Topology updated (switch-enter): 1 switches, 0 links
+2025-11-13 06:25:05,218 - INFO - SmartDCController - 🟢 Switch 2 connected
+2025-11-13 06:25:05,218 - INFO - SmartDCController - 🟢 Switch 3 connected
+2025-11-13 06:25:05,221 - INFO - SmartDCController - datapath registered: 3
+2025-11-13 06:25:05,222 - INFO - SmartDCController - datapath registered: 2
+2025-11-13 06:25:05,309 - INFO - SmartDCController - 🌐 Topology updated (switch-enter): 3 switches, 3 links
+2025-11-13 06:25:05,318 - INFO - SmartDCController - 🌐 Topology updated (switch-enter): 3 switches, 4 links
+2025-11-13 06:25:05,337 - INFO - SmartDCController - 🌐 Topology updated (link-add): 3 switches, 6 links
+2025-11-13 06:25:05,338 - INFO - SmartDCController - 🌐 Topology updated (link-add): 3 switches, 6 links
+2025-11-13 06:25:05,338 - INFO - SmartDCController - 🌐 Topology updated (link-add): 3 switches, 6 links
+2025-11-13 06:25:05,338 - INFO - SmartDCController - 🌐 Topology updated (link-add): 3 switches, 6 links
+2025-11-13 06:25:05,341 - INFO - SmartDCController - 🌐 Topology updated (link-add): 3 switches, 6 links
+2025-11-13 06:25:05,341 - INFO - SmartDCController - 🌐 Topology updated (link-add): 3 switches, 6 links
+2025-11-13 06:25:16,288 - INFO - MultiLayerLB - 🔌 Switch 1 features handled
+2025-11-13 06:25:16,321 - INFO - SmartDCController - 🟢 Switch 1 connected
+2025-11-13 06:25:16,401 - INFO - MultiLayerLB - 🔌 Switch None features handled
+2025-11-13 06:25:16,416 - INFO - SmartDCController - 🟢 Switch 2 connected
+2025-11-13 06:25:16,437 - WARNING - ryu.topology.switches - Multiple connections from 0000000000000001
+2025-11-13 06:25:16,467 - INFO - MultiLayerLB - 🔌 Switch None features handled
+2025-11-13 06:25:16,483 - INFO - SmartDCController - 🟢 Switch 3 connected
+2025-11-13 06:25:16,507 - WARNING - ryu.topology.switches - Multiple connections from 0000000000000002
+2025-11-13 06:25:16,532 - INFO - SmartDCController - 🌐 Topology updated (link-delete): 3 switches, 2 links
+2025-11-13 06:25:16,533 - INFO - SmartDCController - 🌐 Topology updated (link-delete): 3 switches, 2 links
+2025-11-13 06:25:16,533 - INFO - SmartDCController - 🌐 Topology updated (link-delete): 3 switches, 2 links
+2025-11-13 06:25:16,533 - INFO - SmartDCController - 🌐 Topology updated (link-delete): 3 switches, 2 links
+2025-11-13 06:25:16,533 - INFO - SmartDCController - 🌐 Topology updated (switch-enter): 3 switches, 2 links
+2025-11-13 06:25:26,475 - INFO - SmartDCController - 🌐 Topology updated (link-delete): 3 switches, 0 links
+2025-11-13 06:25:26,475 - INFO - SmartDCController - 🌐 Topology updated (link-delete): 3 switches, 0 links
+2025-11-13 06:25:46,022 - INFO - MultiLayerLB - ARP learning: 10.0.0.3 -> dpid 3, port 3, mac 00:00:00:00:00:01
+2025-11-13 06:25:46,030 - INFO - MultiLayerLB - ARP learning: 10.0.0.3 -> dpid 2, port 2, mac 00:00:00:00:00:01
+2025-11-13 06:25:46,268 - INFO - MultiLayerLB - ARP learning: 10.0.0.4 -> dpid 3, port 4, mac 00:00:00:00:00:06
+2025-11-13 06:25:46,275 - INFO - MultiLayerLB - ARP learning: 10.0.0.4 -> dpid 2, port 2, mac 00:00:00:00:00:06
+2025-11-13 06:25:46,503 - INFO - SmartDCController - 🌐 Topology updated (link-add): 3 switches, 1 links
+2025-11-13 06:25:46,521 - INFO - MultiLayerLB - ARP learning: 10.0.0.1 -> dpid 2, port 3, mac 00:00:00:00:00:07
+2025-11-13 06:25:46,525 - INFO - SmartDCController - 🌐 Topology updated (link-add): 3 switches, 3 links
+2025-11-13 06:25:46,526 - INFO - SmartDCController - 🌐 Topology updated (link-add): 3 switches, 3 links
+2025-11-13 06:25:46,579 - INFO - SmartDCController - 🌐 Topology updated (link-add): 3 switches, 4 links
+2025-11-13 06:25:46,595 - INFO - MultiLayerLB - ARP learning: 10.0.0.2 -> dpid 2, port 4, mac 00:00:00:00:00:08
+2025-11-13 06:25:46,662 - INFO - MultiLayerLB - ARP learning: 10.0.0.3 -> dpid 3, port 3, mac 00:00:00:00:00:01
+2025-11-13 06:25:46,670 - INFO - MultiLayerLB - ARP learning: 10.0.0.3 -> dpid 2, port 2, mac 00:00:00:00:00:01
+2025-11-13 06:25:47,093 - INFO - MultiLayerLB - ARP learning: 10.0.0.4 -> dpid 3, port 4, mac 00:00:00:00:00:06
+2025-11-13 06:25:47,106 - INFO - MultiLayerLB - ARP learning: 10.0.0.4 -> dpid 2, port 2, mac 00:00:00:00:00:06
+2025-11-13 06:25:47,200 - INFO - MultiLayerLB - ARP learning: 10.0.0.1 -> dpid 2, port 3, mac 00:00:00:00:00:07
+2025-11-13 06:25:47,245 - INFO - MultiLayerLB - ARP learning: 10.0.0.2 -> dpid 2, port 4, mac 00:00:00:00:00:08
+2025-11-13 06:25:47,304 - INFO - MultiLayerLB - ARP learning: 10.0.0.3 -> dpid 3, port 3, mac 00:00:00:00:00:01
+2025-11-13 06:25:47,455 - INFO - MultiLayerLB - ARP learning: 10.0.0.4 -> dpid 3, port 4, mac 00:00:00:00:00:06
+2025-11-13 06:25:47,538 - INFO - MultiLayerLB - ARP learning: 10.0.0.1 -> dpid 2, port 3, mac 00:00:00:00:00:07
+2025-11-13 06:25:47,546 - INFO - MultiLayerLB - ARP learning: 10.0.0.1 -> dpid 3, port 2, mac 00:00:00:00:00:07
+2025-11-13 06:25:47,641 - INFO - MultiLayerLB - ARP learning: 10.0.0.2 -> dpid 2, port 4, mac 00:00:00:00:00:08
+2025-11-13 06:25:47,661 - INFO - MultiLayerLB - ARP learning: 10.0.0.2 -> dpid 3, port 2, mac 00:00:00:00:00:08
+2025-11-13 06:25:47,739 - INFO - MultiLayerLB - ARP learning: 10.0.0.3 -> dpid 3, port 3, mac 00:00:00:00:00:01
+2025-11-13 06:25:47,908 - INFO - MultiLayerLB - ARP learning: 10.0.0.4 -> dpid 3, port 4, mac 00:00:00:00:00:06
+2025-11-13 06:25:47,987 - INFO - MultiLayerLB - ARP learning: 10.0.0.1 -> dpid 2, port 3, mac 00:00:00:00:00:07
+2025-11-13 06:25:47,996 - INFO - MultiLayerLB - ARP learning: 10.0.0.1 -> dpid 3, port 2, mac 00:00:00:00:00:07
+2025-11-13 06:25:48,070 - INFO - MultiLayerLB - ARP learning: 10.0.0.2 -> dpid 2, port 4, mac 00:00:00:00:00:08
+2025-11-13 06:25:48,086 - INFO - MultiLayerLB - ARP learning: 10.0.0.2 -> dpid 3, port 2, mac 00:00:00:00:00:08
+2025-11-13 06:25:48,168 - INFO - MultiLayerLB - ARP learning: 10.0.0.4 -> dpid 3, port 4, mac 00:00:00:00:00:06
+2025-11-13 06:25:48,173 - INFO - MultiLayerLB - ARP learning: 10.0.0.4 -> dpid 1, port 2, mac 00:00:00:00:00:06
+2025-11-13 06:25:48,175 - INFO - MultiLayerLB - ARP learning: 10.0.0.4 -> dpid 2, port 2, mac 00:00:00:00:00:06
+2025-11-13 06:25:48,194 - INFO - MultiLayerLB - ARP learning: 10.0.0.3 -> dpid 3, port 3, mac 00:00:00:00:00:01
+2025-11-13 06:25:48,636 - INFO - MultiLayerLB - ARP learning: 10.0.0.4 -> dpid 3, port 4, mac 00:00:00:00:00:06
+2025-11-13 06:25:48,645 - INFO - MultiLayerLB - ARP learning: 10.0.0.4 -> dpid 1, port 2, mac 00:00:00:00:00:06
+2025-11-13 06:25:48,650 - INFO - MultiLayerLB - ARP learning: 10.0.0.4 -> dpid 2, port 2, mac 00:00:00:00:00:06
+2025-11-13 06:25:48,666 - INFO - MultiLayerLB - ARP learning: 10.0.0.1 -> dpid 2, port 3, mac 00:00:00:00:00:07
+2025-11-13 06:25:48,676 - INFO - MultiLayerLB - ARP learning: 10.0.0.1 -> dpid 3, port 2, mac 00:00:00:00:00:07
+2025-11-13 06:25:48,806 - INFO - MultiLayerLB - ARP learning: 10.0.0.4 -> dpid 3, port 4, mac 00:00:00:00:00:06
+2025-11-13 06:25:48,822 - INFO - MultiLayerLB - ARP learning: 10.0.0.4 -> dpid 1, port 2, mac 00:00:00:00:00:06
+2025-11-13 06:25:48,823 - INFO - MultiLayerLB - ARP learning: 10.0.0.4 -> dpid 2, port 2, mac 00:00:00:00:00:06
+2025-11-13 06:25:48,840 - INFO - MultiLayerLB - ARP learning: 10.0.0.2 -> dpid 2, port 4, mac 00:00:00:00:00:08
+2025-11-13 06:25:48,851 - INFO - MultiLayerLB - ARP learning: 10.0.0.2 -> dpid 3, port 2, mac 00:00:00:00:00:08
+2025-11-13 06:25:48,992 - INFO - MultiLayerLB - ARP learning: 10.0.0.1 -> dpid 2, port 3, mac 00:00:00:00:00:07
+2025-11-13 06:25:49,004 - INFO - MultiLayerLB - ARP learning: 10.0.0.1 -> dpid 3, port 2, mac 00:00:00:00:00:07
+2025-11-13 06:25:49,010 - INFO - MultiLayerLB - ARP learning: 10.0.0.1 -> dpid 1, port 2, mac 00:00:00:00:00:07
+2025-11-13 06:25:49,031 - INFO - MultiLayerLB - ARP learning: 10.0.0.3 -> dpid 3, port 3, mac 00:00:00:00:00:01
+2025-11-13 06:25:49,042 - INFO - MultiLayerLB - ARP learning: 10.0.0.3 -> dpid 2, port 2, mac 00:00:00:00:00:01
+2025-11-13 06:25:49,343 - INFO - MultiLayerLB - ARP learning: 10.0.0.1 -> dpid 2, port 3, mac 00:00:00:00:00:07
+2025-11-13 06:25:49,367 - INFO - MultiLayerLB - ARP learning: 10.0.0.1 -> dpid 3, port 2, mac 00:00:00:00:00:07
+2025-11-13 06:25:49,372 - INFO - MultiLayerLB - ARP learning: 10.0.0.2 -> dpid 2, port 4, mac 00:00:00:00:00:08
+2025-11-13 06:25:49,376 - INFO - MultiLayerLB - ARP learning: 10.0.0.1 -> dpid 1, port 2, mac 00:00:00:00:00:07
+2025-11-13 06:25:49,434 - INFO - MultiLayerLB - ARP learning: 10.0.0.2 -> dpid 2, port 4, mac 00:00:00:00:00:08
+2025-11-13 06:25:49,445 - INFO - MultiLayerLB - ARP learning: 10.0.0.2 -> dpid 3, port 2, mac 00:00:00:00:00:08
+2025-11-13 06:25:49,459 - INFO - MultiLayerLB - ARP learning: 10.0.0.2 -> dpid 1, port 2, mac 00:00:00:00:00:08
+2025-11-13 06:25:49,474 - INFO - MultiLayerLB - ARP learning: 10.0.0.3 -> dpid 3, port 3, mac 00:00:00:00:00:01
+2025-11-13 06:25:49,485 - INFO - MultiLayerLB - ARP learning: 10.0.0.3 -> dpid 2, port 2, mac 00:00:00:00:00:01
+2025-11-13 06:26:33,127 - INFO - MultiLayerLB - Replied ARP for VIP 10.0.0.100 -> MAC 00:aa:bb:00:00:01 (to 10.0.0.11)
+2025-11-13 06:26:33,141 - INFO - MultiLayerLB - Replied ARP for VIP 10.0.0.100 -> MAC 00:aa:bb:00:00:01 (to 10.0.0.11)
+2025-11-13 06:26:33,145 - INFO - MultiLayerLB - Installed flow: 10.0.0.11 -> VIP(10.0.0.100) rewritten -> 10.0.0.1 on port 2
+2025-11-13 06:26:33,145 - INFO - MultiLayerLB - LB assign: 10.0.0.11 -> 10.0.0.1 (policy=round_robin)
+2025-11-13 06:26:33,149 - INFO - MultiLayerLB - Replied ARP for VIP 10.0.0.100 -> MAC 00:aa:bb:00:00:01 (to 10.0.0.11)
+2025-11-13 06:26:33,152 - INFO - MultiLayerLB - Installed flow: 10.0.0.11 -> VIP(10.0.0.100) rewritten -> 10.0.0.2 on port 2
+2025-11-13 06:26:33,152 - INFO - MultiLayerLB - LB assign: 10.0.0.11 -> 10.0.0.2 (policy=round_robin)
+2025-11-13 06:26:33,157 - INFO - MultiLayerLB - Installed flow: 10.0.0.11 -> VIP(10.0.0.100) rewritten -> 10.0.0.1 on port 2
+2025-11-13 06:26:33,157 - INFO - MultiLayerLB - LB assign: 10.0.0.11 -> 10.0.0.1 (policy=round_robin)
+2025-11-13 06:26:54,698 - INFO - MultiLayerLB - Replied ARP for VIP 10.0.0.100 -> MAC 00:aa:bb:00:00:01 (to 10.0.0.12)
+2025-11-13 06:26:54,709 - INFO - MultiLayerLB - Replied ARP for VIP 10.0.0.100 -> MAC 00:aa:bb:00:00:01 (to 10.0.0.12)
+2025-11-13 06:26:54,714 - INFO - MultiLayerLB - Installed flow: 10.0.0.12 -> VIP(10.0.0.100) rewritten -> 10.0.0.2 on port 2
+2025-11-13 06:26:54,714 - INFO - MultiLayerLB - LB assign: 10.0.0.12 -> 10.0.0.2 (policy=round_robin)
+2025-11-13 06:26:54,717 - INFO - MultiLayerLB - Replied ARP for VIP 10.0.0.100 -> MAC 00:aa:bb:00:00:01 (to 10.0.0.12)
+2025-11-13 06:26:54,721 - INFO - MultiLayerLB - Installed flow: 10.0.0.12 -> VIP(10.0.0.100) rewritten -> 10.0.0.1 on port 2
+2025-11-13 06:26:54,721 - INFO - MultiLayerLB - LB assign: 10.0.0.12 -> 10.0.0.1 (policy=round_robin)
+2025-11-13 06:26:54,740 - INFO - MultiLayerLB - Installed flow: 10.0.0.12 -> VIP(10.0.0.100) rewritten -> 10.0.0.2 on port 2
+2025-11-13 06:26:54,744 - INFO - MultiLayerLB - LB assign: 10.0.0.12 -> 10.0.0.2 (policy=round_robin)
+2025-11-13 07:57:08,926 - INFO - MultiLayerLB - Installed flow: 10.0.0.12 -> VIP(10.0.0.100) rewritten -> 10.0.0.1 on port 2
+2025-11-13 07:57:08,927 - INFO - MultiLayerLB - LB assign: 10.0.0.12 -> 10.0.0.1 (policy=round_robin)
+2025-11-13 07:57:13,982 - INFO - MultiLayerLB - Replied ARP for VIP 10.0.0.100 -> MAC 00:aa:bb:00:00:01 (to 10.0.0.12)
+2025-11-13 07:57:27,011 - INFO - MultiLayerLB - Replied ARP for VIP 10.0.0.100 -> MAC 00:aa:bb:00:00:01 (to 10.0.0.14)
+2025-11-13 07:57:27,022 - INFO - MultiLayerLB - Replied ARP for VIP 10.0.0.100 -> MAC 00:aa:bb:00:00:01 (to 10.0.0.14)
+2025-11-13 07:57:27,023 - INFO - MultiLayerLB - Installed flow: 10.0.0.14 -> VIP(10.0.0.100) rewritten -> 10.0.0.2 on port 2
+2025-11-13 07:57:27,023 - INFO - MultiLayerLB - LB assign: 10.0.0.14 -> 10.0.0.2 (policy=round_robin)
+2025-11-13 07:57:27,024 - INFO - MultiLayerLB - Replied ARP for VIP 10.0.0.100 -> MAC 00:aa:bb:00:00:01 (to 10.0.0.14)
+2025-11-13 07:57:27,037 - INFO - MultiLayerLB - Installed flow: 10.0.0.14 -> VIP(10.0.0.100) rewritten -> 10.0.0.1 on port 2
+2025-11-13 07:57:27,037 - INFO - MultiLayerLB - LB assign: 10.0.0.14 -> 10.0.0.1 (policy=round_robin)
+2025-11-13 07:57:37,422 - INFO - MultiLayerLB - Replied ARP for VIP 10.0.0.100 -> MAC 00:aa:bb:00:00:01 (to 10.0.0.13)
+2025-11-13 07:57:37,433 - INFO - MultiLayerLB - Replied ARP for VIP 10.0.0.100 -> MAC 00:aa:bb:00:00:01 (to 10.0.0.13)
+2025-11-13 07:57:37,435 - INFO - MultiLayerLB - Replied ARP for VIP 10.0.0.100 -> MAC 00:aa:bb:00:00:01 (to 10.0.0.13)
+2025-11-13 07:57:37,440 - INFO - MultiLayerLB - Installed flow: 10.0.0.13 -> VIP(10.0.0.100) rewritten -> 10.0.0.2 on port 2
+2025-11-13 07:57:37,440 - INFO - MultiLayerLB - LB assign: 10.0.0.13 -> 10.0.0.2 (policy=round_robin)
+2025-11-13 07:57:37,453 - INFO - MultiLayerLB - Installed flow: 10.0.0.13 -> VIP(10.0.0.100) rewritten -> 10.0.0.1 on port 2
+2025-11-13 07:57:37,455 - INFO - MultiLayerLB - LB assign: 10.0.0.13 -> 10.0.0.1 (policy=round_robin)
+2025-11-13 07:57:46,189 - INFO - MultiLayerLB - Installed flow: 10.0.0.11 -> VIP(10.0.0.100) rewritten -> 10.0.0.2 on port 2
+2025-11-13 07:57:46,190 - INFO - MultiLayerLB - LB assign: 10.0.0.11 -> 10.0.0.2 (policy=round_robin)
+2025-11-13 07:57:46,199 - INFO - MultiLayerLB - Installed flow: 10.0.0.11 -> VIP(10.0.0.100) rewritten -> 10.0.0.1 on port 2
+2025-11-13 07:57:46,199 - INFO - MultiLayerLB - LB assign: 10.0.0.11 -> 10.0.0.1 (policy=round_robin)
+2025-11-13 07:57:46,206 - INFO - MultiLayerLB - Installed flow: 10.0.0.11 -> VIP(10.0.0.100) rewritten -> 10.0.0.2 on port 2
+2025-11-13 07:57:46,208 - INFO - MultiLayerLB - LB assign: 10.0.0.11 -> 10.0.0.2 (policy=round_robin)
+2025-11-13 07:57:51,357 - INFO - MultiLayerLB - Replied ARP for VIP 10.0.0.100 -> MAC 00:aa:bb:00:00:01 (to 10.0.0.11)
+2025-11-13 07:58:16,662 - INFO - MultiLayerLB - Installed flow: 10.0.0.12 -> VIP(10.0.0.100) rewritten -> 10.0.0.1 on port 2
+2025-11-13 07:58:16,663 - INFO - MultiLayerLB - LB assign: 10.0.0.12 -> 10.0.0.1 (policy=round_robin)
+2025-11-13 07:58:22,080 - INFO - MultiLayerLB - Replied ARP for VIP 10.0.0.100 -> MAC 00:aa:bb:00:00:01 (to 10.0.0.12)

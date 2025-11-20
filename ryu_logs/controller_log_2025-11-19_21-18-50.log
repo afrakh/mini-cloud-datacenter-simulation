@@ -1,0 +1,39 @@
+2025-11-19 21:18:50,465 - INFO - LoggerApp - ✅ LoggerApp initialized successfully.
+2025-11-19 21:18:50,465 - INFO - LoggerApp - 📁 Logs folder: /home/vboxuser/mini-cloud/ryu_logs
+2025-11-19 21:18:50,465 - INFO - LoggerApp - 📝 Log file created: /home/vboxuser/mini-cloud/ryu_logs/controller_log_2025-11-19_21-18-50.log
+2025-11-19 21:18:50,466 - INFO - ryu.base.app_manager - instantiating app ryu-failure.py of FailureRecoveryDynamic
+2025-11-19 21:18:50,466 - INFO - FailureRecoveryDynamic - ✅ Failure Recovery module loaded (Dijkstra rerouting)
+2025-11-19 21:18:50,466 - INFO - ryu.base.app_manager - instantiating app ryu_host_mig.py of HostMigration
+2025-11-19 21:18:50,466 - INFO - HostMigration - ✅ Host Migration module loaded (REST 8080 enabled)
+2025-11-19 21:18:50,467 - INFO - ryu.base.app_manager - instantiating app ryu-autoscale.py of AutoScale
+2025-11-19 21:18:50,467 - INFO - AutoScale - ✅ Realistic Auto-Scaling module loaded (REST 8080 enabled)
+2025-11-19 21:18:50,467 - INFO - ryu.base.app_manager - instantiating app controller.py of SmartDC
+2025-11-19 21:18:50,467 - INFO - ryu.base.app_manager - instantiating app dashboard/ryu-push.py of RyuPushLiveHosts
+2025-11-19 21:18:50,467 - INFO - RyuPushLiveHosts - RyuPushLiveHosts initialized
+2025-11-19 21:18:50,471 - INFO - ryu.base.app_manager - instantiating app ryu.controller.ofp_handler of OFPHandler
+2025-11-19 21:18:50,472 - INFO - ryu.base.app_manager - instantiating app ryu.topology.switches of Switches
+2025-11-19 21:18:50,475 - INFO - ryu.lib.hub - (39044) wsgi starting up on http://0.0.0.0:8080
+2025-11-19 21:18:50,478 - INFO - RyuPushLiveHosts - Pushed to Flask: {'hosts': [{'id': '10.0.0.12', 'ip': '10.0.0.12', 'status': 'DOWN'}, {'id': '10.0.0.13', 'ip': '10.0.0.13', 'status': 'DOWN'}, {'id': '10.0.0.14', 'ip': '10.0.0.14', 'status': 'DOWN'}, {'id': '10.0.0.11', 'ip': '10.0.0.11', 'status': 'DOWN'}], 'servers': [{'id': '10.0.0.1', 'ip': '10.0.0.1', 'status': 'UP'}, {'id': '10.0.0.2', 'ip': '10.0.0.2', 'status': 'UP'}, {'id': '10.0.0.3', 'ip': '10.0.0.3', 'status': 'UP'}, {'id': '10.0.0.4', 'ip': '10.0.0.4', 'status': 'UP'}]}
+2025-11-19 21:18:52,473 - INFO - SmartDC - Pushed: [{'ts': 1763587132, 'requests': 0.0, 'bandwidth': 0.0}]
+2025-11-19 21:18:54,485 - INFO - SmartDC - Pushed: [{'ts': 1763587134, 'requests': 0.0, 'bandwidth': 0.0}]
+2025-11-19 21:18:55,484 - INFO - RyuPushLiveHosts - Pushed to Flask: {'hosts': [{'id': '10.0.0.12', 'ip': '10.0.0.12', 'status': 'DOWN'}, {'id': '10.0.0.13', 'ip': '10.0.0.13', 'status': 'DOWN'}, {'id': '10.0.0.14', 'ip': '10.0.0.14', 'status': 'DOWN'}, {'id': '10.0.0.11', 'ip': '10.0.0.11', 'status': 'DOWN'}], 'servers': [{'id': '10.0.0.1', 'ip': '10.0.0.1', 'status': 'UP'}, {'id': '10.0.0.2', 'ip': '10.0.0.2', 'status': 'UP'}, {'id': '10.0.0.3', 'ip': '10.0.0.3', 'status': 'UP'}, {'id': '10.0.0.4', 'ip': '10.0.0.4', 'status': 'UP'}]}
+2025-11-19 21:18:56,492 - INFO - SmartDC - Pushed: [{'ts': 1763587136, 'requests': 0.0, 'bandwidth': 0.0}]
+2025-11-19 21:18:56,936 - INFO - MultiLayerLB - 🔌 Switch 3 features handled
+2025-11-19 21:18:56,937 - INFO - MultiLayerLB - 🔌 Switch 1 features handled
+2025-11-19 21:18:56,937 - INFO - FailureRecoveryDynamic - 🟢 Switch 3 connected
+2025-11-19 21:18:56,937 - INFO - FailureRecoveryDynamic - 🟢 Switch 1 connected
+2025-11-19 21:18:56,937 - INFO - HostMigration - 🟢 Switch connected: 3
+2025-11-19 21:18:56,937 - INFO - HostMigration - 🟢 Switch connected: 1
+2025-11-19 21:18:56,937 - INFO - AutoScale - 🟢 Switch connected: 3
+2025-11-19 21:18:56,937 - INFO - AutoScale - 🟢 Switch connected: 1
+2025-11-19 21:18:56,940 - INFO - MultiLayerLB - 🔌 Switch 2 features handled
+2025-11-19 21:18:56,940 - INFO - FailureRecoveryDynamic - 🟢 Switch 2 connected
+2025-11-19 21:18:56,940 - INFO - HostMigration - 🟢 Switch connected: 2
+2025-11-19 21:18:56,941 - INFO - AutoScale - 🟢 Switch connected: 2
+2025-11-19 21:18:56,945 - INFO - FailureRecoveryDynamic - 🌐 Topology updated (switch-enter): 2 switches, 0 links
+2025-11-19 21:18:56,946 - INFO - FailureRecoveryDynamic - 🌐 Topology updated (switch-enter): 3 switches, 0 links
+2025-11-19 21:18:56,948 - INFO - FailureRecoveryDynamic - 🌐 Topology updated (switch-enter): 3 switches, 0 links
+2025-11-19 21:18:56,949 - INFO - FailureRecoveryDynamic - 🌐 Topology updated (link-add): 3 switches, 1 links
+2025-11-19 21:18:56,949 - INFO - FailureRecoveryDynamic - 🌐 Topology updated (link-add): 3 switches, 1 links
+2025-11-19 21:18:56,950 - INFO - FailureRecoveryDynamic - 🌐 Topology updated (link-add): 3 switches, 2 links
+2025-11-19 21:18:56,950 - INFO - FailureRecoveryDynamic - 🌐 Topology updated (link-add): 3 switches, 2 links

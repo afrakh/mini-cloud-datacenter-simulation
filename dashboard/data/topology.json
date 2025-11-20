@@ -1,0 +1,29 @@
+{
+  "nodes": [
+    {"id": "s1", "type": "switch"},
+    {"id": "s2", "type": "switch"},
+    {"id": "s3", "type": "switch"},
+    {"id": "c1", "type": "host"},
+    {"id": "c2", "type": "host"},
+    {"id": "c3", "type": "host"},
+    {"id": "c4", "type": "host"},
+    {"id": "app1", "type": "host"},
+    {"id": "db1", "type": "host"},
+    {"id": "web1", "type": "host"},
+    {"id": "web2", "type": "host"}
+  ],
+  "links": [
+    {"source": "s1", "target": "s2"},
+    {"source": "s1", "target": "s3"},
+    {"source":"s2","target":"s3"},
+    {"source": "s2", "target": "c1"},
+    {"source": "s2", "target": "c2"},
+    {"source": "s3", "target": "c3"},
+    {"source": "s3", "target": "c4"},
+    {"source": "s3", "target": "app1"},
+    {"source": "s3", "target": "db1"},
+    {"source": "s2", "target": "web1"},
+    {"source": "s2", "target": "web2"}
+  ]
+}
+

@@ -1,0 +1,650 @@
+2025-11-16 10:47:25,244 - INFO - LoggerApp - ✅ LoggerApp initialized successfully.
+2025-11-16 10:47:25,245 - INFO - LoggerApp - 📁 Logs folder: /home/vboxuser/mini-cloud/ryu_logs
+2025-11-16 10:47:25,246 - INFO - LoggerApp - 📝 Log file created: /home/vboxuser/mini-cloud/ryu_logs/controller_log_2025-11-16_10-47-25.log
+2025-11-16 10:47:25,246 - INFO - ryu.base.app_manager - instantiating app ryu-failure.py of FailureRecoveryDynamic
+2025-11-16 10:47:25,246 - INFO - FailureRecoveryDynamic - ✅ Failure Recovery module loaded (Dijkstra rerouting)
+2025-11-16 10:47:25,247 - INFO - ryu.base.app_manager - instantiating app ryu_host_mig.py of HostMigration
+2025-11-16 10:47:25,247 - INFO - HostMigration - ✅ Host Migration module loaded (REST 8080 enabled)
+2025-11-16 10:47:25,248 - INFO - ryu.base.app_manager - instantiating app ryu-autoscale.py of LogicalAutoScale
+2025-11-16 10:47:25,248 - INFO - LogicalAutoScale - ✅ Logical Auto Scaling module started
+2025-11-16 10:47:25,249 - INFO - ryu.base.app_manager - instantiating app controller.py of SmartDCController
+2025-11-16 10:47:25,249 - INFO - SmartDCController - 🚀 Smart DataCenter Controller started (OpenFlow 1.3)
+2025-11-16 10:47:25,249 - INFO - ryu.base.app_manager - instantiating app ryu.controller.ofp_handler of OFPHandler
+2025-11-16 10:47:25,249 - INFO - ryu.base.app_manager - instantiating app ryu.topology.switches of Switches
+2025-11-16 10:47:25,251 - INFO - ryu.lib.hub - (8814) wsgi starting up on http://0.0.0.0:8080
+2025-11-16 10:47:30,250 - INFO - LogicalAutoScale - 📊 Server web1 load: 8%
+2025-11-16 10:47:30,251 - INFO - LogicalAutoScale - 📊 Server web2 load: 26%
+2025-11-16 10:47:30,254 - INFO - LogicalAutoScale - ⚖️ Average load: 17.0%
+2025-11-16 10:47:30,254 - INFO - LogicalAutoScale - ⬇️ Scaling DOWN: Removed server web2
+2025-11-16 10:47:35,257 - INFO - LogicalAutoScale - 📊 Server web1 load: 18%
+2025-11-16 10:47:35,257 - INFO - LogicalAutoScale - ⚖️ Average load: 18.0%
+2025-11-16 10:47:40,259 - INFO - LogicalAutoScale - 📊 Server web1 load: 17%
+2025-11-16 10:47:40,260 - INFO - LogicalAutoScale - ⚖️ Average load: 17.0%
+2025-11-16 10:47:45,261 - INFO - LogicalAutoScale - 📊 Server web1 load: 22%
+2025-11-16 10:47:45,265 - INFO - LogicalAutoScale - ⚖️ Average load: 22.0%
+2025-11-16 10:47:50,268 - INFO - LogicalAutoScale - 📊 Server web1 load: 29%
+2025-11-16 10:47:50,270 - INFO - LogicalAutoScale - ⚖️ Average load: 29.0%
+2025-11-16 10:47:55,272 - INFO - LogicalAutoScale - 📊 Server web1 load: 36%
+2025-11-16 10:47:55,276 - INFO - LogicalAutoScale - ⚖️ Average load: 36.0%
+2025-11-16 10:48:00,278 - INFO - LogicalAutoScale - 📊 Server web1 load: 34%
+2025-11-16 10:48:00,281 - INFO - LogicalAutoScale - ⚖️ Average load: 34.0%
+2025-11-16 10:48:05,284 - INFO - LogicalAutoScale - 📊 Server web1 load: 49%
+2025-11-16 10:48:05,286 - INFO - LogicalAutoScale - ⚖️ Average load: 49.0%
+2025-11-16 10:48:10,292 - INFO - LogicalAutoScale - 📊 Server web1 load: 47%
+2025-11-16 10:48:10,298 - INFO - LogicalAutoScale - ⚖️ Average load: 47.0%
+2025-11-16 10:48:15,301 - INFO - LogicalAutoScale - 📊 Server web1 load: 49%
+2025-11-16 10:48:15,304 - INFO - LogicalAutoScale - ⚖️ Average load: 49.0%
+2025-11-16 10:48:20,309 - INFO - LogicalAutoScale - 📊 Server web1 load: 46%
+2025-11-16 10:48:20,310 - INFO - LogicalAutoScale - ⚖️ Average load: 46.0%
+2025-11-16 10:48:25,314 - INFO - LogicalAutoScale - 📊 Server web1 load: 49%
+2025-11-16 10:48:25,318 - INFO - LogicalAutoScale - ⚖️ Average load: 49.0%
+2025-11-16 10:48:30,321 - INFO - LogicalAutoScale - 📊 Server web1 load: 60%
+2025-11-16 10:48:30,321 - INFO - LogicalAutoScale - ⚖️ Average load: 60.0%
+2025-11-16 10:48:35,326 - INFO - LogicalAutoScale - 📊 Server web1 load: 65%
+2025-11-16 10:48:35,326 - INFO - LogicalAutoScale - ⚖️ Average load: 65.0%
+2025-11-16 10:48:40,328 - INFO - LogicalAutoScale - 📊 Server web1 load: 77%
+2025-11-16 10:48:40,333 - INFO - LogicalAutoScale - ⚖️ Average load: 77.0%
+2025-11-16 10:48:40,338 - INFO - LogicalAutoScale - 🚀 Scaling UP: Added server web2
+2025-11-16 10:48:45,347 - INFO - LogicalAutoScale - 📊 Server web1 load: 81%
+2025-11-16 10:48:45,348 - INFO - LogicalAutoScale - 📊 Server web2 load: 37%
+2025-11-16 10:48:45,352 - INFO - LogicalAutoScale - ⚖️ Average load: 59.0%
+2025-11-16 10:48:50,363 - INFO - LogicalAutoScale - 📊 Server web1 load: 93%
+2025-11-16 10:48:50,366 - INFO - LogicalAutoScale - 📊 Server web2 load: 33%
+2025-11-16 10:48:50,367 - INFO - LogicalAutoScale - ⚖️ Average load: 63.0%
+2025-11-16 10:48:55,370 - INFO - LogicalAutoScale - 📊 Server web1 load: 100%
+2025-11-16 10:48:55,372 - INFO - LogicalAutoScale - 📊 Server web2 load: 39%
+2025-11-16 10:48:55,375 - INFO - LogicalAutoScale - ⚖️ Average load: 69.5%
+2025-11-16 10:49:00,378 - INFO - LogicalAutoScale - 📊 Server web1 load: 100%
+2025-11-16 10:49:00,380 - INFO - LogicalAutoScale - 📊 Server web2 load: 37%
+2025-11-16 10:49:00,380 - INFO - LogicalAutoScale - ⚖️ Average load: 68.5%
+2025-11-16 10:49:05,385 - INFO - LogicalAutoScale - 📊 Server web1 load: 95%
+2025-11-16 10:49:05,391 - INFO - LogicalAutoScale - 📊 Server web2 load: 48%
+2025-11-16 10:49:05,393 - INFO - LogicalAutoScale - ⚖️ Average load: 71.5%
+2025-11-16 10:49:05,394 - INFO - LogicalAutoScale - 🚀 Scaling UP: Added server web3
+2025-11-16 10:49:10,400 - INFO - LogicalAutoScale - 📊 Server web1 load: 100%
+2025-11-16 10:49:10,400 - INFO - LogicalAutoScale - 📊 Server web2 load: 56%
+2025-11-16 10:49:10,400 - INFO - LogicalAutoScale - 📊 Server web3 load: 34%
+2025-11-16 10:49:10,401 - INFO - LogicalAutoScale - ⚖️ Average load: 63.3%
+2025-11-16 10:49:15,404 - INFO - LogicalAutoScale - 📊 Server web1 load: 95%
+2025-11-16 10:49:15,405 - INFO - LogicalAutoScale - 📊 Server web2 load: 62%
+2025-11-16 10:49:15,407 - INFO - LogicalAutoScale - 📊 Server web3 load: 34%
+2025-11-16 10:49:15,409 - INFO - LogicalAutoScale - ⚖️ Average load: 63.7%
+2025-11-16 10:49:20,411 - INFO - LogicalAutoScale - 📊 Server web1 load: 91%
+2025-11-16 10:49:20,415 - INFO - LogicalAutoScale - 📊 Server web2 load: 59%
+2025-11-16 10:49:20,420 - INFO - LogicalAutoScale - 📊 Server web3 load: 49%
+2025-11-16 10:49:20,421 - INFO - LogicalAutoScale - ⚖️ Average load: 66.3%
+2025-11-16 10:49:25,438 - INFO - LogicalAutoScale - 📊 Server web1 load: 100%
+2025-11-16 10:49:25,442 - INFO - LogicalAutoScale - 📊 Server web2 load: 64%
+2025-11-16 10:49:25,444 - INFO - LogicalAutoScale - 📊 Server web3 load: 51%
+2025-11-16 10:49:25,447 - INFO - LogicalAutoScale - ⚖️ Average load: 71.7%
+2025-11-16 10:49:25,450 - INFO - LogicalAutoScale - 🚀 Scaling UP: Added server web4
+2025-11-16 10:49:30,453 - INFO - LogicalAutoScale - 📊 Server web1 load: 100%
+2025-11-16 10:49:30,458 - INFO - LogicalAutoScale - 📊 Server web2 load: 78%
+2025-11-16 10:49:30,459 - INFO - LogicalAutoScale - 📊 Server web3 load: 62%
+2025-11-16 10:49:30,459 - INFO - LogicalAutoScale - 📊 Server web4 load: 27%
+2025-11-16 10:49:30,460 - INFO - LogicalAutoScale - ⚖️ Average load: 66.8%
+2025-11-16 10:49:35,465 - INFO - LogicalAutoScale - 📊 Server web1 load: 96%
+2025-11-16 10:49:35,472 - INFO - LogicalAutoScale - 📊 Server web2 load: 93%
+2025-11-16 10:49:35,477 - INFO - LogicalAutoScale - 📊 Server web3 load: 65%
+2025-11-16 10:49:35,478 - INFO - LogicalAutoScale - 📊 Server web4 load: 39%
+2025-11-16 10:49:35,479 - INFO - LogicalAutoScale - ⚖️ Average load: 73.2%
+2025-11-16 10:49:35,482 - INFO - LogicalAutoScale - 🚀 Scaling UP: Added server web5
+2025-11-16 10:49:40,490 - INFO - LogicalAutoScale - 📊 Server web1 load: 92%
+2025-11-16 10:49:40,497 - INFO - LogicalAutoScale - 📊 Server web2 load: 95%
+2025-11-16 10:49:40,499 - INFO - LogicalAutoScale - 📊 Server web3 load: 68%
+2025-11-16 10:49:40,499 - INFO - LogicalAutoScale - 📊 Server web4 load: 47%
+2025-11-16 10:49:40,500 - INFO - LogicalAutoScale - 📊 Server web5 load: 17%
+2025-11-16 10:49:40,500 - INFO - LogicalAutoScale - ⚖️ Average load: 63.8%
+2025-11-16 10:49:45,507 - INFO - LogicalAutoScale - 📊 Server web1 load: 96%
+2025-11-16 10:49:45,508 - INFO - LogicalAutoScale - 📊 Server web2 load: 100%
+2025-11-16 10:49:45,508 - INFO - LogicalAutoScale - 📊 Server web3 load: 72%
+2025-11-16 10:49:45,509 - INFO - LogicalAutoScale - 📊 Server web4 load: 47%
+2025-11-16 10:49:45,509 - INFO - LogicalAutoScale - 📊 Server web5 load: 15%
+2025-11-16 10:49:45,509 - INFO - LogicalAutoScale - ⚖️ Average load: 66.0%
+2025-11-16 10:49:50,512 - INFO - LogicalAutoScale - 📊 Server web1 load: 97%
+2025-11-16 10:49:50,513 - INFO - LogicalAutoScale - 📊 Server web2 load: 97%
+2025-11-16 10:49:50,513 - INFO - LogicalAutoScale - 📊 Server web3 load: 84%
+2025-11-16 10:49:50,513 - INFO - LogicalAutoScale - 📊 Server web4 load: 43%
+2025-11-16 10:49:50,514 - INFO - LogicalAutoScale - 📊 Server web5 load: 19%
+2025-11-16 10:49:50,514 - INFO - LogicalAutoScale - ⚖️ Average load: 68.0%
+2025-11-16 10:49:55,516 - INFO - LogicalAutoScale - 📊 Server web1 load: 100%
+2025-11-16 10:49:55,519 - INFO - LogicalAutoScale - 📊 Server web2 load: 99%
+2025-11-16 10:49:55,524 - INFO - LogicalAutoScale - 📊 Server web3 load: 95%
+2025-11-16 10:49:55,524 - INFO - LogicalAutoScale - 📊 Server web4 load: 55%
+2025-11-16 10:49:55,526 - INFO - LogicalAutoScale - 📊 Server web5 load: 33%
+2025-11-16 10:49:55,527 - INFO - LogicalAutoScale - ⚖️ Average load: 76.4%
+2025-11-16 10:49:55,534 - INFO - LogicalAutoScale - 🚀 Scaling UP: Added server web6
+2025-11-16 10:50:00,541 - INFO - LogicalAutoScale - 📊 Server web1 load: 96%
+2025-11-16 10:50:00,545 - INFO - LogicalAutoScale - 📊 Server web2 load: 100%
+2025-11-16 10:50:00,551 - INFO - LogicalAutoScale - 📊 Server web3 load: 100%
+2025-11-16 10:50:00,551 - INFO - LogicalAutoScale - 📊 Server web4 load: 66%
+2025-11-16 10:50:00,552 - INFO - LogicalAutoScale - 📊 Server web5 load: 32%
+2025-11-16 10:50:00,552 - INFO - LogicalAutoScale - 📊 Server web6 load: 16%
+2025-11-16 10:50:00,552 - INFO - LogicalAutoScale - ⚖️ Average load: 68.3%
+2025-11-16 10:50:05,560 - INFO - LogicalAutoScale - 📊 Server web1 load: 92%
+2025-11-16 10:50:05,560 - INFO - LogicalAutoScale - 📊 Server web2 load: 100%
+2025-11-16 10:50:05,561 - INFO - LogicalAutoScale - 📊 Server web3 load: 100%
+2025-11-16 10:50:05,561 - INFO - LogicalAutoScale - 📊 Server web4 load: 74%
+2025-11-16 10:50:05,561 - INFO - LogicalAutoScale - 📊 Server web5 load: 34%
+2025-11-16 10:50:05,561 - INFO - LogicalAutoScale - 📊 Server web6 load: 19%
+2025-11-16 10:50:05,561 - INFO - LogicalAutoScale - ⚖️ Average load: 69.8%
+2025-11-16 10:50:10,564 - INFO - LogicalAutoScale - 📊 Server web1 load: 100%
+2025-11-16 10:50:10,565 - INFO - LogicalAutoScale - 📊 Server web2 load: 95%
+2025-11-16 10:50:10,566 - INFO - LogicalAutoScale - 📊 Server web3 load: 100%
+2025-11-16 10:50:10,567 - INFO - LogicalAutoScale - 📊 Server web4 load: 70%
+2025-11-16 10:50:10,567 - INFO - LogicalAutoScale - 📊 Server web5 load: 43%
+2025-11-16 10:50:10,567 - INFO - LogicalAutoScale - 📊 Server web6 load: 29%
+2025-11-16 10:50:10,567 - INFO - LogicalAutoScale - ⚖️ Average load: 72.8%
+2025-11-16 10:50:10,567 - INFO - LogicalAutoScale - 🚀 Scaling UP: Added server web7
+2025-11-16 10:50:15,569 - INFO - LogicalAutoScale - 📊 Server web1 load: 100%
+2025-11-16 10:50:15,574 - INFO - LogicalAutoScale - 📊 Server web2 load: 95%
+2025-11-16 10:50:15,577 - INFO - LogicalAutoScale - 📊 Server web3 load: 100%
+2025-11-16 10:50:15,578 - INFO - LogicalAutoScale - 📊 Server web4 load: 84%
+2025-11-16 10:50:15,578 - INFO - LogicalAutoScale - 📊 Server web5 load: 41%
+2025-11-16 10:50:15,578 - INFO - LogicalAutoScale - 📊 Server web6 load: 25%
+2025-11-16 10:50:15,578 - INFO - LogicalAutoScale - 📊 Server web7 load: 36%
+2025-11-16 10:50:15,579 - INFO - LogicalAutoScale - ⚖️ Average load: 68.7%
+2025-11-16 10:50:20,580 - INFO - LogicalAutoScale - 📊 Server web1 load: 100%
+2025-11-16 10:50:20,580 - INFO - LogicalAutoScale - 📊 Server web2 load: 97%
+2025-11-16 10:50:20,581 - INFO - LogicalAutoScale - 📊 Server web3 load: 98%
+2025-11-16 10:50:20,583 - INFO - LogicalAutoScale - 📊 Server web4 load: 84%
+2025-11-16 10:50:20,586 - INFO - LogicalAutoScale - 📊 Server web5 load: 44%
+2025-11-16 10:50:20,587 - INFO - LogicalAutoScale - 📊 Server web6 load: 24%
+2025-11-16 10:50:20,587 - INFO - LogicalAutoScale - 📊 Server web7 load: 42%
+2025-11-16 10:50:20,587 - INFO - LogicalAutoScale - ⚖️ Average load: 69.9%
+2025-11-16 10:50:25,589 - INFO - LogicalAutoScale - 📊 Server web1 load: 100%
+2025-11-16 10:50:25,593 - INFO - LogicalAutoScale - 📊 Server web2 load: 100%
+2025-11-16 10:50:25,598 - INFO - LogicalAutoScale - 📊 Server web3 load: 100%
+2025-11-16 10:50:25,600 - INFO - LogicalAutoScale - 📊 Server web4 load: 82%
+2025-11-16 10:50:25,601 - INFO - LogicalAutoScale - 📊 Server web5 load: 40%
+2025-11-16 10:50:25,604 - INFO - LogicalAutoScale - 📊 Server web6 load: 33%
+2025-11-16 10:50:25,605 - INFO - LogicalAutoScale - 📊 Server web7 load: 37%
+2025-11-16 10:50:25,607 - INFO - LogicalAutoScale - ⚖️ Average load: 70.3%
+2025-11-16 10:50:25,611 - INFO - LogicalAutoScale - 🚀 Scaling UP: Added server web8
+2025-11-16 10:50:30,616 - INFO - LogicalAutoScale - 📊 Server web1 load: 100%
+2025-11-16 10:50:30,617 - INFO - LogicalAutoScale - 📊 Server web2 load: 100%
+2025-11-16 10:50:30,617 - INFO - LogicalAutoScale - 📊 Server web3 load: 100%
+2025-11-16 10:50:30,617 - INFO - LogicalAutoScale - 📊 Server web4 load: 86%
+2025-11-16 10:50:30,617 - INFO - LogicalAutoScale - 📊 Server web5 load: 49%
+2025-11-16 10:50:30,618 - INFO - LogicalAutoScale - 📊 Server web6 load: 30%
+2025-11-16 10:50:30,618 - INFO - LogicalAutoScale - 📊 Server web7 load: 52%
+2025-11-16 10:50:30,618 - INFO - LogicalAutoScale - 📊 Server web8 load: 34%
+2025-11-16 10:50:30,618 - INFO - LogicalAutoScale - ⚖️ Average load: 68.9%
+2025-11-16 10:50:35,620 - INFO - LogicalAutoScale - 📊 Server web1 load: 100%
+2025-11-16 10:50:35,620 - INFO - LogicalAutoScale - 📊 Server web2 load: 100%
+2025-11-16 10:50:35,627 - INFO - LogicalAutoScale - 📊 Server web3 load: 100%
+2025-11-16 10:50:35,630 - INFO - LogicalAutoScale - 📊 Server web4 load: 86%
+2025-11-16 10:50:35,634 - INFO - LogicalAutoScale - 📊 Server web5 load: 64%
+2025-11-16 10:50:35,634 - INFO - LogicalAutoScale - 📊 Server web6 load: 28%
+2025-11-16 10:50:35,638 - INFO - LogicalAutoScale - 📊 Server web7 load: 51%
+2025-11-16 10:50:35,638 - INFO - LogicalAutoScale - 📊 Server web8 load: 35%
+2025-11-16 10:50:35,638 - INFO - LogicalAutoScale - ⚖️ Average load: 70.5%
+2025-11-16 10:50:35,638 - INFO - LogicalAutoScale - 🚀 Scaling UP: Added server web9
+2025-11-16 10:50:40,641 - INFO - LogicalAutoScale - 📊 Server web1 load: 100%
+2025-11-16 10:50:40,645 - INFO - LogicalAutoScale - 📊 Server web2 load: 100%
+2025-11-16 10:50:40,646 - INFO - LogicalAutoScale - 📊 Server web3 load: 97%
+2025-11-16 10:50:40,648 - INFO - LogicalAutoScale - 📊 Server web4 load: 89%
+2025-11-16 10:50:40,649 - INFO - LogicalAutoScale - 📊 Server web5 load: 70%
+2025-11-16 10:50:40,654 - INFO - LogicalAutoScale - 📊 Server web6 load: 40%
+2025-11-16 10:50:40,655 - INFO - LogicalAutoScale - 📊 Server web7 load: 61%
+2025-11-16 10:50:40,655 - INFO - LogicalAutoScale - 📊 Server web8 load: 30%
+2025-11-16 10:50:40,656 - INFO - LogicalAutoScale - 📊 Server web9 load: 32%
+2025-11-16 10:50:40,657 - INFO - LogicalAutoScale - ⚖️ Average load: 68.8%
+2025-11-16 10:50:45,660 - INFO - LogicalAutoScale - 📊 Server web1 load: 99%
+2025-11-16 10:50:45,663 - INFO - LogicalAutoScale - 📊 Server web2 load: 100%
+2025-11-16 10:50:45,665 - INFO - LogicalAutoScale - 📊 Server web3 load: 100%
+2025-11-16 10:50:45,666 - INFO - LogicalAutoScale - 📊 Server web4 load: 86%
+2025-11-16 10:50:45,666 - INFO - LogicalAutoScale - 📊 Server web5 load: 71%
+2025-11-16 10:50:45,667 - INFO - LogicalAutoScale - 📊 Server web6 load: 51%
+2025-11-16 10:50:45,667 - INFO - LogicalAutoScale - 📊 Server web7 load: 58%
+2025-11-16 10:50:45,668 - INFO - LogicalAutoScale - 📊 Server web8 load: 43%
+2025-11-16 10:50:45,672 - INFO - LogicalAutoScale - 📊 Server web9 load: 32%
+2025-11-16 10:50:45,674 - INFO - LogicalAutoScale - ⚖️ Average load: 71.1%
+2025-11-16 10:50:45,675 - INFO - LogicalAutoScale - 🚀 Scaling UP: Added server web10
+2025-11-16 10:50:50,682 - INFO - LogicalAutoScale - 📊 Server web1 load: 100%
+2025-11-16 10:50:50,690 - INFO - LogicalAutoScale - 📊 Server web2 load: 100%
+2025-11-16 10:50:50,691 - INFO - LogicalAutoScale - 📊 Server web3 load: 100%
+2025-11-16 10:50:50,695 - INFO - LogicalAutoScale - 📊 Server web4 load: 95%
+2025-11-16 10:50:50,696 - INFO - LogicalAutoScale - 📊 Server web5 load: 76%
+2025-11-16 10:50:50,697 - INFO - LogicalAutoScale - 📊 Server web6 load: 57%
+2025-11-16 10:50:50,698 - INFO - LogicalAutoScale - 📊 Server web7 load: 57%
+2025-11-16 10:50:50,698 - INFO - LogicalAutoScale - 📊 Server web8 load: 47%
+2025-11-16 10:50:50,699 - INFO - LogicalAutoScale - 📊 Server web9 load: 29%
+2025-11-16 10:50:50,699 - INFO - LogicalAutoScale - 📊 Server web10 load: 8%
+2025-11-16 10:50:50,699 - INFO - LogicalAutoScale - ⚖️ Average load: 66.9%
+2025-11-16 10:50:55,703 - INFO - LogicalAutoScale - 📊 Server web1 load: 100%
+2025-11-16 10:50:55,705 - INFO - LogicalAutoScale - 📊 Server web2 load: 100%
+2025-11-16 10:50:55,708 - INFO - LogicalAutoScale - 📊 Server web3 load: 100%
+2025-11-16 10:50:55,708 - INFO - LogicalAutoScale - 📊 Server web4 load: 100%
+2025-11-16 10:50:55,709 - INFO - LogicalAutoScale - 📊 Server web5 load: 83%
+2025-11-16 10:50:55,709 - INFO - LogicalAutoScale - 📊 Server web6 load: 56%
+2025-11-16 10:50:55,709 - INFO - LogicalAutoScale - 📊 Server web7 load: 62%
+2025-11-16 10:50:55,709 - INFO - LogicalAutoScale - 📊 Server web8 load: 61%
+2025-11-16 10:50:55,709 - INFO - LogicalAutoScale - 📊 Server web9 load: 25%
+2025-11-16 10:50:55,710 - INFO - LogicalAutoScale - 📊 Server web10 load: 15%
+2025-11-16 10:50:55,710 - INFO - LogicalAutoScale - ⚖️ Average load: 70.2%
+2025-11-16 10:50:55,710 - INFO - LogicalAutoScale - 🚀 Scaling UP: Added server web11
+2025-11-16 10:51:00,713 - INFO - LogicalAutoScale - 📊 Server web1 load: 100%
+2025-11-16 10:51:00,713 - INFO - LogicalAutoScale - 📊 Server web2 load: 100%
+2025-11-16 10:51:00,714 - INFO - LogicalAutoScale - 📊 Server web3 load: 100%
+2025-11-16 10:51:00,714 - INFO - LogicalAutoScale - 📊 Server web4 load: 100%
+2025-11-16 10:51:00,714 - INFO - LogicalAutoScale - 📊 Server web5 load: 97%
+2025-11-16 10:51:00,714 - INFO - LogicalAutoScale - 📊 Server web6 load: 57%
+2025-11-16 10:51:00,715 - INFO - LogicalAutoScale - 📊 Server web7 load: 73%
+2025-11-16 10:51:00,715 - INFO - LogicalAutoScale - 📊 Server web8 load: 60%
+2025-11-16 10:51:00,715 - INFO - LogicalAutoScale - 📊 Server web9 load: 24%
+2025-11-16 10:51:00,715 - INFO - LogicalAutoScale - 📊 Server web10 load: 12%
+2025-11-16 10:51:00,715 - INFO - LogicalAutoScale - 📊 Server web11 load: 7%
+2025-11-16 10:51:00,715 - INFO - LogicalAutoScale - ⚖️ Average load: 66.4%
+2025-11-16 10:51:05,719 - INFO - LogicalAutoScale - 📊 Server web1 load: 98%
+2025-11-16 10:51:05,719 - INFO - LogicalAutoScale - 📊 Server web2 load: 98%
+2025-11-16 10:51:05,720 - INFO - LogicalAutoScale - 📊 Server web3 load: 100%
+2025-11-16 10:51:05,720 - INFO - LogicalAutoScale - 📊 Server web4 load: 100%
+2025-11-16 10:51:05,720 - INFO - LogicalAutoScale - 📊 Server web5 load: 100%
+2025-11-16 10:51:05,720 - INFO - LogicalAutoScale - 📊 Server web6 load: 59%
+2025-11-16 10:51:05,720 - INFO - LogicalAutoScale - 📊 Server web7 load: 75%
+2025-11-16 10:51:05,720 - INFO - LogicalAutoScale - 📊 Server web8 load: 71%
+2025-11-16 10:51:05,721 - INFO - LogicalAutoScale - 📊 Server web9 load: 30%
+2025-11-16 10:51:05,721 - INFO - LogicalAutoScale - 📊 Server web10 load: 18%
+2025-11-16 10:51:05,721 - INFO - LogicalAutoScale - 📊 Server web11 load: 21%
+2025-11-16 10:51:05,721 - INFO - LogicalAutoScale - ⚖️ Average load: 70.0%
+2025-11-16 10:51:10,723 - INFO - LogicalAutoScale - 📊 Server web1 load: 100%
+2025-11-16 10:51:10,727 - INFO - LogicalAutoScale - 📊 Server web2 load: 94%
+2025-11-16 10:51:10,730 - INFO - LogicalAutoScale - 📊 Server web3 load: 96%
+2025-11-16 10:51:10,731 - INFO - LogicalAutoScale - 📊 Server web4 load: 100%
+2025-11-16 10:51:10,733 - INFO - LogicalAutoScale - 📊 Server web5 load: 99%
+2025-11-16 10:51:10,734 - INFO - LogicalAutoScale - 📊 Server web6 load: 68%
+2025-11-16 10:51:10,735 - INFO - LogicalAutoScale - 📊 Server web7 load: 73%
+2025-11-16 10:51:10,745 - INFO - LogicalAutoScale - 📊 Server web8 load: 80%
+2025-11-16 10:51:10,749 - INFO - LogicalAutoScale - 📊 Server web9 load: 34%
+2025-11-16 10:51:10,753 - INFO - LogicalAutoScale - 📊 Server web10 load: 25%
+2025-11-16 10:51:10,754 - INFO - LogicalAutoScale - 📊 Server web11 load: 16%
+2025-11-16 10:51:10,756 - INFO - LogicalAutoScale - ⚖️ Average load: 71.4%
+2025-11-16 10:51:10,760 - INFO - LogicalAutoScale - 🚀 Scaling UP: Added server web12
+2025-11-16 10:51:15,763 - INFO - LogicalAutoScale - 📊 Server web1 load: 100%
+2025-11-16 10:51:15,768 - INFO - LogicalAutoScale - 📊 Server web2 load: 96%
+2025-11-16 10:51:15,769 - INFO - LogicalAutoScale - 📊 Server web3 load: 97%
+2025-11-16 10:51:15,770 - INFO - LogicalAutoScale - 📊 Server web4 load: 97%
+2025-11-16 10:51:15,770 - INFO - LogicalAutoScale - 📊 Server web5 load: 94%
+2025-11-16 10:51:15,771 - INFO - LogicalAutoScale - 📊 Server web6 load: 70%
+2025-11-16 10:51:15,771 - INFO - LogicalAutoScale - 📊 Server web7 load: 77%
+2025-11-16 10:51:15,772 - INFO - LogicalAutoScale - 📊 Server web8 load: 77%
+2025-11-16 10:51:15,772 - INFO - LogicalAutoScale - 📊 Server web9 load: 41%
+2025-11-16 10:51:15,772 - INFO - LogicalAutoScale - 📊 Server web10 load: 26%
+2025-11-16 10:51:15,773 - INFO - LogicalAutoScale - 📊 Server web11 load: 14%
+2025-11-16 10:51:15,775 - INFO - LogicalAutoScale - 📊 Server web12 load: 34%
+2025-11-16 10:51:15,776 - INFO - LogicalAutoScale - ⚖️ Average load: 68.6%
+2025-11-16 10:51:20,818 - INFO - LogicalAutoScale - 📊 Server web1 load: 100%
+2025-11-16 10:51:20,819 - INFO - LogicalAutoScale - 📊 Server web2 load: 100%
+2025-11-16 10:51:20,819 - INFO - LogicalAutoScale - 📊 Server web3 load: 97%
+2025-11-16 10:51:20,819 - INFO - LogicalAutoScale - 📊 Server web4 load: 100%
+2025-11-16 10:51:20,819 - INFO - LogicalAutoScale - 📊 Server web5 load: 100%
+2025-11-16 10:51:20,819 - INFO - LogicalAutoScale - 📊 Server web6 load: 68%
+2025-11-16 10:51:20,819 - INFO - LogicalAutoScale - 📊 Server web7 load: 73%
+2025-11-16 10:51:20,819 - INFO - LogicalAutoScale - 📊 Server web8 load: 83%
+2025-11-16 10:51:20,819 - INFO - LogicalAutoScale - 📊 Server web9 load: 46%
+2025-11-16 10:51:20,819 - INFO - LogicalAutoScale - 📊 Server web10 load: 31%
+2025-11-16 10:51:20,819 - INFO - LogicalAutoScale - 📊 Server web11 load: 25%
+2025-11-16 10:51:20,819 - INFO - LogicalAutoScale - 📊 Server web12 load: 48%
+2025-11-16 10:51:20,820 - INFO - LogicalAutoScale - ⚖️ Average load: 72.6%
+2025-11-16 10:51:20,820 - INFO - LogicalAutoScale - 🚀 Scaling UP: Added server web13
+2025-11-16 10:51:25,823 - INFO - LogicalAutoScale - 📊 Server web1 load: 100%
+2025-11-16 10:51:25,824 - INFO - LogicalAutoScale - 📊 Server web2 load: 100%
+2025-11-16 10:51:25,827 - INFO - LogicalAutoScale - 📊 Server web3 load: 98%
+2025-11-16 10:51:25,827 - INFO - LogicalAutoScale - 📊 Server web4 load: 100%
+2025-11-16 10:51:25,827 - INFO - LogicalAutoScale - 📊 Server web5 load: 98%
+2025-11-16 10:51:25,827 - INFO - LogicalAutoScale - 📊 Server web6 load: 63%
+2025-11-16 10:51:25,827 - INFO - LogicalAutoScale - 📊 Server web7 load: 71%
+2025-11-16 10:51:25,827 - INFO - LogicalAutoScale - 📊 Server web8 load: 96%
+2025-11-16 10:51:25,828 - INFO - LogicalAutoScale - 📊 Server web9 load: 59%
+2025-11-16 10:51:25,828 - INFO - LogicalAutoScale - 📊 Server web10 load: 46%
+2025-11-16 10:51:25,828 - INFO - LogicalAutoScale - 📊 Server web11 load: 22%
+2025-11-16 10:51:25,828 - INFO - LogicalAutoScale - 📊 Server web12 load: 49%
+2025-11-16 10:51:25,828 - INFO - LogicalAutoScale - 📊 Server web13 load: 34%
+2025-11-16 10:51:25,828 - INFO - LogicalAutoScale - ⚖️ Average load: 72.0%
+2025-11-16 10:51:25,829 - INFO - LogicalAutoScale - 🚀 Scaling UP: Added server web14
+2025-11-16 10:51:30,836 - INFO - LogicalAutoScale - 📊 Server web1 load: 100%
+2025-11-16 10:51:30,840 - INFO - LogicalAutoScale - 📊 Server web2 load: 100%
+2025-11-16 10:51:30,841 - INFO - LogicalAutoScale - 📊 Server web3 load: 100%
+2025-11-16 10:51:30,841 - INFO - LogicalAutoScale - 📊 Server web4 load: 100%
+2025-11-16 10:51:30,843 - INFO - LogicalAutoScale - 📊 Server web5 load: 100%
+2025-11-16 10:51:30,849 - INFO - LogicalAutoScale - 📊 Server web6 load: 78%
+2025-11-16 10:51:30,851 - INFO - LogicalAutoScale - 📊 Server web7 load: 85%
+2025-11-16 10:51:30,855 - INFO - LogicalAutoScale - 📊 Server web8 load: 100%
+2025-11-16 10:51:30,855 - INFO - LogicalAutoScale - 📊 Server web9 load: 55%
+2025-11-16 10:51:30,855 - INFO - LogicalAutoScale - 📊 Server web10 load: 43%
+2025-11-16 10:51:30,856 - INFO - LogicalAutoScale - 📊 Server web11 load: 33%
+2025-11-16 10:51:30,856 - INFO - LogicalAutoScale - 📊 Server web12 load: 44%
+2025-11-16 10:51:30,857 - INFO - LogicalAutoScale - 📊 Server web13 load: 35%
+2025-11-16 10:51:30,857 - INFO - LogicalAutoScale - 📊 Server web14 load: 22%
+2025-11-16 10:51:30,858 - INFO - LogicalAutoScale - ⚖️ Average load: 71.1%
+2025-11-16 10:51:30,858 - INFO - LogicalAutoScale - 🚀 Scaling UP: Added server web15
+2025-11-16 10:51:36,365 - INFO - LogicalAutoScale - 📊 Server web1 load: 100%
+2025-11-16 10:51:36,367 - INFO - LogicalAutoScale - 📊 Server web2 load: 100%
+2025-11-16 10:51:36,367 - INFO - LogicalAutoScale - 📊 Server web3 load: 95%
+2025-11-16 10:51:36,367 - INFO - LogicalAutoScale - 📊 Server web4 load: 100%
+2025-11-16 10:51:36,368 - INFO - LogicalAutoScale - 📊 Server web5 load: 100%
+2025-11-16 10:51:36,368 - INFO - LogicalAutoScale - 📊 Server web6 load: 79%
+2025-11-16 10:51:36,370 - INFO - LogicalAutoScale - 📊 Server web7 load: 100%
+2025-11-16 10:51:36,374 - INFO - LogicalAutoScale - 📊 Server web8 load: 100%
+2025-11-16 10:51:36,374 - INFO - LogicalAutoScale - 📊 Server web9 load: 62%
+2025-11-16 10:51:36,374 - INFO - LogicalAutoScale - 📊 Server web10 load: 54%
+2025-11-16 10:51:36,375 - INFO - LogicalAutoScale - 📊 Server web11 load: 44%
+2025-11-16 10:51:36,375 - INFO - LogicalAutoScale - 📊 Server web12 load: 55%
+2025-11-16 10:51:36,376 - INFO - LogicalAutoScale - 📊 Server web13 load: 40%
+2025-11-16 10:51:36,376 - INFO - LogicalAutoScale - 📊 Server web14 load: 18%
+2025-11-16 10:51:36,376 - INFO - LogicalAutoScale - 📊 Server web15 load: 27%
+2025-11-16 10:51:36,376 - INFO - LogicalAutoScale - ⚖️ Average load: 71.6%
+2025-11-16 10:51:36,377 - INFO - LogicalAutoScale - 🚀 Scaling UP: Added server web16
+2025-11-16 10:51:41,381 - INFO - LogicalAutoScale - 📊 Server web1 load: 100%
+2025-11-16 10:51:41,384 - INFO - LogicalAutoScale - 📊 Server web2 load: 100%
+2025-11-16 10:51:41,385 - INFO - LogicalAutoScale - 📊 Server web3 load: 100%
+2025-11-16 10:51:41,385 - INFO - LogicalAutoScale - 📊 Server web4 load: 100%
+2025-11-16 10:51:41,385 - INFO - LogicalAutoScale - 📊 Server web5 load: 100%
+2025-11-16 10:51:41,386 - INFO - LogicalAutoScale - 📊 Server web6 load: 94%
+2025-11-16 10:51:41,386 - INFO - LogicalAutoScale - 📊 Server web7 load: 98%
+2025-11-16 10:51:41,386 - INFO - LogicalAutoScale - 📊 Server web8 load: 98%
+2025-11-16 10:51:41,387 - INFO - LogicalAutoScale - 📊 Server web9 load: 57%
+2025-11-16 10:51:41,387 - INFO - LogicalAutoScale - 📊 Server web10 load: 60%
+2025-11-16 10:51:41,390 - INFO - LogicalAutoScale - 📊 Server web11 load: 44%
+2025-11-16 10:51:41,390 - INFO - LogicalAutoScale - 📊 Server web12 load: 67%
+2025-11-16 10:51:41,391 - INFO - LogicalAutoScale - 📊 Server web13 load: 55%
+2025-11-16 10:51:41,391 - INFO - LogicalAutoScale - 📊 Server web14 load: 28%
+2025-11-16 10:51:41,392 - INFO - LogicalAutoScale - 📊 Server web15 load: 28%
+2025-11-16 10:51:41,393 - INFO - LogicalAutoScale - 📊 Server web16 load: 27%
+2025-11-16 10:51:41,393 - INFO - LogicalAutoScale - ⚖️ Average load: 72.2%
+2025-11-16 10:51:41,394 - INFO - LogicalAutoScale - 🚀 Scaling UP: Added server web17
+2025-11-16 10:51:46,411 - INFO - LogicalAutoScale - 📊 Server web1 load: 95%
+2025-11-16 10:51:46,412 - INFO - LogicalAutoScale - 📊 Server web2 load: 100%
+2025-11-16 10:51:46,414 - INFO - LogicalAutoScale - 📊 Server web3 load: 100%
+2025-11-16 10:51:46,414 - INFO - LogicalAutoScale - 📊 Server web4 load: 100%
+2025-11-16 10:51:46,414 - INFO - LogicalAutoScale - 📊 Server web5 load: 100%
+2025-11-16 10:51:46,416 - INFO - LogicalAutoScale - 📊 Server web6 load: 100%
+2025-11-16 10:51:46,416 - INFO - LogicalAutoScale - 📊 Server web7 load: 100%
+2025-11-16 10:51:46,418 - INFO - LogicalAutoScale - 📊 Server web8 load: 100%
+2025-11-16 10:51:46,418 - INFO - LogicalAutoScale - 📊 Server web9 load: 67%
+2025-11-16 10:51:46,419 - INFO - LogicalAutoScale - 📊 Server web10 load: 69%
+2025-11-16 10:51:46,420 - INFO - LogicalAutoScale - 📊 Server web11 load: 42%
+2025-11-16 10:51:46,421 - INFO - LogicalAutoScale - 📊 Server web12 load: 67%
+2025-11-16 10:51:46,421 - INFO - LogicalAutoScale - 📊 Server web13 load: 67%
+2025-11-16 10:51:46,422 - INFO - LogicalAutoScale - 📊 Server web14 load: 41%
+2025-11-16 10:51:46,422 - INFO - LogicalAutoScale - 📊 Server web15 load: 40%
+2025-11-16 10:51:46,422 - INFO - LogicalAutoScale - 📊 Server web16 load: 34%
+2025-11-16 10:51:46,422 - INFO - LogicalAutoScale - 📊 Server web17 load: 31%
+2025-11-16 10:51:46,424 - INFO - LogicalAutoScale - ⚖️ Average load: 73.7%
+2025-11-16 10:51:46,425 - INFO - LogicalAutoScale - 🚀 Scaling UP: Added server web18
+2025-11-16 10:51:51,453 - INFO - LogicalAutoScale - 📊 Server web1 load: 100%
+2025-11-16 10:51:51,453 - INFO - LogicalAutoScale - 📊 Server web2 load: 100%
+2025-11-16 10:51:51,454 - INFO - LogicalAutoScale - 📊 Server web3 load: 100%
+2025-11-16 10:51:51,454 - INFO - LogicalAutoScale - 📊 Server web4 load: 100%
+2025-11-16 10:51:51,454 - INFO - LogicalAutoScale - 📊 Server web5 load: 100%
+2025-11-16 10:51:51,454 - INFO - LogicalAutoScale - 📊 Server web6 load: 100%
+2025-11-16 10:51:51,455 - INFO - LogicalAutoScale - 📊 Server web7 load: 100%
+2025-11-16 10:51:51,455 - INFO - LogicalAutoScale - 📊 Server web8 load: 100%
+2025-11-16 10:51:51,455 - INFO - LogicalAutoScale - 📊 Server web9 load: 64%
+2025-11-16 10:51:51,455 - INFO - LogicalAutoScale - 📊 Server web10 load: 66%
+2025-11-16 10:51:51,455 - INFO - LogicalAutoScale - 📊 Server web11 load: 54%
+2025-11-16 10:51:51,455 - INFO - LogicalAutoScale - 📊 Server web12 load: 77%
+2025-11-16 10:51:51,455 - INFO - LogicalAutoScale - 📊 Server web13 load: 74%
+2025-11-16 10:51:51,455 - INFO - LogicalAutoScale - 📊 Server web14 load: 56%
+2025-11-16 10:51:51,456 - INFO - LogicalAutoScale - 📊 Server web15 load: 39%
+2025-11-16 10:51:51,456 - INFO - LogicalAutoScale - 📊 Server web16 load: 38%
+2025-11-16 10:51:51,456 - INFO - LogicalAutoScale - 📊 Server web17 load: 29%
+2025-11-16 10:51:51,456 - INFO - LogicalAutoScale - 📊 Server web18 load: 18%
+2025-11-16 10:51:51,456 - INFO - LogicalAutoScale - ⚖️ Average load: 73.1%
+2025-11-16 10:51:51,456 - INFO - LogicalAutoScale - 🚀 Scaling UP: Added server web19
+2025-11-16 10:51:56,458 - INFO - LogicalAutoScale - 📊 Server web1 load: 100%
+2025-11-16 10:51:56,458 - INFO - LogicalAutoScale - 📊 Server web2 load: 100%
+2025-11-16 10:51:56,458 - INFO - LogicalAutoScale - 📊 Server web3 load: 100%
+2025-11-16 10:51:56,458 - INFO - LogicalAutoScale - 📊 Server web4 load: 99%
+2025-11-16 10:51:56,458 - INFO - LogicalAutoScale - 📊 Server web5 load: 95%
+2025-11-16 10:51:56,459 - INFO - LogicalAutoScale - 📊 Server web6 load: 100%
+2025-11-16 10:51:56,462 - INFO - LogicalAutoScale - 📊 Server web7 load: 100%
+2025-11-16 10:51:56,462 - INFO - LogicalAutoScale - 📊 Server web8 load: 100%
+2025-11-16 10:51:56,462 - INFO - LogicalAutoScale - 📊 Server web9 load: 78%
+2025-11-16 10:51:56,462 - INFO - LogicalAutoScale - 📊 Server web10 load: 69%
+2025-11-16 10:51:56,462 - INFO - LogicalAutoScale - 📊 Server web11 load: 68%
+2025-11-16 10:51:56,462 - INFO - LogicalAutoScale - 📊 Server web12 load: 79%
+2025-11-16 10:51:56,463 - INFO - LogicalAutoScale - 📊 Server web13 load: 83%
+2025-11-16 10:51:56,463 - INFO - LogicalAutoScale - 📊 Server web14 load: 52%
+2025-11-16 10:51:56,463 - INFO - LogicalAutoScale - 📊 Server web15 load: 35%
+2025-11-16 10:51:56,463 - INFO - LogicalAutoScale - 📊 Server web16 load: 35%
+2025-11-16 10:51:56,466 - INFO - LogicalAutoScale - 📊 Server web17 load: 38%
+2025-11-16 10:51:56,466 - INFO - LogicalAutoScale - 📊 Server web18 load: 22%
+2025-11-16 10:51:56,466 - INFO - LogicalAutoScale - 📊 Server web19 load: 14%
+2025-11-16 10:51:56,467 - INFO - LogicalAutoScale - ⚖️ Average load: 71.9%
+2025-11-16 10:51:56,467 - INFO - LogicalAutoScale - 🚀 Scaling UP: Added server web20
+2025-11-16 10:52:01,471 - INFO - LogicalAutoScale - 📊 Server web1 load: 100%
+2025-11-16 10:52:01,472 - INFO - LogicalAutoScale - 📊 Server web2 load: 100%
+2025-11-16 10:52:01,472 - INFO - LogicalAutoScale - 📊 Server web3 load: 100%
+2025-11-16 10:52:01,472 - INFO - LogicalAutoScale - 📊 Server web4 load: 100%
+2025-11-16 10:52:01,472 - INFO - LogicalAutoScale - 📊 Server web5 load: 90%
+2025-11-16 10:52:01,473 - INFO - LogicalAutoScale - 📊 Server web6 load: 95%
+2025-11-16 10:52:01,474 - INFO - LogicalAutoScale - 📊 Server web7 load: 100%
+2025-11-16 10:52:01,474 - INFO - LogicalAutoScale - 📊 Server web8 load: 100%
+2025-11-16 10:52:01,474 - INFO - LogicalAutoScale - 📊 Server web9 load: 85%
+2025-11-16 10:52:01,474 - INFO - LogicalAutoScale - 📊 Server web10 load: 84%
+2025-11-16 10:52:01,474 - INFO - LogicalAutoScale - 📊 Server web11 load: 81%
+2025-11-16 10:52:01,475 - INFO - LogicalAutoScale - 📊 Server web12 load: 76%
+2025-11-16 10:52:01,475 - INFO - LogicalAutoScale - 📊 Server web13 load: 80%
+2025-11-16 10:52:01,476 - INFO - LogicalAutoScale - 📊 Server web14 load: 61%
+2025-11-16 10:52:01,476 - INFO - LogicalAutoScale - 📊 Server web15 load: 49%
+2025-11-16 10:52:01,476 - INFO - LogicalAutoScale - 📊 Server web16 load: 48%
+2025-11-16 10:52:01,476 - INFO - LogicalAutoScale - 📊 Server web17 load: 36%
+2025-11-16 10:52:01,476 - INFO - LogicalAutoScale - 📊 Server web18 load: 36%
+2025-11-16 10:52:01,477 - INFO - LogicalAutoScale - 📊 Server web19 load: 26%
+2025-11-16 10:52:01,478 - INFO - LogicalAutoScale - 📊 Server web20 load: 12%
+2025-11-16 10:52:01,478 - INFO - LogicalAutoScale - ⚖️ Average load: 73.0%
+2025-11-16 10:52:01,479 - INFO - LogicalAutoScale - 🚀 Scaling UP: Added server web21
+2025-11-16 10:52:06,480 - INFO - LogicalAutoScale - 📊 Server web1 load: 100%
+2025-11-16 10:52:06,481 - INFO - LogicalAutoScale - 📊 Server web2 load: 100%
+2025-11-16 10:52:06,481 - INFO - LogicalAutoScale - 📊 Server web3 load: 100%
+2025-11-16 10:52:06,481 - INFO - LogicalAutoScale - 📊 Server web4 load: 95%
+2025-11-16 10:52:06,481 - INFO - LogicalAutoScale - 📊 Server web5 load: 100%
+2025-11-16 10:52:06,481 - INFO - LogicalAutoScale - 📊 Server web6 load: 100%
+2025-11-16 10:52:06,481 - INFO - LogicalAutoScale - 📊 Server web7 load: 99%
+2025-11-16 10:52:06,481 - INFO - LogicalAutoScale - 📊 Server web8 load: 96%
+2025-11-16 10:52:06,481 - INFO - LogicalAutoScale - 📊 Server web9 load: 91%
+2025-11-16 10:52:06,481 - INFO - LogicalAutoScale - 📊 Server web10 load: 98%
+2025-11-16 10:52:06,482 - INFO - LogicalAutoScale - 📊 Server web11 load: 77%
+2025-11-16 10:52:06,482 - INFO - LogicalAutoScale - 📊 Server web12 load: 74%
+2025-11-16 10:52:06,482 - INFO - LogicalAutoScale - 📊 Server web13 load: 80%
+2025-11-16 10:52:06,482 - INFO - LogicalAutoScale - 📊 Server web14 load: 59%
+2025-11-16 10:52:06,482 - INFO - LogicalAutoScale - 📊 Server web15 load: 50%
+2025-11-16 10:52:06,482 - INFO - LogicalAutoScale - 📊 Server web16 load: 56%
+2025-11-16 10:52:06,482 - INFO - LogicalAutoScale - 📊 Server web17 load: 33%
+2025-11-16 10:52:06,483 - INFO - LogicalAutoScale - 📊 Server web18 load: 36%
+2025-11-16 10:52:06,483 - INFO - LogicalAutoScale - 📊 Server web19 load: 38%
+2025-11-16 10:52:06,483 - INFO - LogicalAutoScale - 📊 Server web20 load: 16%
+2025-11-16 10:52:06,483 - INFO - LogicalAutoScale - 📊 Server web21 load: 29%
+2025-11-16 10:52:06,483 - INFO - LogicalAutoScale - ⚖️ Average load: 72.7%
+2025-11-16 10:52:06,483 - INFO - LogicalAutoScale - 🚀 Scaling UP: Added server web22
+2025-11-16 10:52:11,484 - INFO - LogicalAutoScale - 📊 Server web1 load: 100%
+2025-11-16 10:52:11,484 - INFO - LogicalAutoScale - 📊 Server web2 load: 100%
+2025-11-16 10:52:11,484 - INFO - LogicalAutoScale - 📊 Server web3 load: 100%
+2025-11-16 10:52:11,484 - INFO - LogicalAutoScale - 📊 Server web4 load: 91%
+2025-11-16 10:52:11,485 - INFO - LogicalAutoScale - 📊 Server web5 load: 100%
+2025-11-16 10:52:11,485 - INFO - LogicalAutoScale - 📊 Server web6 load: 100%
+2025-11-16 10:52:11,485 - INFO - LogicalAutoScale - 📊 Server web7 load: 100%
+2025-11-16 10:52:11,485 - INFO - LogicalAutoScale - 📊 Server web8 load: 100%
+2025-11-16 10:52:11,485 - INFO - LogicalAutoScale - 📊 Server web9 load: 100%
+2025-11-16 10:52:11,485 - INFO - LogicalAutoScale - 📊 Server web10 load: 93%
+2025-11-16 10:52:11,485 - INFO - LogicalAutoScale - 📊 Server web11 load: 89%
+2025-11-16 10:52:11,485 - INFO - LogicalAutoScale - 📊 Server web12 load: 84%
+2025-11-16 10:52:11,485 - INFO - LogicalAutoScale - 📊 Server web13 load: 88%
+2025-11-16 10:52:11,485 - INFO - LogicalAutoScale - 📊 Server web14 load: 60%
+2025-11-16 10:52:11,485 - INFO - LogicalAutoScale - 📊 Server web15 load: 56%
+2025-11-16 10:52:11,485 - INFO - LogicalAutoScale - 📊 Server web16 load: 62%
+2025-11-16 10:52:11,485 - INFO - LogicalAutoScale - 📊 Server web17 load: 30%
+2025-11-16 10:52:11,485 - INFO - LogicalAutoScale - 📊 Server web18 load: 40%
+2025-11-16 10:52:11,485 - INFO - LogicalAutoScale - 📊 Server web19 load: 45%
+2025-11-16 10:52:11,486 - INFO - LogicalAutoScale - 📊 Server web20 load: 21%
+2025-11-16 10:52:11,486 - INFO - LogicalAutoScale - 📊 Server web21 load: 30%
+2025-11-16 10:52:11,486 - INFO - LogicalAutoScale - 📊 Server web22 load: 26%
+2025-11-16 10:52:11,486 - INFO - LogicalAutoScale - ⚖️ Average load: 73.4%
+2025-11-16 10:52:11,486 - INFO - LogicalAutoScale - 🚀 Scaling UP: Added server web23
+2025-11-16 10:52:16,487 - INFO - LogicalAutoScale - 📊 Server web1 load: 100%
+2025-11-16 10:52:16,488 - INFO - LogicalAutoScale - 📊 Server web2 load: 95%
+2025-11-16 10:52:16,488 - INFO - LogicalAutoScale - 📊 Server web3 load: 100%
+2025-11-16 10:52:16,488 - INFO - LogicalAutoScale - 📊 Server web4 load: 90%
+2025-11-16 10:52:16,488 - INFO - LogicalAutoScale - 📊 Server web5 load: 100%
+2025-11-16 10:52:16,488 - INFO - LogicalAutoScale - 📊 Server web6 load: 98%
+2025-11-16 10:52:16,488 - INFO - LogicalAutoScale - 📊 Server web7 load: 100%
+2025-11-16 10:52:16,488 - INFO - LogicalAutoScale - 📊 Server web8 load: 100%
+2025-11-16 10:52:16,488 - INFO - LogicalAutoScale - 📊 Server web9 load: 100%
+2025-11-16 10:52:16,489 - INFO - LogicalAutoScale - 📊 Server web10 load: 98%
+2025-11-16 10:52:16,489 - INFO - LogicalAutoScale - 📊 Server web11 load: 84%
+2025-11-16 10:52:16,489 - INFO - LogicalAutoScale - 📊 Server web12 load: 90%
+2025-11-16 10:52:16,489 - INFO - LogicalAutoScale - 📊 Server web13 load: 83%
+2025-11-16 10:52:16,490 - INFO - LogicalAutoScale - 📊 Server web14 load: 66%
+2025-11-16 10:52:16,490 - INFO - LogicalAutoScale - 📊 Server web15 load: 60%
+2025-11-16 10:52:16,490 - INFO - LogicalAutoScale - 📊 Server web16 load: 65%
+2025-11-16 10:52:16,490 - INFO - LogicalAutoScale - 📊 Server web17 load: 29%
+2025-11-16 10:52:16,490 - INFO - LogicalAutoScale - 📊 Server web18 load: 55%
+2025-11-16 10:52:16,490 - INFO - LogicalAutoScale - 📊 Server web19 load: 44%
+2025-11-16 10:52:16,490 - INFO - LogicalAutoScale - 📊 Server web20 load: 16%
+2025-11-16 10:52:16,490 - INFO - LogicalAutoScale - 📊 Server web21 load: 33%
+2025-11-16 10:52:16,490 - INFO - LogicalAutoScale - 📊 Server web22 load: 28%
+2025-11-16 10:52:16,490 - INFO - LogicalAutoScale - 📊 Server web23 load: 25%
+2025-11-16 10:52:16,490 - INFO - LogicalAutoScale - ⚖️ Average load: 72.1%
+2025-11-16 10:52:16,490 - INFO - LogicalAutoScale - 🚀 Scaling UP: Added server web24
+2025-11-16 10:52:21,496 - INFO - LogicalAutoScale - 📊 Server web1 load: 97%
+2025-11-16 10:52:21,497 - INFO - LogicalAutoScale - 📊 Server web2 load: 100%
+2025-11-16 10:52:21,497 - INFO - LogicalAutoScale - 📊 Server web3 load: 100%
+2025-11-16 10:52:21,497 - INFO - LogicalAutoScale - 📊 Server web4 load: 100%
+2025-11-16 10:52:21,497 - INFO - LogicalAutoScale - 📊 Server web5 load: 100%
+2025-11-16 10:52:21,498 - INFO - LogicalAutoScale - 📊 Server web6 load: 97%
+2025-11-16 10:52:21,498 - INFO - LogicalAutoScale - 📊 Server web7 load: 100%
+2025-11-16 10:52:21,498 - INFO - LogicalAutoScale - 📊 Server web8 load: 100%
+2025-11-16 10:52:21,498 - INFO - LogicalAutoScale - 📊 Server web9 load: 100%
+2025-11-16 10:52:21,498 - INFO - LogicalAutoScale - 📊 Server web10 load: 100%
+2025-11-16 10:52:21,498 - INFO - LogicalAutoScale - 📊 Server web11 load: 89%
+2025-11-16 10:52:21,499 - INFO - LogicalAutoScale - 📊 Server web12 load: 100%
+2025-11-16 10:52:21,499 - INFO - LogicalAutoScale - 📊 Server web13 load: 86%
+2025-11-16 10:52:21,499 - INFO - LogicalAutoScale - 📊 Server web14 load: 70%
+2025-11-16 10:52:21,499 - INFO - LogicalAutoScale - 📊 Server web15 load: 66%
+2025-11-16 10:52:21,499 - INFO - LogicalAutoScale - 📊 Server web16 load: 68%
+2025-11-16 10:52:21,499 - INFO - LogicalAutoScale - 📊 Server web17 load: 38%
+2025-11-16 10:52:21,499 - INFO - LogicalAutoScale - 📊 Server web18 load: 64%
+2025-11-16 10:52:21,499 - INFO - LogicalAutoScale - 📊 Server web19 load: 42%
+2025-11-16 10:52:21,499 - INFO - LogicalAutoScale - 📊 Server web20 load: 29%
+2025-11-16 10:52:21,500 - INFO - LogicalAutoScale - 📊 Server web21 load: 35%
+2025-11-16 10:52:21,500 - INFO - LogicalAutoScale - 📊 Server web22 load: 26%
+2025-11-16 10:52:21,500 - INFO - LogicalAutoScale - 📊 Server web23 load: 20%
+2025-11-16 10:52:21,500 - INFO - LogicalAutoScale - 📊 Server web24 load: 14%
+2025-11-16 10:52:21,500 - INFO - LogicalAutoScale - ⚖️ Average load: 72.5%
+2025-11-16 10:52:21,500 - INFO - LogicalAutoScale - 🚀 Scaling UP: Added server web25
+2025-11-16 10:52:26,502 - INFO - LogicalAutoScale - 📊 Server web1 load: 99%
+2025-11-16 10:52:26,502 - INFO - LogicalAutoScale - 📊 Server web2 load: 100%
+2025-11-16 10:52:26,503 - INFO - LogicalAutoScale - 📊 Server web3 load: 100%
+2025-11-16 10:52:26,504 - INFO - LogicalAutoScale - 📊 Server web4 load: 95%
+2025-11-16 10:52:26,504 - INFO - LogicalAutoScale - 📊 Server web5 load: 100%
+2025-11-16 10:52:26,504 - INFO - LogicalAutoScale - 📊 Server web6 load: 97%
+2025-11-16 10:52:26,504 - INFO - LogicalAutoScale - 📊 Server web7 load: 97%
+2025-11-16 10:52:26,506 - INFO - LogicalAutoScale - 📊 Server web8 load: 100%
+2025-11-16 10:52:26,506 - INFO - LogicalAutoScale - 📊 Server web9 load: 100%
+2025-11-16 10:52:26,507 - INFO - LogicalAutoScale - 📊 Server web10 load: 96%
+2025-11-16 10:52:26,507 - INFO - LogicalAutoScale - 📊 Server web11 load: 84%
+2025-11-16 10:52:26,507 - INFO - LogicalAutoScale - 📊 Server web12 load: 96%
+2025-11-16 10:52:26,508 - INFO - LogicalAutoScale - 📊 Server web13 load: 88%
+2025-11-16 10:52:26,508 - INFO - LogicalAutoScale - 📊 Server web14 load: 67%
+2025-11-16 10:52:26,508 - INFO - LogicalAutoScale - 📊 Server web15 load: 63%
+2025-11-16 10:52:26,508 - INFO - LogicalAutoScale - 📊 Server web16 load: 80%
+2025-11-16 10:52:26,508 - INFO - LogicalAutoScale - 📊 Server web17 load: 52%
+2025-11-16 10:52:26,508 - INFO - LogicalAutoScale - 📊 Server web18 load: 79%
+2025-11-16 10:52:26,509 - INFO - LogicalAutoScale - 📊 Server web19 load: 38%
+2025-11-16 10:52:26,509 - INFO - LogicalAutoScale - 📊 Server web20 load: 24%
+2025-11-16 10:52:26,509 - INFO - LogicalAutoScale - 📊 Server web21 load: 46%
+2025-11-16 10:52:26,509 - INFO - LogicalAutoScale - 📊 Server web22 load: 21%
+2025-11-16 10:52:26,509 - INFO - LogicalAutoScale - 📊 Server web23 load: 34%
+2025-11-16 10:52:26,509 - INFO - LogicalAutoScale - 📊 Server web24 load: 17%
+2025-11-16 10:52:26,509 - INFO - LogicalAutoScale - 📊 Server web25 load: 21%
+2025-11-16 10:52:26,509 - INFO - LogicalAutoScale - ⚖️ Average load: 71.8%
+2025-11-16 10:52:26,509 - INFO - LogicalAutoScale - 🚀 Scaling UP: Added server web26
+2025-11-16 10:52:31,512 - INFO - LogicalAutoScale - 📊 Server web1 load: 100%
+2025-11-16 10:52:31,513 - INFO - LogicalAutoScale - 📊 Server web2 load: 98%
+2025-11-16 10:52:31,514 - INFO - LogicalAutoScale - 📊 Server web3 load: 96%
+2025-11-16 10:52:31,514 - INFO - LogicalAutoScale - 📊 Server web4 load: 98%
+2025-11-16 10:52:31,514 - INFO - LogicalAutoScale - 📊 Server web5 load: 100%
+2025-11-16 10:52:31,514 - INFO - LogicalAutoScale - 📊 Server web6 load: 100%
+2025-11-16 10:52:31,515 - INFO - LogicalAutoScale - 📊 Server web7 load: 100%
+2025-11-16 10:52:31,515 - INFO - LogicalAutoScale - 📊 Server web8 load: 100%
+2025-11-16 10:52:31,515 - INFO - LogicalAutoScale - 📊 Server web9 load: 100%
+2025-11-16 10:52:31,515 - INFO - LogicalAutoScale - 📊 Server web10 load: 98%
+2025-11-16 10:52:31,515 - INFO - LogicalAutoScale - 📊 Server web11 load: 97%
+2025-11-16 10:52:31,515 - INFO - LogicalAutoScale - 📊 Server web12 load: 94%
+2025-11-16 10:52:31,515 - INFO - LogicalAutoScale - 📊 Server web13 load: 85%
+2025-11-16 10:52:31,515 - INFO - LogicalAutoScale - 📊 Server web14 load: 65%
+2025-11-16 10:52:31,515 - INFO - LogicalAutoScale - 📊 Server web15 load: 73%
+2025-11-16 10:52:31,515 - INFO - LogicalAutoScale - 📊 Server web16 load: 77%
+2025-11-16 10:52:31,515 - INFO - LogicalAutoScale - 📊 Server web17 load: 62%
+2025-11-16 10:52:31,515 - INFO - LogicalAutoScale - 📊 Server web18 load: 83%
+2025-11-16 10:52:31,515 - INFO - LogicalAutoScale - 📊 Server web19 load: 42%
+2025-11-16 10:52:31,515 - INFO - LogicalAutoScale - 📊 Server web20 load: 23%
+2025-11-16 10:52:31,515 - INFO - LogicalAutoScale - 📊 Server web21 load: 60%
+2025-11-16 10:52:31,515 - INFO - LogicalAutoScale - 📊 Server web22 load: 34%
+2025-11-16 10:52:31,515 - INFO - LogicalAutoScale - 📊 Server web23 load: 31%
+2025-11-16 10:52:31,515 - INFO - LogicalAutoScale - 📊 Server web24 load: 32%
+2025-11-16 10:52:31,515 - INFO - LogicalAutoScale - 📊 Server web25 load: 21%
+2025-11-16 10:52:31,515 - INFO - LogicalAutoScale - 📊 Server web26 load: 20%
+2025-11-16 10:52:31,515 - INFO - LogicalAutoScale - ⚖️ Average load: 72.7%
+2025-11-16 10:52:31,515 - INFO - LogicalAutoScale - 🚀 Scaling UP: Added server web27
+2025-11-16 10:52:36,517 - INFO - LogicalAutoScale - 📊 Server web1 load: 96%
+2025-11-16 10:52:36,526 - INFO - LogicalAutoScale - 📊 Server web2 load: 100%
+2025-11-16 10:52:36,526 - INFO - LogicalAutoScale - 📊 Server web3 load: 100%
+2025-11-16 10:52:36,526 - INFO - LogicalAutoScale - 📊 Server web4 load: 100%
+2025-11-16 10:52:36,526 - INFO - LogicalAutoScale - 📊 Server web5 load: 100%
+2025-11-16 10:52:36,526 - INFO - LogicalAutoScale - 📊 Server web6 load: 100%
+2025-11-16 10:52:36,527 - INFO - LogicalAutoScale - 📊 Server web7 load: 100%
+2025-11-16 10:52:36,527 - INFO - LogicalAutoScale - 📊 Server web8 load: 100%
+2025-11-16 10:52:36,527 - INFO - LogicalAutoScale - 📊 Server web9 load: 100%
+2025-11-16 10:52:36,527 - INFO - LogicalAutoScale - 📊 Server web10 load: 95%
+2025-11-16 10:52:36,527 - INFO - LogicalAutoScale - 📊 Server web11 load: 95%
+2025-11-16 10:52:36,527 - INFO - LogicalAutoScale - 📊 Server web12 load: 92%
+2025-11-16 10:52:36,527 - INFO - LogicalAutoScale - 📊 Server web13 load: 93%
+2025-11-16 10:52:36,527 - INFO - LogicalAutoScale - 📊 Server web14 load: 73%
+2025-11-16 10:52:36,527 - INFO - LogicalAutoScale - 📊 Server web15 load: 81%
+2025-11-16 10:52:36,527 - INFO - LogicalAutoScale - 📊 Server web16 load: 86%
+2025-11-16 10:52:36,527 - INFO - LogicalAutoScale - 📊 Server web17 load: 71%
+2025-11-16 10:52:36,527 - INFO - LogicalAutoScale - 📊 Server web18 load: 82%
+2025-11-16 10:52:36,529 - INFO - LogicalAutoScale - 📊 Server web19 load: 51%
+2025-11-16 10:52:36,530 - INFO - LogicalAutoScale - 📊 Server web20 load: 23%
+2025-11-16 10:52:36,530 - INFO - LogicalAutoScale - 📊 Server web21 load: 69%
+2025-11-16 10:52:36,530 - INFO - LogicalAutoScale - 📊 Server web22 load: 30%
+2025-11-16 10:52:36,530 - INFO - LogicalAutoScale - 📊 Server web23 load: 38%
+2025-11-16 10:52:36,530 - INFO - LogicalAutoScale - 📊 Server web24 load: 38%
+2025-11-16 10:52:36,530 - INFO - LogicalAutoScale - 📊 Server web25 load: 30%
+2025-11-16 10:52:36,531 - INFO - LogicalAutoScale - 📊 Server web26 load: 30%
+2025-11-16 10:52:36,531 - INFO - LogicalAutoScale - 📊 Server web27 load: 10%
+2025-11-16 10:52:36,531 - INFO - LogicalAutoScale - ⚖️ Average load: 73.4%
+2025-11-16 10:52:36,531 - INFO - LogicalAutoScale - 🚀 Scaling UP: Added server web28
+2025-11-16 10:52:41,533 - INFO - LogicalAutoScale - 📊 Server web1 load: 94%
+2025-11-16 10:52:41,534 - INFO - LogicalAutoScale - 📊 Server web2 load: 100%
+2025-11-16 10:52:41,534 - INFO - LogicalAutoScale - 📊 Server web3 load: 96%
+2025-11-16 10:52:41,534 - INFO - LogicalAutoScale - 📊 Server web4 load: 99%
+2025-11-16 10:52:41,537 - INFO - LogicalAutoScale - 📊 Server web5 load: 100%
+2025-11-16 10:52:41,538 - INFO - LogicalAutoScale - 📊 Server web6 load: 100%
+2025-11-16 10:52:41,539 - INFO - LogicalAutoScale - 📊 Server web7 load: 100%
+2025-11-16 10:52:41,539 - INFO - LogicalAutoScale - 📊 Server web8 load: 100%
+2025-11-16 10:52:41,539 - INFO - LogicalAutoScale - 📊 Server web9 load: 96%
+2025-11-16 10:52:41,539 - INFO - LogicalAutoScale - 📊 Server web10 load: 100%
+2025-11-16 10:52:41,539 - INFO - LogicalAutoScale - 📊 Server web11 load: 100%
+2025-11-16 10:52:41,539 - INFO - LogicalAutoScale - 📊 Server web12 load: 100%
+2025-11-16 10:52:41,539 - INFO - LogicalAutoScale - 📊 Server web13 load: 88%
+2025-11-16 10:52:41,539 - INFO - LogicalAutoScale - 📊 Server web14 load: 84%
+2025-11-16 10:52:41,539 - INFO - LogicalAutoScale - 📊 Server web15 load: 87%
+2025-11-16 10:52:41,539 - INFO - LogicalAutoScale - 📊 Server web16 load: 82%
+2025-11-16 10:52:41,539 - INFO - LogicalAutoScale - 📊 Server web17 load: 83%
+2025-11-16 10:52:41,540 - INFO - LogicalAutoScale - 📊 Server web18 load: 93%
+2025-11-16 10:52:41,540 - INFO - LogicalAutoScale - 📊 Server web19 load: 65%
+2025-11-16 10:52:41,541 - INFO - LogicalAutoScale - 📊 Server web20 load: 31%
+2025-11-16 10:52:41,541 - INFO - LogicalAutoScale - 📊 Server web21 load: 80%
+2025-11-16 10:52:41,541 - INFO - LogicalAutoScale - 📊 Server web22 load: 29%
+2025-11-16 10:52:41,541 - INFO - LogicalAutoScale - 📊 Server web23 load: 36%
+2025-11-16 10:52:41,541 - INFO - LogicalAutoScale - 📊 Server web24 load: 33%
+2025-11-16 10:52:41,541 - INFO - LogicalAutoScale - 📊 Server web25 load: 26%
+2025-11-16 10:52:41,542 - INFO - LogicalAutoScale - 📊 Server web26 load: 38%
+2025-11-16 10:52:41,542 - INFO - LogicalAutoScale - 📊 Server web27 load: 25%
+2025-11-16 10:52:41,542 - INFO - LogicalAutoScale - 📊 Server web28 load: 34%
+2025-11-16 10:52:41,542 - INFO - LogicalAutoScale - ⚖️ Average load: 75.0%
+2025-11-16 10:52:41,542 - INFO - LogicalAutoScale - 🚀 Scaling UP: Added server web29

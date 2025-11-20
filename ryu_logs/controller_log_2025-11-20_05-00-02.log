@@ -1,0 +1,41 @@
+2025-11-20 05:00:02,847 - INFO - LoggerApp - ✅ LoggerApp initialized successfully.
+2025-11-20 05:00:02,847 - INFO - LoggerApp - 📁 Logs folder: /home/vboxuser/mini-cloud/ryu_logs
+2025-11-20 05:00:02,847 - INFO - LoggerApp - 📝 Log file created: /home/vboxuser/mini-cloud/ryu_logs/controller_log_2025-11-20_05-00-02.log
+2025-11-20 05:00:02,847 - INFO - ryu.base.app_manager - instantiating app ryu-failure.py of FailureRecoveryDynamic
+2025-11-20 05:00:02,847 - INFO - FailureRecoveryDynamic - ✅ Failure Recovery module loaded (Dijkstra rerouting)
+2025-11-20 05:00:02,847 - INFO - ryu.base.app_manager - instantiating app ryu_host_mig.py of HostMigration
+2025-11-20 05:00:02,848 - INFO - HostMigration - ✅ Host Migration module loaded (REST 8080 enabled)
+2025-11-20 05:00:02,848 - INFO - ryu.base.app_manager - instantiating app ryu-autoscale.py of AutoScale
+2025-11-20 05:00:02,848 - INFO - AutoScale - ✅ Realistic Auto-Scaling module loaded (REST 8080 enabled)
+2025-11-20 05:00:02,849 - INFO - ryu.base.app_manager - instantiating app controller.py of SmartDCController
+2025-11-20 05:00:02,849 - INFO - SmartDCController - 🚀 Smart DataCenter Controller started (OpenFlow 1.3)
+2025-11-20 05:00:02,849 - INFO - ryu.base.app_manager - instantiating app ryu.controller.ofp_handler of OFPHandler
+2025-11-20 05:00:02,849 - INFO - ryu.base.app_manager - instantiating app ryu.topology.switches of Switches
+2025-11-20 05:00:02,850 - INFO - ryu.lib.hub - (2863) wsgi starting up on http://0.0.0.0:8080
+2025-11-20 05:00:02,972 - INFO - SmartDCController - ✅ Datapath registered: None
+2025-11-20 05:00:03,467 - INFO - SmartDCController - 🟢 Switch 3 connected
+2025-11-20 05:00:03,468 - INFO - MultiLayerLB - 🔌 Switch 3 features handled
+2025-11-20 05:00:03,469 - INFO - FailureRecoveryDynamic - 🟢 Switch 3 connected
+2025-11-20 05:00:03,469 - INFO - HostMigration - 🟢 Switch connected: 3
+2025-11-20 05:00:03,470 - INFO - AutoScale - 🟢 Switch connected: 3
+2025-11-20 05:00:03,472 - INFO - MultiLayerLB - 🔌 Switch 2 features handled
+2025-11-20 05:00:03,473 - INFO - FailureRecoveryDynamic - 🟢 Switch 2 connected
+2025-11-20 05:00:03,473 - INFO - HostMigration - 🟢 Switch connected: 2
+2025-11-20 05:00:03,473 - INFO - AutoScale - 🟢 Switch connected: 2
+2025-11-20 05:00:03,473 - INFO - SmartDCController - 🟢 Switch 2 connected
+2025-11-20 05:00:03,475 - INFO - SmartDCController - ✅ Datapath registered: 2
+2025-11-20 05:00:03,475 - INFO - SmartDCController - ✅ Datapath registered: 3
+2025-11-20 05:00:03,475 - INFO - SmartDCController - 🟢 Switch 1 connected
+2025-11-20 05:00:03,476 - INFO - MultiLayerLB - 🔌 Switch 1 features handled
+2025-11-20 05:00:03,476 - INFO - FailureRecoveryDynamic - 🟢 Switch 1 connected
+2025-11-20 05:00:03,477 - INFO - HostMigration - 🟢 Switch connected: 1
+2025-11-20 05:00:03,477 - INFO - AutoScale - 🟢 Switch connected: 1
+2025-11-20 05:00:03,478 - INFO - FailureRecoveryDynamic - 🌐 Topology updated (switch-enter): 2 switches, 0 links
+2025-11-20 05:00:03,479 - INFO - FailureRecoveryDynamic - 🌐 Topology updated (switch-enter): 3 switches, 0 links
+2025-11-20 05:00:03,480 - INFO - SmartDCController - 🌐 Topology updated (switch-enter): 3 switches, 0 links
+2025-11-20 05:00:03,480 - INFO - FailureRecoveryDynamic - 🌐 Topology updated (switch-enter): 3 switches, 0 links
+2025-11-20 05:00:03,480 - INFO - SmartDCController - 🌐 Topology updated (switch-enter): 3 switches, 0 links
+2025-11-20 05:00:03,480 - INFO - SmartDCController - ✅ Datapath registered: 1
+2025-11-20 05:00:03,481 - INFO - SmartDCController - 🌐 Topology updated (switch-enter): 3 switches, 0 links
+2025-11-20 05:00:07,850 - INFO - AutoScale - 📊 Average load: 0.0% | Servers: ['10.0.0.2', '10.0.0.3']
+2025-11-20 05:00:07,851 - INFO - AutoScale - ⬇️ Scaling DOWN: Removed server 10.0.0.3

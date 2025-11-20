@@ -1,0 +1,42 @@
+2025-11-20 05:59:05,779 - INFO - LoggerApp - ✅ LoggerApp initialized successfully.
+2025-11-20 05:59:05,779 - INFO - LoggerApp - 📁 Logs folder: /home/vboxuser/mini-cloud/ryu_logs
+2025-11-20 05:59:05,779 - INFO - LoggerApp - 📝 Log file created: /home/vboxuser/mini-cloud/ryu_logs/controller_log_2025-11-20_05-59-05.log
+2025-11-20 05:59:05,779 - INFO - ryu.base.app_manager - instantiating app ryu-failure.py of FailureRecoveryDynamic
+2025-11-20 05:59:05,780 - INFO - FailureRecoveryDynamic - ✅ Failure Recovery module loaded (Dijkstra rerouting)
+2025-11-20 05:59:05,781 - INFO - ryu.base.app_manager - instantiating app ryu_host_mig.py of HostMigration
+2025-11-20 05:59:05,782 - INFO - HostMigration - ✅ Host Migration module loaded (REST 8080 enabled)
+2025-11-20 05:59:05,783 - INFO - ryu.base.app_manager - instantiating app controller.py of SmartDCController
+2025-11-20 05:59:05,783 - INFO - SmartDCController - 🚀 Smart DataCenter Controller started (OpenFlow 1.3)
+2025-11-20 05:59:05,783 - INFO - ryu.base.app_manager - instantiating app ryu.controller.ofp_handler of OFPHandler
+2025-11-20 05:59:05,784 - INFO - ryu.base.app_manager - instantiating app ryu.topology.switches of Switches
+2025-11-20 05:59:05,785 - INFO - ryu.lib.hub - (7292) wsgi starting up on http://0.0.0.0:8080
+2025-11-20 05:59:07,509 - INFO - SmartDCController - ✅ Datapath registered: None
+2025-11-20 05:59:08,014 - INFO - MultiLayerLB - 🔌 Switch 2 features handled
+2025-11-20 05:59:08,018 - INFO - FailureRecoveryDynamic - 🟢 Switch 2 connected
+2025-11-20 05:59:08,018 - INFO - HostMigration - 🟢 Switch connected: 2
+2025-11-20 05:59:08,019 - INFO - SmartDCController - 🟢 Switch 2 connected
+2025-11-20 05:59:08,022 - INFO - SmartDCController - ✅ Datapath registered: 2
+2025-11-20 05:59:08,024 - INFO - FailureRecoveryDynamic - 🌐 Topology updated (switch-enter): 1 switches, 0 links
+2025-11-20 05:59:08,025 - INFO - SmartDCController - 🌐 Topology updated (switch-enter): 1 switches, 0 links
+2025-11-20 05:59:09,545 - INFO - MultiLayerLB - 🔌 Switch 1 features handled
+2025-11-20 05:59:09,546 - INFO - FailureRecoveryDynamic - 🟢 Switch 1 connected
+2025-11-20 05:59:09,546 - INFO - HostMigration - 🟢 Switch connected: 1
+2025-11-20 05:59:09,546 - INFO - SmartDCController - 🟢 Switch 1 connected
+2025-11-20 05:59:09,548 - INFO - SmartDCController - ✅ Datapath registered: 1
+2025-11-20 05:59:09,550 - INFO - FailureRecoveryDynamic - 🌐 Topology updated (switch-enter): 2 switches, 0 links
+2025-11-20 05:59:09,550 - INFO - SmartDCController - 🌐 Topology updated (switch-enter): 2 switches, 0 links
+2025-11-20 05:59:09,554 - INFO - FailureRecoveryDynamic - 🌐 Topology updated (link-add): 2 switches, 1 links
+2025-11-20 05:59:09,554 - INFO - SmartDCController - 🌐 Topology updated (link-add): 2 switches, 1 links
+2025-11-20 05:59:09,812 - INFO - FailureRecoveryDynamic - 🌐 Topology updated (link-add): 2 switches, 1 links
+2025-11-20 05:59:09,814 - INFO - SmartDCController - 🌐 Topology updated (link-add): 2 switches, 2 links
+2025-11-20 05:59:11,356 - INFO - MultiLayerLB - 🔌 Switch 3 features handled
+2025-11-20 05:59:11,356 - INFO - FailureRecoveryDynamic - 🟢 Switch 3 connected
+2025-11-20 05:59:11,356 - INFO - HostMigration - 🟢 Switch connected: 3
+2025-11-20 05:59:11,357 - INFO - SmartDCController - 🟢 Switch 3 connected
+2025-11-20 05:59:11,361 - INFO - SmartDCController - ✅ Datapath registered: 3
+2025-11-20 05:59:11,364 - INFO - FailureRecoveryDynamic - 🌐 Topology updated (switch-enter): 3 switches, 1 links
+2025-11-20 05:59:11,365 - INFO - SmartDCController - 🌐 Topology updated (switch-enter): 3 switches, 2 links
+2025-11-20 05:59:11,413 - INFO - FailureRecoveryDynamic - 🌐 Topology updated (link-add): 3 switches, 2 links
+2025-11-20 05:59:11,413 - INFO - SmartDCController - 🌐 Topology updated (link-add): 3 switches, 3 links
+2025-11-20 05:59:11,462 - INFO - FailureRecoveryDynamic - 🌐 Topology updated (link-add): 3 switches, 2 links
+2025-11-20 05:59:11,463 - INFO - SmartDCController - 🌐 Topology updated (link-add): 3 switches, 4 links

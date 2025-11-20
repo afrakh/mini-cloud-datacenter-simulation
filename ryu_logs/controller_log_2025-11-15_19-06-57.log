@@ -1,0 +1,256 @@
+2025-11-15 19:06:57,824 - INFO - LoggerApp - ✅ LoggerApp initialized successfully.
+2025-11-15 19:06:57,824 - INFO - LoggerApp - 📁 Logs folder: /home/vboxuser/mini-cloud/ryu_logs
+2025-11-15 19:06:57,824 - INFO - LoggerApp - 📝 Log file created: /home/vboxuser/mini-cloud/ryu_logs/controller_log_2025-11-15_19-06-57.log
+2025-11-15 19:06:57,825 - INFO - ryu.base.app_manager - instantiating app ryu-failure.py of FailureRecoveryDynamic
+2025-11-15 19:06:57,825 - INFO - ryu.app.failure_recovery_dynamic - ✅ Dynamic Failure Recovery module loaded
+2025-11-15 19:06:57,825 - INFO - ryu.base.app_manager - instantiating app controller.py of SmartDCController
+2025-11-15 19:06:57,826 - INFO - SmartDCController - 🚀 Smart DataCenter Controller started (OpenFlow 1.3)
+2025-11-15 19:06:57,826 - INFO - ryu.base.app_manager - instantiating app ryu.controller.ofp_handler of OFPHandler
+2025-11-15 19:06:57,826 - INFO - ryu.base.app_manager - instantiating app ryu.topology.switches of Switches
+2025-11-15 19:07:02,413 - INFO - SmartDCController - datapath registered: None
+2025-11-15 19:07:02,421 - INFO - MultiLayerLB - 🔌 Switch 1 features handled
+2025-11-15 19:07:02,428 - INFO - MultiLayerLB - 🔌 Switch 3 features handled
+2025-11-15 19:07:02,428 - INFO - SmartDCController - 🟢 Switch 1 connected
+2025-11-15 19:07:02,428 - INFO - SmartDCController - 🟢 Switch 3 connected
+2025-11-15 19:07:02,431 - INFO - MultiLayerLB - 🔌 Switch 2 features handled
+2025-11-15 19:07:02,431 - INFO - SmartDCController - 🟢 Switch 2 connected
+2025-11-15 19:07:02,431 - INFO - ryu.app.failure_recovery_dynamic - 🔌 Switch connected: 1
+2025-11-15 19:07:02,432 - INFO - ryu.app.failure_recovery_dynamic - 🔌 Switch connected: 3
+2025-11-15 19:07:02,432 - INFO - SmartDCController - datapath registered: 1
+2025-11-15 19:07:02,432 - INFO - SmartDCController - datapath registered: 3
+2025-11-15 19:07:02,439 - INFO - ryu.app.failure_recovery_dynamic - 🔌 Switch connected: 2
+2025-11-15 19:07:02,441 - ERROR - ryu.base.app_manager - FailureRecoveryDynamic: Exception occurred during handler processing. Backtrace from offending handler [host_add] servicing event [EventHostAdd] follows.
+Traceback (most recent call last):
+  File "/home/vboxuser/mini-cloud/ryu39-env/lib/python3.9/site-packages/ryu/base/app_manager.py", line 290, in _event_loop
+    handler(ev)
+  File "/home/vboxuser/mini-cloud/ryu-failure.py", line 60, in host_add
+    ip = host.ipv4[0]
+IndexError: list index out of range
+2025-11-15 19:07:02,441 - INFO - ryu.app.failure_recovery_dynamic - 🧩 Link added: 3 <-> 2
+2025-11-15 19:07:02,442 - INFO - SmartDCController - 🌐 Topology updated (switch-enter): 3 switches, 1 links
+2025-11-15 19:07:02,443 - INFO - ryu.app.failure_recovery_dynamic - 🧩 Link added: 1 <-> 2
+2025-11-15 19:07:02,443 - INFO - ryu.app.failure_recovery_dynamic - 🧩 Link added: 1 <-> 3
+2025-11-15 19:07:02,443 - INFO - ryu.app.failure_recovery_dynamic - 🧩 Link added: 3 <-> 1
+2025-11-15 19:07:02,444 - INFO - ryu.app.failure_recovery_dynamic - 🧩 Link added: 2 <-> 3
+2025-11-15 19:07:02,444 - INFO - ryu.app.failure_recovery_dynamic - 🧩 Link added: 2 <-> 1
+2025-11-15 19:07:02,444 - INFO - SmartDCController - 🌐 Topology updated (switch-enter): 3 switches, 6 links
+2025-11-15 19:07:02,445 - INFO - SmartDCController - datapath registered: 2
+2025-11-15 19:07:02,445 - INFO - SmartDCController - 🌐 Topology updated (switch-enter): 3 switches, 6 links
+2025-11-15 19:07:02,446 - INFO - SmartDCController - 🌐 Topology updated (link-add): 3 switches, 6 links
+2025-11-15 19:07:02,447 - INFO - SmartDCController - 🌐 Topology updated (link-add): 3 switches, 6 links
+2025-11-15 19:07:02,447 - INFO - SmartDCController - 🌐 Topology updated (link-add): 3 switches, 6 links
+2025-11-15 19:07:02,447 - INFO - SmartDCController - 🌐 Topology updated (link-add): 3 switches, 6 links
+2025-11-15 19:07:02,448 - INFO - SmartDCController - 🌐 Topology updated (link-add): 3 switches, 6 links
+2025-11-15 19:07:02,448 - INFO - SmartDCController - 🌐 Topology updated (link-add): 3 switches, 6 links
+2025-11-15 19:07:02,481 - ERROR - ryu.base.app_manager - FailureRecoveryDynamic: Exception occurred during handler processing. Backtrace from offending handler [host_add] servicing event [EventHostAdd] follows.
+Traceback (most recent call last):
+  File "/home/vboxuser/mini-cloud/ryu39-env/lib/python3.9/site-packages/ryu/base/app_manager.py", line 290, in _event_loop
+    handler(ev)
+  File "/home/vboxuser/mini-cloud/ryu-failure.py", line 60, in host_add
+    ip = host.ipv4[0]
+IndexError: list index out of range
+2025-11-15 19:07:02,500 - ERROR - ryu.base.app_manager - FailureRecoveryDynamic: Exception occurred during handler processing. Backtrace from offending handler [host_add] servicing event [EventHostAdd] follows.
+Traceback (most recent call last):
+  File "/home/vboxuser/mini-cloud/ryu39-env/lib/python3.9/site-packages/ryu/base/app_manager.py", line 290, in _event_loop
+    handler(ev)
+  File "/home/vboxuser/mini-cloud/ryu-failure.py", line 60, in host_add
+    ip = host.ipv4[0]
+IndexError: list index out of range
+2025-11-15 19:07:02,546 - ERROR - ryu.base.app_manager - FailureRecoveryDynamic: Exception occurred during handler processing. Backtrace from offending handler [host_add] servicing event [EventHostAdd] follows.
+Traceback (most recent call last):
+  File "/home/vboxuser/mini-cloud/ryu39-env/lib/python3.9/site-packages/ryu/base/app_manager.py", line 290, in _event_loop
+    handler(ev)
+  File "/home/vboxuser/mini-cloud/ryu-failure.py", line 60, in host_add
+    ip = host.ipv4[0]
+IndexError: list index out of range
+2025-11-15 19:07:02,575 - ERROR - ryu.base.app_manager - FailureRecoveryDynamic: Exception occurred during handler processing. Backtrace from offending handler [host_add] servicing event [EventHostAdd] follows.
+Traceback (most recent call last):
+  File "/home/vboxuser/mini-cloud/ryu39-env/lib/python3.9/site-packages/ryu/base/app_manager.py", line 290, in _event_loop
+    handler(ev)
+  File "/home/vboxuser/mini-cloud/ryu-failure.py", line 60, in host_add
+    ip = host.ipv4[0]
+IndexError: list index out of range
+2025-11-15 19:07:03,081 - ERROR - ryu.base.app_manager - FailureRecoveryDynamic: Exception occurred during handler processing. Backtrace from offending handler [host_add] servicing event [EventHostAdd] follows.
+Traceback (most recent call last):
+  File "/home/vboxuser/mini-cloud/ryu39-env/lib/python3.9/site-packages/ryu/base/app_manager.py", line 290, in _event_loop
+    handler(ev)
+  File "/home/vboxuser/mini-cloud/ryu-failure.py", line 60, in host_add
+    ip = host.ipv4[0]
+IndexError: list index out of range
+2025-11-15 19:07:03,214 - ERROR - ryu.base.app_manager - FailureRecoveryDynamic: Exception occurred during handler processing. Backtrace from offending handler [host_add] servicing event [EventHostAdd] follows.
+Traceback (most recent call last):
+  File "/home/vboxuser/mini-cloud/ryu39-env/lib/python3.9/site-packages/ryu/base/app_manager.py", line 290, in _event_loop
+    handler(ev)
+  File "/home/vboxuser/mini-cloud/ryu-failure.py", line 60, in host_add
+    ip = host.ipv4[0]
+IndexError: list index out of range
+2025-11-15 19:07:03,273 - ERROR - ryu.base.app_manager - FailureRecoveryDynamic: Exception occurred during handler processing. Backtrace from offending handler [host_add] servicing event [EventHostAdd] follows.
+Traceback (most recent call last):
+  File "/home/vboxuser/mini-cloud/ryu39-env/lib/python3.9/site-packages/ryu/base/app_manager.py", line 290, in _event_loop
+    handler(ev)
+  File "/home/vboxuser/mini-cloud/ryu-failure.py", line 60, in host_add
+    ip = host.ipv4[0]
+IndexError: list index out of range
+2025-11-15 19:07:12,984 - INFO - MultiLayerLB - 🔌 Switch None features handled
+2025-11-15 19:07:12,992 - INFO - SmartDCController - 🟢 Switch 1 connected
+2025-11-15 19:07:13,021 - INFO - MultiLayerLB - 🔌 Switch None features handled
+2025-11-15 19:07:13,029 - INFO - ryu.app.failure_recovery_dynamic - 🔌 Switch connected: 1
+2025-11-15 19:07:13,030 - WARNING - ryu.app.failure_recovery_dynamic - 💥 Switch failure detected: 2
+2025-11-15 19:07:13,030 - WARNING - ryu.app.failure_recovery_dynamic - ♻️ Node 2 removed, rerouting flows
+2025-11-15 19:07:13,030 - INFO - MultiLayerLB - 🔌 Switch 3 features handled
+2025-11-15 19:07:13,038 - INFO - SmartDCController - 🟢 Switch 2 connected
+2025-11-15 19:07:13,038 - INFO - SmartDCController - 🟢 Switch 3 connected
+2025-11-15 19:07:13,050 - WARNING - ryu.topology.switches - Multiple connections from 0000000000000001
+2025-11-15 19:07:13,058 - INFO - ryu.app.failure_recovery_dynamic - 🔌 Switch connected: 2
+2025-11-15 19:07:13,059 - WARNING - ryu.app.failure_recovery_dynamic - 💥 Switch failure detected: 1
+2025-11-15 19:07:13,059 - WARNING - ryu.app.failure_recovery_dynamic - ♻️ Node 1 removed, rerouting flows
+2025-11-15 19:07:13,063 - WARNING - ryu.topology.switches - Multiple connections from 0000000000000003
+2025-11-15 19:07:13,065 - INFO - ryu.app.failure_recovery_dynamic - 🔌 Switch connected: 3
+2025-11-15 19:07:13,065 - ERROR - ryu.base.app_manager - FailureRecoveryDynamic: Exception occurred during handler processing. Backtrace from offending handler [host_add] servicing event [EventHostAdd] follows.
+Traceback (most recent call last):
+  File "/home/vboxuser/mini-cloud/ryu39-env/lib/python3.9/site-packages/ryu/base/app_manager.py", line 290, in _event_loop
+    handler(ev)
+  File "/home/vboxuser/mini-cloud/ryu-failure.py", line 60, in host_add
+    ip = host.ipv4[0]
+IndexError: list index out of range
+2025-11-15 19:07:13,065 - ERROR - ryu.base.app_manager - FailureRecoveryDynamic: Exception occurred during handler processing. Backtrace from offending handler [host_add] servicing event [EventHostAdd] follows.
+Traceback (most recent call last):
+  File "/home/vboxuser/mini-cloud/ryu39-env/lib/python3.9/site-packages/ryu/base/app_manager.py", line 290, in _event_loop
+    handler(ev)
+  File "/home/vboxuser/mini-cloud/ryu-failure.py", line 60, in host_add
+    ip = host.ipv4[0]
+IndexError: list index out of range
+2025-11-15 19:07:13,065 - WARNING - ryu.app.failure_recovery_dynamic - 💥 Switch failure detected: 3
+2025-11-15 19:07:13,065 - WARNING - ryu.app.failure_recovery_dynamic - ♻️ Node 3 removed, rerouting flows
+2025-11-15 19:07:13,067 - INFO - SmartDCController - 🌐 Topology updated (link-delete): 3 switches, 2 links
+2025-11-15 19:07:13,067 - INFO - SmartDCController - 🌐 Topology updated (link-delete): 3 switches, 2 links
+2025-11-15 19:07:13,068 - INFO - SmartDCController - 🌐 Topology updated (link-delete): 3 switches, 2 links
+2025-11-15 19:07:13,068 - INFO - SmartDCController - 🌐 Topology updated (link-delete): 3 switches, 2 links
+2025-11-15 19:07:13,069 - INFO - SmartDCController - 🌐 Topology updated (switch-enter): 3 switches, 2 links
+2025-11-15 19:07:22,856 - INFO - SmartDCController - 🌐 Topology updated (link-delete): 3 switches, 1 links
+2025-11-15 19:07:27,857 - INFO - SmartDCController - 🌐 Topology updated (link-delete): 3 switches, 0 links
+2025-11-15 19:07:42,743 - INFO - ryu.app.failure_recovery_dynamic - 🧩 Link added: 3 <-> 1
+2025-11-15 19:07:42,743 - INFO - SmartDCController - 🌐 Topology updated (link-add): 3 switches, 1 links
+2025-11-15 19:07:42,795 - INFO - ryu.app.failure_recovery_dynamic - 🧩 Link added: 1 <-> 3
+2025-11-15 19:07:42,798 - INFO - SmartDCController - 🌐 Topology updated (link-add): 3 switches, 2 links
+2025-11-15 19:07:43,072 - INFO - ryu.app.failure_recovery_dynamic - 🧩 Link added: 2 <-> 3
+2025-11-15 19:07:43,073 - INFO - SmartDCController - 🌐 Topology updated (link-add): 3 switches, 3 links
+2025-11-15 19:07:43,111 - INFO - MultiLayerLB - ARP learning: 10.0.0.4 -> dpid 3, port 4, mac 00:00:00:00:00:06
+2025-11-15 19:07:43,118 - INFO - MultiLayerLB - ARP learning: 10.0.0.4 -> dpid 2, port 2, mac 00:00:00:00:00:06
+2025-11-15 19:07:43,123 - INFO - ryu.app.failure_recovery_dynamic - 🧩 Link added: 3 <-> 2
+2025-11-15 19:07:43,127 - INFO - SmartDCController - 🌐 Topology updated (link-add): 3 switches, 4 links
+2025-11-15 19:07:43,192 - INFO - MultiLayerLB - ARP learning: 10.0.0.1 -> dpid 2, port 3, mac 00:00:00:00:00:07
+2025-11-15 19:07:43,193 - INFO - ryu.app.failure_recovery_dynamic - 🏠 Host learned dynamically: 10.0.0.1 @ 2:3
+2025-11-15 19:07:43,233 - INFO - MultiLayerLB - ARP learning: 10.0.0.2 -> dpid 2, port 4, mac 00:00:00:00:00:08
+2025-11-15 19:07:43,235 - INFO - ryu.app.failure_recovery_dynamic - 🏠 Host learned dynamically: 10.0.0.2 @ 2:4
+2025-11-15 19:07:43,235 - INFO - ryu.app.failure_recovery_dynamic - ✅ Path 2 -> 2: [2]
+2025-11-15 19:07:43,236 - INFO - ryu.app.failure_recovery_dynamic - ✅ Path 2 -> 2: [2]
+2025-11-15 19:07:43,294 - INFO - MultiLayerLB - ARP learning: 10.0.0.3 -> dpid 3, port 3, mac 00:00:00:00:00:01
+2025-11-15 19:07:43,300 - INFO - MultiLayerLB - ARP learning: 10.0.0.3 -> dpid 2, port 2, mac 00:00:00:00:00:01
+2025-11-15 19:07:43,370 - INFO - ryu.app.failure_recovery_dynamic - 🏠 Host learned dynamically: 10.0.0.13 @ 3:5
+2025-11-15 19:07:43,370 - INFO - ryu.app.failure_recovery_dynamic - ✅ Path 2 -> 2: [2]
+2025-11-15 19:07:43,371 - INFO - ryu.app.failure_recovery_dynamic - ✅ Path 2 -> 3: [2, 3]
+2025-11-15 19:07:43,372 - ERROR - ryu.base.app_manager - FailureRecoveryDynamic: Exception occurred during handler processing. Backtrace from offending handler [host_add] servicing event [EventHostAdd] follows.
+Traceback (most recent call last):
+  File "/home/vboxuser/mini-cloud/ryu39-env/lib/python3.9/site-packages/ryu/base/app_manager.py", line 290, in _event_loop
+    handler(ev)
+  File "/home/vboxuser/mini-cloud/ryu-failure.py", line 65, in host_add
+    self.recover_paths()  # update flows for all hosts
+  File "/home/vboxuser/mini-cloud/ryu-failure.py", line 82, in recover_paths
+    self.install_path(path, src_ip, dst_ip)
+  File "/home/vboxuser/mini-cloud/ryu-failure.py", line 106, in install_path
+    last_dp = self.connections[path[-1]]
+KeyError: 3
+2025-11-15 19:07:43,421 - INFO - ryu.app.failure_recovery_dynamic - 🏠 Host learned dynamically: 10.0.0.14 @ 3:6
+2025-11-15 19:07:43,421 - INFO - ryu.app.failure_recovery_dynamic - ✅ Path 2 -> 2: [2]
+2025-11-15 19:07:43,422 - INFO - ryu.app.failure_recovery_dynamic - ✅ Path 2 -> 3: [2, 3]
+2025-11-15 19:07:43,422 - ERROR - ryu.base.app_manager - FailureRecoveryDynamic: Exception occurred during handler processing. Backtrace from offending handler [host_add] servicing event [EventHostAdd] follows.
+Traceback (most recent call last):
+  File "/home/vboxuser/mini-cloud/ryu39-env/lib/python3.9/site-packages/ryu/base/app_manager.py", line 290, in _event_loop
+    handler(ev)
+  File "/home/vboxuser/mini-cloud/ryu-failure.py", line 65, in host_add
+    self.recover_paths()  # update flows for all hosts
+  File "/home/vboxuser/mini-cloud/ryu-failure.py", line 82, in recover_paths
+    self.install_path(path, src_ip, dst_ip)
+  File "/home/vboxuser/mini-cloud/ryu-failure.py", line 106, in install_path
+    last_dp = self.connections[path[-1]]
+KeyError: 3
+2025-11-15 19:07:43,503 - INFO - MultiLayerLB - ARP learning: 10.0.0.4 -> dpid 3, port 4, mac 00:00:00:00:00:06
+2025-11-15 19:07:43,510 - INFO - MultiLayerLB - ARP learning: 10.0.0.4 -> dpid 2, port 2, mac 00:00:00:00:00:06
+2025-11-15 19:07:43,582 - INFO - MultiLayerLB - ARP learning: 10.0.0.1 -> dpid 2, port 3, mac 00:00:00:00:00:07
+2025-11-15 19:07:43,624 - INFO - MultiLayerLB - ARP learning: 10.0.0.2 -> dpid 2, port 4, mac 00:00:00:00:00:08
+2025-11-15 19:07:43,677 - INFO - MultiLayerLB - ARP learning: 10.0.0.3 -> dpid 3, port 3, mac 00:00:00:00:00:01
+2025-11-15 19:07:43,808 - INFO - MultiLayerLB - ARP learning: 10.0.0.4 -> dpid 3, port 4, mac 00:00:00:00:00:06
+2025-11-15 19:07:43,878 - INFO - MultiLayerLB - ARP learning: 10.0.0.1 -> dpid 2, port 3, mac 00:00:00:00:00:07
+2025-11-15 19:07:43,884 - INFO - MultiLayerLB - ARP learning: 10.0.0.1 -> dpid 3, port 2, mac 00:00:00:00:00:07
+2025-11-15 19:07:43,943 - INFO - MultiLayerLB - ARP learning: 10.0.0.2 -> dpid 2, port 4, mac 00:00:00:00:00:08
+2025-11-15 19:07:43,950 - INFO - MultiLayerLB - ARP learning: 10.0.0.2 -> dpid 3, port 2, mac 00:00:00:00:00:08
+2025-11-15 19:07:44,011 - INFO - MultiLayerLB - ARP learning: 10.0.0.3 -> dpid 3, port 3, mac 00:00:00:00:00:01
+2025-11-15 19:07:44,131 - INFO - MultiLayerLB - ARP learning: 10.0.0.4 -> dpid 3, port 4, mac 00:00:00:00:00:06
+2025-11-15 19:07:44,200 - INFO - MultiLayerLB - ARP learning: 10.0.0.1 -> dpid 2, port 3, mac 00:00:00:00:00:07
+2025-11-15 19:07:44,208 - INFO - MultiLayerLB - ARP learning: 10.0.0.1 -> dpid 3, port 2, mac 00:00:00:00:00:07
+2025-11-15 19:07:44,266 - INFO - MultiLayerLB - ARP learning: 10.0.0.2 -> dpid 2, port 4, mac 00:00:00:00:00:08
+2025-11-15 19:07:44,274 - INFO - MultiLayerLB - ARP learning: 10.0.0.2 -> dpid 3, port 2, mac 00:00:00:00:00:08
+2025-11-15 19:07:44,331 - INFO - MultiLayerLB - ARP learning: 10.0.0.4 -> dpid 3, port 4, mac 00:00:00:00:00:06
+2025-11-15 19:07:44,336 - INFO - MultiLayerLB - ARP learning: 10.0.0.4 -> dpid 1, port 2, mac 00:00:00:00:00:06
+2025-11-15 19:07:44,338 - INFO - MultiLayerLB - ARP learning: 10.0.0.4 -> dpid 2, port 2, mac 00:00:00:00:00:06
+2025-11-15 19:07:44,355 - INFO - MultiLayerLB - ARP learning: 10.0.0.3 -> dpid 3, port 3, mac 00:00:00:00:00:01
+2025-11-15 19:07:44,627 - INFO - MultiLayerLB - ARP learning: 10.0.0.4 -> dpid 3, port 4, mac 00:00:00:00:00:06
+2025-11-15 19:07:44,632 - INFO - MultiLayerLB - ARP learning: 10.0.0.4 -> dpid 1, port 2, mac 00:00:00:00:00:06
+2025-11-15 19:07:44,633 - INFO - MultiLayerLB - ARP learning: 10.0.0.4 -> dpid 2, port 2, mac 00:00:00:00:00:06
+2025-11-15 19:07:44,646 - INFO - MultiLayerLB - ARP learning: 10.0.0.1 -> dpid 2, port 3, mac 00:00:00:00:00:07
+2025-11-15 19:07:44,652 - INFO - MultiLayerLB - ARP learning: 10.0.0.1 -> dpid 3, port 2, mac 00:00:00:00:00:07
+2025-11-15 19:07:44,748 - INFO - MultiLayerLB - ARP learning: 10.0.0.4 -> dpid 3, port 4, mac 00:00:00:00:00:06
+2025-11-15 19:07:44,752 - INFO - MultiLayerLB - ARP learning: 10.0.0.4 -> dpid 1, port 2, mac 00:00:00:00:00:06
+2025-11-15 19:07:44,753 - INFO - MultiLayerLB - ARP learning: 10.0.0.4 -> dpid 2, port 2, mac 00:00:00:00:00:06
+2025-11-15 19:07:44,766 - INFO - MultiLayerLB - ARP learning: 10.0.0.2 -> dpid 2, port 4, mac 00:00:00:00:00:08
+2025-11-15 19:07:44,773 - INFO - MultiLayerLB - ARP learning: 10.0.0.2 -> dpid 3, port 2, mac 00:00:00:00:00:08
+2025-11-15 19:07:44,855 - INFO - MultiLayerLB - ARP learning: 10.0.0.1 -> dpid 2, port 3, mac 00:00:00:00:00:07
+2025-11-15 19:07:44,861 - INFO - MultiLayerLB - ARP learning: 10.0.0.1 -> dpid 3, port 2, mac 00:00:00:00:00:07
+2025-11-15 19:07:44,866 - INFO - MultiLayerLB - ARP learning: 10.0.0.1 -> dpid 1, port 2, mac 00:00:00:00:00:07
+2025-11-15 19:07:44,885 - INFO - MultiLayerLB - ARP learning: 10.0.0.3 -> dpid 3, port 3, mac 00:00:00:00:00:01
+2025-11-15 19:07:44,894 - INFO - MultiLayerLB - ARP learning: 10.0.0.3 -> dpid 2, port 2, mac 00:00:00:00:00:01
+2025-11-15 19:07:45,102 - INFO - MultiLayerLB - ARP learning: 10.0.0.1 -> dpid 2, port 3, mac 00:00:00:00:00:07
+2025-11-15 19:07:45,109 - INFO - MultiLayerLB - ARP learning: 10.0.0.1 -> dpid 3, port 2, mac 00:00:00:00:00:07
+2025-11-15 19:07:45,115 - INFO - MultiLayerLB - ARP learning: 10.0.0.2 -> dpid 2, port 4, mac 00:00:00:00:00:08
+2025-11-15 19:07:45,117 - INFO - MultiLayerLB - ARP learning: 10.0.0.1 -> dpid 1, port 2, mac 00:00:00:00:00:07
+2025-11-15 19:07:45,157 - INFO - MultiLayerLB - ARP learning: 10.0.0.2 -> dpid 2, port 4, mac 00:00:00:00:00:08
+2025-11-15 19:07:45,163 - INFO - MultiLayerLB - ARP learning: 10.0.0.2 -> dpid 3, port 2, mac 00:00:00:00:00:08
+2025-11-15 19:07:45,168 - INFO - MultiLayerLB - ARP learning: 10.0.0.2 -> dpid 1, port 2, mac 00:00:00:00:00:08
+2025-11-15 19:07:45,186 - INFO - MultiLayerLB - ARP learning: 10.0.0.3 -> dpid 3, port 3, mac 00:00:00:00:00:01
+2025-11-15 19:07:45,196 - INFO - MultiLayerLB - ARP learning: 10.0.0.3 -> dpid 2, port 2, mac 00:00:00:00:00:01
+2025-11-15 19:07:50,454 - INFO - MultiLayerLB - ARP learning: 10.0.0.1 -> dpid 2, port 3, mac 00:00:00:00:00:07
+2025-11-15 19:07:52,136 - WARNING - ryu.app.failure_recovery_dynamic - ⚠️ Link down: 3 <-> 2
+2025-11-15 19:07:52,137 - INFO - ryu.app.failure_recovery_dynamic - ✅ Path 2 -> 2: [2]
+2025-11-15 19:07:52,137 - ERROR - ryu.app.failure_recovery_dynamic - ❌ No path between 2 and 3
+2025-11-15 19:07:52,137 - ERROR - ryu.app.failure_recovery_dynamic - ❌ No path between 2 and 3
+2025-11-15 19:07:52,137 - INFO - ryu.app.failure_recovery_dynamic - ✅ Path 2 -> 2: [2]
+2025-11-15 19:07:52,137 - ERROR - ryu.app.failure_recovery_dynamic - ❌ No path between 2 and 3
+2025-11-15 19:07:52,137 - ERROR - ryu.app.failure_recovery_dynamic - ❌ No path between 2 and 3
+2025-11-15 19:07:52,137 - ERROR - ryu.app.failure_recovery_dynamic - ❌ No path between 3 and 2
+2025-11-15 19:07:52,137 - ERROR - ryu.app.failure_recovery_dynamic - ❌ No path between 3 and 2
+2025-11-15 19:07:52,137 - INFO - ryu.app.failure_recovery_dynamic - ✅ Path 3 -> 3: [3]
+2025-11-15 19:07:52,138 - ERROR - ryu.base.app_manager - FailureRecoveryDynamic: Exception occurred during handler processing. Backtrace from offending handler [link_delete] servicing event [EventLinkDelete] follows.
+Traceback (most recent call last):
+  File "/home/vboxuser/mini-cloud/ryu39-env/lib/python3.9/site-packages/ryu/base/app_manager.py", line 290, in _event_loop
+    handler(ev)
+  File "/home/vboxuser/mini-cloud/ryu-failure.py", line 54, in link_delete
+    self.recover_paths()
+  File "/home/vboxuser/mini-cloud/ryu-failure.py", line 82, in recover_paths
+    self.install_path(path, src_ip, dst_ip)
+  File "/home/vboxuser/mini-cloud/ryu-failure.py", line 106, in install_path
+    last_dp = self.connections[path[-1]]
+KeyError: 3
+2025-11-15 19:07:52,139 - INFO - SmartDCController - 🌐 Topology updated (link-delete): 3 switches, 2 links
+2025-11-15 19:07:52,140 - INFO - SmartDCController - 🌐 Topology updated (link-delete): 3 switches, 2 links
+2025-11-15 19:08:00,676 - ERROR - ryu.base.app_manager - FailureRecoveryDynamic: Exception occurred during handler processing. Backtrace from offending handler [host_add] servicing event [EventHostAdd] follows.
+Traceback (most recent call last):
+  File "/home/vboxuser/mini-cloud/ryu39-env/lib/python3.9/site-packages/ryu/base/app_manager.py", line 290, in _event_loop
+    handler(ev)
+  File "/home/vboxuser/mini-cloud/ryu-failure.py", line 60, in host_add
+    ip = host.ipv4[0]
+IndexError: list index out of range
+2025-11-15 19:08:22,105 - INFO - ryu.app.failure_recovery_dynamic - 🧩 Link added: 2 <-> 1
+2025-11-15 19:08:22,106 - INFO - SmartDCController - 🌐 Topology updated (link-add): 3 switches, 3 links
+2025-11-15 19:08:22,155 - INFO - ryu.app.failure_recovery_dynamic - 🧩 Link added: 1 <-> 2
+2025-11-15 19:08:22,156 - INFO - SmartDCController - 🌐 Topology updated (link-add): 3 switches, 4 links
